@@ -1,0 +1,1760 @@
+{
+  "version": "2.8.0-rc.5",
+  "name": "OB6 SY",
+  "defaultGroup": {},
+  "groups": [
+    {
+      "id": "a83f92aa-807e-45cc-9ce2-3928c2d2eb8d",
+      "name": "Shift",
+      "activationType": "modifiers",
+      "modifierCondition1": {
+        "paramIndex": 0,
+        "isOn": true
+      },
+      "programCondition": {
+        "paramIndex": 0,
+        "programIndex": 1
+      }
+    },
+    {
+      "id": "de54bbb5-f0b5-4db4-a232-f4e465727679",
+      "name": "Direct",
+      "activationType": "modifiers",
+      "modifierCondition1": {
+        "paramIndex": 0,
+        "isOn": false
+      }
+    }
+  ],
+  "mappings": [
+    {
+      "id": "fb561f53-8dac-4e5b-bcdf-8dfb39a08851",
+      "name": "OB6 Shift",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 160,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxSourceValue": 0.00006103888176768602
+      },
+      "target": {
+        "fxAnchor": "this",
+        "paramIndex": 100,
+        "controlElementType": "button"
+      }
+    },
+    {
+      "id": "3b438aa5-4140-48d3-a7d0-89903b75afaa",
+      "name": "Osc1 Pitch",
+      "groupId": "de54bbb5-f0b5-4db4-a232-f4e465727679",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 0,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxSourceValue": 0.003662332906061161
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/Osc1Pitch"
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "ad7a8626-4ed7-4946-ac56-0dfcecb643d1",
+      "name": "Osc1 Pitch Fine",
+      "groupId": "a83f92aa-807e-45cc-9ce2-3928c2d2eb8d",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 0,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxSourceValue": 0.003662332906061161
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/Osc1PitchFine",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "1215ef0e-0dba-4376-8e1f-3ac2906e5de1",
+      "name": "Osc1 Waveform",
+      "groupId": "de54bbb5-f0b5-4db4-a232-f4e465727679",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 3,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxSourceValue": 0.015564914850759934
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/Osc1Waveform"
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "409bd6d5-9f99-44af-a69a-ca3bc3d8dd88",
+      "name": "Osc1 Pulsewidth",
+      "groupId": "de54bbb5-f0b5-4db4-a232-f4e465727679",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 4,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxSourceValue": 0.015564914850759934
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/Osc1Pulsewdth"
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "5eaa4d97-b256-4f54-afdd-4f2e4bb5f3d2",
+      "name": "Osc2 Pitch",
+      "groupId": "de54bbb5-f0b5-4db4-a232-f4e465727679",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 5,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxSourceValue": 0.003662332906061161
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/Osc2Pitch"
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "e289ff64-eb95-49c6-8f7a-7d97808005e5",
+      "name": "Osc2 Pitch Fine",
+      "groupId": "de54bbb5-f0b5-4db4-a232-f4e465727679",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 6,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxSourceValue": 0.015503875968992248
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/Osc2PitchFine"
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "70ba2834-ed52-4ca8-808d-b59b6f09b948",
+      "name": "Osc2 Waveform",
+      "groupId": "de54bbb5-f0b5-4db4-a232-f4e465727679",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 8,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxSourceValue": 0.015503875968992248
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/Osc2Waveform"
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "33b3dc8d-1084-4a71-a23b-9804aa7df436",
+      "name": "Osc2 Pulsewidth",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 9,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxSourceValue": 0.015564914850759934
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/Osc2Pulsewdth"
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "7b6d95a5-c0be-427e-b0ef-58a75fed5cdb",
+      "name": "Osc3 Pitch",
+      "groupId": "a83f92aa-807e-45cc-9ce2-3928c2d2eb8d",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 5,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxSourceValue": 0.003662332906061161
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/Osc3Pitch"
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "93141d74-8c3e-4429-987e-fcb0509e480c",
+      "name": "Osc3 Pitch Fine",
+      "groupId": "a83f92aa-807e-45cc-9ce2-3928c2d2eb8d",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 6,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxSourceValue": 0.015503875968992248
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/Osc3PitchFine"
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "e8e3e2fc-b8c4-456e-869d-b02267357f94",
+      "name": "Osc3 Waveform",
+      "groupId": "a83f92aa-807e-45cc-9ce2-3928c2d2eb8d",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 8,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxSourceValue": 0.015503875968992248
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/Osc3Waveform"
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "96d1a2cc-64ed-4ab6-b8df-59f4d7f2f274",
+      "name": "Osc1 Level or Osc1/2 Mix",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 2,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxSourceValue": 0.007751937984496124
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/Osc1Level"
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "e65809a1-66f6-4795-9dbb-af56d10bb512",
+      "name": "Osc2 Level",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 7,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxSourceValue": 0.007751937984496124
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/Osc2Level"
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "e889c47c-9112-4290-968f-c7e6e57fccac",
+      "name": "Osc3 or SubOsc Level",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 27,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxSourceValue": 0.007751937984496124
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/Osc3|SubLevel"
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "6e24442d-ee03-4517-8d4f-a59bd5101b3b",
+      "name": "Noise Level",
+      "groupId": "de54bbb5-f0b5-4db4-a232-f4e465727679",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 32,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxSourceValue": 0.007751937984496124
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/NoiseLevel"
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "a6eef4a7-c9c5-40d1-b27f-94915196e6a8",
+      "name": "Feedback Level",
+      "groupId": "a83f92aa-807e-45cc-9ce2-3928c2d2eb8d",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 32,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxSourceValue": 0.007751937984496124
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/FeedbackLevel"
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "51f48d3c-35b7-4eba-a347-3e7c2eb08d24",
+      "name": "Cutoff",
+      "groupId": "de54bbb5-f0b5-4db4-a232-f4e465727679",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 45,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxSourceValue": 0.010010376609900506
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/Cutoff"
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "fae16be2-cc20-43f0-a07d-fb9cebfba74b",
+      "name": "Resonance",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 46,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxSourceValue": 0.015564914850759934
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/Resonance"
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "44440fd8-e687-4f66-a0dc-f970a08bdf8e",
+      "name": "Filter Type",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 49,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxSourceValue": 0.015503875968992248
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/FilterType"
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "8dd418d1-cc32-44f7-88e1-36b6202163a3",
+      "name": "High Pass Cutoff",
+      "groupId": "a83f92aa-807e-45cc-9ce2-3928c2d2eb8d",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 45,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxSourceValue": 0.010010376609900506
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/HPCutoff"
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "135acfe0-2772-48d5-af58-e8b95defa3db",
+      "name": "Cutoff Envelope Modulation Amount Bipolar",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 77,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxSourceValue": 0.015503875968992248
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/CutoffEnvModB"
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "fdbdf0c1-7888-415e-80ab-d0cf18f06df3",
+      "name": "Cutoff Key Track Amount Unipolar",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 47,
+        "character": 5,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "type": 1,
+        "minStepSize": 0.1,
+        "maxStepSize": 0.1,
+        "rotateIsEnabled": true
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/CutoffKeyTrkU"
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "db9907a1-f39e-46c9-9ece-9f165cb3c4b9",
+      "name": "Cutoff LFO Modulation Amount Bipolar",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 96,
+        "character": 5,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "type": 1,
+        "minStepSize": 0.1,
+        "maxStepSize": 0.1,
+        "rotateIsEnabled": true
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/CutoffLFOModB"
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "f4fc8f4c-2429-47aa-bdf4-0c6f15d2e0a5",
+      "name": "Cutoff Velocity Modulation Amount Unipolar",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 48,
+        "character": 5,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "type": 1,
+        "minStepSize": 0.1,
+        "maxStepSize": 0.1,
+        "rotateIsEnabled": true
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/CutoffVelModU"
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "b3389c97-0a60-4916-acda-e9e4b45c91bc",
+      "name": "Filter Attack",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 78,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxSourceValue": 0.007751937984496124
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/FilterAttack"
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "0c383530-60a5-46fe-a05a-cb7feef5b357",
+      "name": "Filter Decay",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 79,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxSourceValue": 0.007751937984496124
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/FilterDecay"
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "1b068819-6926-4e0c-bae6-2735c4a95c26",
+      "name": "Filter Sustain",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 80,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxSourceValue": 0.007751937984496124
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/FilterSustain"
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "f3bcacbf-8ac8-410b-a6c9-ddb462813f62",
+      "name": "Filter Release",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 81,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxSourceValue": 0.007751937984496124
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/FilterRelease"
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "7725a2cd-7481-44c2-bed7-3c8ecedbf1e1",
+      "name": "Amplifier Attack",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 67,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxSourceValue": 0.007751937984496124
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/AmpAttack"
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "51c67434-344f-4510-98a7-769e1067d24a",
+      "name": "Amplifier Decay",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 68,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxSourceValue": 0.007751937984496124
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/AmpDecay"
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "724ee386-58ff-425c-9f2b-1eb8004f577e",
+      "name": "Amplifier Sustain",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 69,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxSourceValue": 0.007751937984496124
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/AmpSustain"
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "c36166f2-2373-4f0b-9fa8-204c26ccc6e1",
+      "name": "Amplifier Release",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 70,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxSourceValue": 0.007751937984496124
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/AmpRelease"
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "9f2bde2a-a75b-4be4-b759-a3df50dcddfe",
+      "name": "LFO1 Delay",
+      "groupId": "de54bbb5-f0b5-4db4-a232-f4e465727679",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 89,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxSourceValue": 0.015564914850759934
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/LFO1Delay"
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "de402e46-7c96-4dbb-a5a8-5297785990f0",
+      "name": "LFO1 Frequency",
+      "groupId": "de54bbb5-f0b5-4db4-a232-f4e465727679",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 88,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxSourceValue": 0.015503875968992248
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/LFO1Frequency"
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "4dbb5a29-a775-4b87-a509-597af9acf130",
+      "name": "LFO1 Waveform",
+      "groupId": "de54bbb5-f0b5-4db4-a232-f4e465727679",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 90,
+        "character": 5,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "type": 1,
+        "rotateIsEnabled": true
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/LFO1Waveform"
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "50a231c9-359a-4996-a03c-62f002812980",
+      "name": "LFO2 Delay",
+      "groupId": "a83f92aa-807e-45cc-9ce2-3928c2d2eb8d",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 89,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxSourceValue": 0.015564914850759934
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/LFO2Delay"
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "fd207036-138e-482f-8c2f-f16f7bab7bff",
+      "name": "LFO2 Frequency",
+      "groupId": "a83f92aa-807e-45cc-9ce2-3928c2d2eb8d",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 88,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxSourceValue": 0.015503875968992248
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/LFO2Frequency"
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "06142eda-5b25-400f-8d0b-2f2215558607",
+      "name": "LFO2 Waveform",
+      "groupId": "a83f92aa-807e-45cc-9ce2-3928c2d2eb8d",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 90,
+        "character": 5,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "type": 1,
+        "rotateIsEnabled": true
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/LFO2Waveform"
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "0cdea9ec-70a3-49f7-adff-6e056f92a3c8",
+      "name": "Arpeggiator Rate or Division",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 163,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxSourceValue": 0.0005493499359091741
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/ArpRate|Divis"
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "42bc6ddf-0660-48f1-a684-327e305e8079",
+      "name": "Arpeggiator Mode",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 161,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxSourceValue": 0.00024415552707074406
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/ArpMode"
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "4fdf3fcf-f534-48ae-b6f2-254e8b39885e",
+      "name": "Pitch Envelope Modulation Amount Bipolar",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 94,
+        "character": 5,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "type": 1,
+        "minStepSize": 0.1,
+        "maxStepSize": 0.1,
+        "rotateIsEnabled": true
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/PitchEnvModB",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "65fbcfd0-f7eb-497b-a724-70bf72836bc5",
+      "name": "Pitch LFO Modulation Amount Bipolar",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 93,
+        "character": 5,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "type": 1,
+        "minStepSize": 0.1,
+        "maxStepSize": 0.1,
+        "rotateIsEnabled": true
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/PitchLFOModB",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "aa5fc648-3149-46c4-8f46-45fda113ba72",
+      "name": "Pulsewidth Modulation Amount (LFO or Envelope) Bipolar",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 95,
+        "character": 5,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "type": 1,
+        "minStepSize": 0.1,
+        "maxStepSize": 0.1,
+        "rotateIsEnabled": true
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/PulsewdthModB",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "37df9b78-877e-4d75-9c7e-536acd636174",
+      "name": "Volume LFO Modulation Amount Bipolar",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 98,
+        "character": 5,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "type": 1,
+        "minStepSize": 0.1,
+        "maxStepSize": 0.1,
+        "rotateIsEnabled": true
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/VolumeLFOModB",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "02b9d78c-fcd9-4945-a08b-2611d0f0fef6",
+      "name": "Modulation Matrix1 Amount Bipolar",
+      "groupId": "de54bbb5-f0b5-4db4-a232-f4e465727679",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 143,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxSourceValue": 0.015503875968992248
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/ModMx1AmountB"
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "2ab4f670-7b16-4c3b-984b-44b9d5fe1718",
+      "name": "Modulation Matrix2 Amount Bipolar",
+      "groupId": "de54bbb5-f0b5-4db4-a232-f4e465727679",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 144,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxSourceValue": 0.015503875968992248
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/ModMx2AmountB"
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "f566c7c7-8780-4a2a-801a-0eb00f3538d3",
+      "name": "Modulation Matrix3 Amount Bipolar",
+      "groupId": "a83f92aa-807e-45cc-9ce2-3928c2d2eb8d",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 143,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxSourceValue": 0.015503875968992248
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/ModMx3AmountB"
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "9b951cb2-6914-4b83-98c5-aee315632374",
+      "name": "Modulation Matrix4 Amount Bipolar",
+      "groupId": "a83f92aa-807e-45cc-9ce2-3928c2d2eb8d",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 144,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxSourceValue": 0.015503875968992248
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/ModMx4AmountB"
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "666afc6b-7b54-4577-80c9-4b7cf4abe127",
+      "name": "Output Level",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 62,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxSourceValue": 0.007751937984496124
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/OutputLevel"
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "cc5b26e9-a6e4-4edd-a582-919cce54fd4f",
+      "name": "Pan Spread",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 63,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxSourceValue": 0.007751937984496124
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/PanSpread"
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "269d2b89-f284-4971-a7e5-3c7cff3b638d",
+      "name": "Portamento Mode",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 28,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxSourceValue": 0.00018311664530305805
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/PortaMode",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "47cf9a4b-0fee-45f7-ba56-3d653eb3d595",
+      "name": "Portamento Rate",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 30,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxSourceValue": 0.007751937984496124
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/PortaRate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "a3f9275c-4b9a-4518-82d2-749628654538",
+      "name": "Unison Mode",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 157,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxSourceValue": 0.0003662332906061161
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/UnisonMode",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "5d72fd61-0c55-4f07-9799-5979ace05bc3",
+      "name": "General Detune, Drift or Slop",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 33,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxSourceValue": 0.007751937984496124
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/Detune|Slop",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "9c95e373-3b94-446d-a7fe-df37c253566c",
+      "name": "Layer Mix",
+      "groupId": "a83f92aa-807e-45cc-9ce2-3928c2d2eb8d",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 4,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxSourceValue": 0.015564914850759934
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/LayerMix",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "ebeaa2eb-5983-4a1b-9955-b86ee24a1d25",
+      "name": "Oscillator Crossmod or FM",
+      "groupId": "a83f92aa-807e-45cc-9ce2-3928c2d2eb8d",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 3,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxSourceValue": 0.015564914850759934
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/OscXMod|FM"
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "8157bad3-1a45-4769-ab6b-211c86712260",
+      "name": "FX Parameter 1",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 120,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxSourceValue": 0.007751937984496124
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/FXParam1",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "73056ec9-7e1c-4797-b121-febd805cab29",
+      "name": "FX Parameter 2",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 121,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxSourceValue": 0.015564914850759934
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/FXParam2",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "a60110f7-d1c1-4dad-876c-f80b6254b894",
+      "name": "FX Parameter 3",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 122,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxSourceValue": 0.007751937984496124
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/FXParam3",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "4d1967a1-6512-4213-83b7-c8dbca4a6217",
+      "name": "FX Parameter 4",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 128,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxSourceValue": 0.007751937984496124
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/FXParam4",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "5fe9e0af-a228-4771-abf0-083c1640da28",
+      "name": "FX Parameter 5",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 129,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxSourceValue": 0.015564914850759934
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/FXParam5",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "8f7b6fa9-d991-4b43-9728-6170449d1266",
+      "name": "FX Parameter 6",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 130,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxSourceValue": 0.007751937984496124
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/FXParam6",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "63786b7c-5fe5-406a-bcda-5c23b45abe69",
+      "name": "Oscillator Sync",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 1,
+        "character": 5,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxSourceValue": 0.00006103888176768602
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementType": "button",
+        "controlElementIndex": "SY/OscSync",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "333399f6-b6ae-41cc-9c3e-8159c183147f",
+      "name": "Oscillator Keyboard Tracking",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 11,
+        "character": 5,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxSourceValue": 0.00006103888176768602
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementType": "button",
+        "controlElementIndex": "SY/OscKeyTrack",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "c447d0d5-cdf2-4a09-8d67-f13c8aefa5e2",
+      "name": "Oscillator Low Frequency Mode",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 10,
+        "character": 5,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxSourceValue": 0.00006103888176768602
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementType": "button",
+        "controlElementIndex": "SY/OscLowFreq",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "85ed9000-54a3-42fd-a4bf-0887e27580d8",
+      "name": "Bandpass or Filter Slope",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 50,
+        "character": 5,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxSourceValue": 0.00006103888176768602
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementType": "button",
+        "controlElementIndex": "SY/BP|FiltrSlope",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "fc1fdc42-e855-494c-901c-55fa74080ac2",
+      "name": "LFO1 Sync",
+      "groupId": "de54bbb5-f0b5-4db4-a232-f4e465727679",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 91,
+        "character": 5,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxSourceValue": 0.00006103888176768602
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementType": "button",
+        "controlElementIndex": "SY/LFO1Sync",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "be0cf184-1e48-4601-8786-d7a905d742a7",
+      "name": "LFO2 Sync",
+      "groupId": "a83f92aa-807e-45cc-9ce2-3928c2d2eb8d",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 91,
+        "character": 5,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxSourceValue": 0.00006103888176768602
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementType": "button",
+        "controlElementIndex": "SY/LFO2Sync",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "7dc3f61e-0227-4f67-ab0e-8a3507e842ad",
+      "name": "Portamento On",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 29,
+        "character": 5,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxSourceValue": 0.00006103888176768602
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementType": "button",
+        "controlElementIndex": "SY/PortaOn",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "2cfd22a5-a693-4412-a07e-ec87a9ed82af",
+      "name": "Unison On",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 156,
+        "character": 5,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxSourceValue": 0.00006103888176768602
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementType": "button",
+        "controlElementIndex": "SY/UnisonOn",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "09c96e32-482a-4a8c-8b7b-c69251a23691",
+      "name": "Select Alternate Layer",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 71,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxSourceValue": 0.00006103888176768602
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementType": "button",
+        "controlElementIndex": "SY/OtherLayer",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "172b6be2-bef8-49c7-9313-3e8fe20c0dc5",
+      "name": "FX On",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 135,
+        "character": 5,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxSourceValue": 0.00006103888176768602
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementType": "button",
+        "controlElementIndex": "SY/FXOn",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "d56694dc-721a-45ba-b9f3-d95d1fabb692",
+      "name": "FX Switch 1",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 123,
+        "character": 5,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxSourceValue": 0.00006103888176768602
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementType": "button",
+        "controlElementIndex": "SY/FXSwitch1",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "ccbd62a9-8ae9-40a4-9826-5b91992653d7",
+      "name": "FX Switch 2",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 131,
+        "character": 5,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxSourceValue": 0.00006103888176768602
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementType": "button",
+        "controlElementIndex": "SY/FXSwitch2",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    }
+  ]
+}

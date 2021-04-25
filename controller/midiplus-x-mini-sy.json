@@ -1,0 +1,769 @@
+{
+  "version": "2.8.0-rc.5",
+  "name": "Midiplus X mini SY",
+  "defaultGroup": {},
+  "groups": [
+    {
+      "id": "2a39f666-254a-44ab-bd4b-402c7b61a6d7",
+      "name": "Oscillators",
+      "activationType": "program",
+      "programCondition": {
+        "paramIndex": 0,
+        "programIndex": 1
+      }
+    },
+    {
+      "id": "244fd3ea-322a-41e4-b144-2e3459437d2d",
+      "name": "Mix",
+      "activationType": "program",
+      "programCondition": {
+        "paramIndex": 0,
+        "programIndex": 2
+      }
+    },
+    {
+      "id": "20dcdf7d-cddd-4f32-834d-15724c18354e",
+      "name": "Filter",
+      "activationType": "program",
+      "programCondition": {
+        "paramIndex": 0,
+        "programIndex": 3
+      }
+    },
+    {
+      "id": "fd7725d9-c565-44fc-9ea8-152bce4b0714",
+      "name": "Filter Envelope",
+      "activationType": "program",
+      "programCondition": {
+        "paramIndex": 0,
+        "programIndex": 4
+      }
+    },
+    {
+      "id": "0c8e8d2b-665b-4202-bd64-1616eba0c85c",
+      "name": "LFO/Modulation",
+      "activationType": "program",
+      "programCondition": {
+        "paramIndex": 0,
+        "programIndex": 6
+      }
+    },
+    {
+      "id": "c968836e-9f1c-4aa8-87f7-a44989fb9da3",
+      "name": "Amp Envelope",
+      "activationType": "program",
+      "programCondition": {
+        "paramIndex": 0,
+        "programIndex": 5
+      }
+    }
+  ],
+  "mappings": [
+    {
+      "id": "fe4560fb-af05-4c5e-b5af-a796993d2683",
+      "name": "Bank: Oscillators",
+      "source": {
+        "channel": 0,
+        "number": 57,
+        "character": 1,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "minTargetValue": 0.01,
+        "maxTargetValue": 0.01,
+        "outOfRangeBehavior": "min"
+      },
+      "target": {
+        "fxAnchor": "this",
+        "paramIndex": 100,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "56a46fb2-5639-45ea-8fe4-4419db62df1b",
+      "name": "Bank: Mix",
+      "source": {
+        "channel": 0,
+        "number": 64,
+        "character": 1,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "minTargetValue": 0.02,
+        "maxTargetValue": 0.02,
+        "outOfRangeBehavior": "min"
+      },
+      "target": {
+        "fxAnchor": "this",
+        "paramIndex": 100,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "a2a11f16-9deb-4549-970a-d6470e186b48",
+      "name": "Bank: Filter",
+      "source": {
+        "channel": 0,
+        "number": 65,
+        "character": 1,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "minTargetValue": 0.03,
+        "maxTargetValue": 0.03,
+        "outOfRangeBehavior": "min"
+      },
+      "target": {
+        "fxAnchor": "this",
+        "paramIndex": 100,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "b9d54ebe-2882-4877-afd0-1d123fb448d7",
+      "name": "Bank: Filter Env",
+      "source": {
+        "channel": 0,
+        "number": 66,
+        "character": 1,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "minTargetValue": 0.04,
+        "maxTargetValue": 0.04,
+        "outOfRangeBehavior": "min"
+      },
+      "target": {
+        "fxAnchor": "this",
+        "paramIndex": 100,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "e3532859-afa3-47d8-af73-20a2fbd420e8",
+      "name": "Bank: Amp Env",
+      "source": {
+        "channel": 0,
+        "number": 67,
+        "character": 1,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "minTargetValue": 0.05,
+        "maxTargetValue": 0.05,
+        "outOfRangeBehavior": "min"
+      },
+      "target": {
+        "fxAnchor": "this",
+        "paramIndex": 100,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "adb60abd-c20b-47aa-92cf-cc0a014226cb",
+      "name": "Bank: LFO/Modulation",
+      "source": {
+        "channel": 0,
+        "number": 68,
+        "character": 1,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "minTargetValue": 0.06,
+        "maxTargetValue": 0.06,
+        "outOfRangeBehavior": "min"
+      },
+      "target": {
+        "fxAnchor": "this",
+        "paramIndex": 100,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "729b9a7f-2100-4ade-aa21-21c5b232f093",
+      "name": "Osc1 Pitch",
+      "groupId": "2a39f666-254a-44ab-bd4b-402c7b61a6d7",
+      "source": {
+        "channel": 0,
+        "number": 7,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/Osc1Pitch",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "214a82cd-04e6-46fb-918a-3b51745fa5a9",
+      "name": "Osc1 Waveform",
+      "groupId": "2a39f666-254a-44ab-bd4b-402c7b61a6d7",
+      "source": {
+        "channel": 0,
+        "number": 10,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/Osc1Waveform",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "224812ae-ab48-4e70-8df3-2f077a780b3d",
+      "name": "Osc2 Pitch",
+      "groupId": "2a39f666-254a-44ab-bd4b-402c7b61a6d7",
+      "source": {
+        "channel": 0,
+        "number": 11,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/Osc2Pitch",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "3d0c1837-0b0d-452a-94b8-819c05742b4f",
+      "name": "Osc2 Waveform",
+      "groupId": "2a39f666-254a-44ab-bd4b-402c7b61a6d7",
+      "source": {
+        "channel": 0,
+        "number": 91,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/Osc2Waveform",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "b3386c9a-b3c0-4f5b-a085-5f3b87b33c41",
+      "name": "Osc1 Level or Osc1/2 Mix",
+      "groupId": "244fd3ea-322a-41e4-b144-2e3459437d2d",
+      "source": {
+        "channel": 0,
+        "number": 7,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/Osc1Level",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "142b7035-f1e2-4603-89f2-8b20d299583d",
+      "name": "Osc2 Level",
+      "groupId": "244fd3ea-322a-41e4-b144-2e3459437d2d",
+      "source": {
+        "channel": 0,
+        "number": 10,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/Osc2Level",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "1d014466-0f92-4293-9fbe-39f927f98035",
+      "name": "Output Level",
+      "groupId": "244fd3ea-322a-41e4-b144-2e3459437d2d",
+      "source": {
+        "channel": 0,
+        "number": 91,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/OutputLevel",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "3acfe22a-3168-43ed-b2d3-99f3cd68d46f",
+      "name": "Osc3 or SubOsc Level",
+      "groupId": "244fd3ea-322a-41e4-b144-2e3459437d2d",
+      "source": {
+        "channel": 0,
+        "number": 11,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/Osc3|SubLevel",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "944b5e3e-f437-4bfb-9a98-9b283f93b78c",
+      "name": "Cutoff",
+      "groupId": "20dcdf7d-cddd-4f32-834d-15724c18354e",
+      "source": {
+        "channel": 0,
+        "number": 7,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/Cutoff",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "d92a201c-3f47-42a9-9e9f-275687d13620",
+      "name": "Resonance",
+      "groupId": "20dcdf7d-cddd-4f32-834d-15724c18354e",
+      "source": {
+        "channel": 0,
+        "number": 10,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/Resonance",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "742fc663-bab2-425b-b52d-89b904db8dcc",
+      "name": "Cutoff Envelope Modulation Amount Bipolar",
+      "groupId": "20dcdf7d-cddd-4f32-834d-15724c18354e",
+      "source": {
+        "channel": 0,
+        "number": 11,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/CutoffEnvModB",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "01dfb198-510c-4ba9-8286-bc240f2eabb2",
+      "name": "Cutoff Key Track Amount Unipolar",
+      "groupId": "20dcdf7d-cddd-4f32-834d-15724c18354e",
+      "source": {
+        "channel": 0,
+        "number": 91,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/CutoffKeyTrkU",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "af46e6f9-f09b-471f-a029-60019954eabd",
+      "name": "Filter Attack",
+      "groupId": "fd7725d9-c565-44fc-9ea8-152bce4b0714",
+      "source": {
+        "channel": 0,
+        "number": 7,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/FilterAttack",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "7db28292-8bd6-4da0-846d-bb1108ef3d31",
+      "name": "Filter Decay",
+      "groupId": "fd7725d9-c565-44fc-9ea8-152bce4b0714",
+      "source": {
+        "channel": 0,
+        "number": 10,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/FilterDecay",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "d45ab78d-11f9-4ab7-b567-cf3fba4652ed",
+      "name": "Filter Sustain",
+      "groupId": "fd7725d9-c565-44fc-9ea8-152bce4b0714",
+      "source": {
+        "channel": 0,
+        "number": 11,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/FilterSustain",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "c3266738-cd4e-4197-81ce-44211ad47f56",
+      "name": "Filter Release",
+      "groupId": "fd7725d9-c565-44fc-9ea8-152bce4b0714",
+      "source": {
+        "channel": 0,
+        "number": 91,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/FilterRelease",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "fcfc1f75-7aed-4473-93cd-86f9f86f2688",
+      "name": "Amplifier Attack",
+      "groupId": "c968836e-9f1c-4aa8-87f7-a44989fb9da3",
+      "source": {
+        "channel": 0,
+        "number": 7,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/AmpAttack",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "7fdb8f96-c7e0-4b17-aca2-3d5240be089f",
+      "name": "Amplifier Decay",
+      "groupId": "c968836e-9f1c-4aa8-87f7-a44989fb9da3",
+      "source": {
+        "channel": 0,
+        "number": 10,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/AmpDecay",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "33ee535e-7d6b-4941-a416-d717c7663f1a",
+      "name": "Amplifier Sustain",
+      "groupId": "c968836e-9f1c-4aa8-87f7-a44989fb9da3",
+      "source": {
+        "channel": 0,
+        "number": 11,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/AmpSustain",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "53f0c4e0-90a0-43ac-a3f0-83280b22686e",
+      "name": "Amplifier Release",
+      "groupId": "c968836e-9f1c-4aa8-87f7-a44989fb9da3",
+      "source": {
+        "channel": 0,
+        "number": 91,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/AmpRelease",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "9cab5346-8106-457c-9511-e8c76439df61",
+      "name": "LFO1 Frequency",
+      "groupId": "0c8e8d2b-665b-4202-bd64-1616eba0c85c",
+      "source": {
+        "channel": 0,
+        "number": 7,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/LFO1Frequency",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "1d1bd313-3f2a-423f-a928-3f104fd4cb63",
+      "name": "LFO1 Waveform",
+      "groupId": "0c8e8d2b-665b-4202-bd64-1616eba0c85c",
+      "source": {
+        "channel": 0,
+        "number": 10,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/LFO1Waveform",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "4ba378db-caed-4219-a85d-167f9d7c8dbb",
+      "name": "Modulation Matrix1 Amount Bipolar",
+      "groupId": "0c8e8d2b-665b-4202-bd64-1616eba0c85c",
+      "source": {
+        "channel": 0,
+        "number": 11,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/ModMx1AmountB",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "f025d7e5-2b89-4c76-a164-9ad6b720ee9b",
+      "name": "Modulation Matrix2 Amount Bipolar",
+      "groupId": "0c8e8d2b-665b-4202-bd64-1616eba0c85c",
+      "source": {
+        "channel": 0,
+        "number": 91,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/ModMx2AmountB",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    }
+  ],
+  "parameters": {
+    "0": {
+      "name": "Bank"
+    }
+  }
+}

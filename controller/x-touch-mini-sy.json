@@ -1,0 +1,4502 @@
+{
+  "version": "2.8.0-rc.5",
+  "name": "X-Touch Mini SY",
+  "defaultGroup": {},
+  "groups": [
+    {
+      "id": "2a39f666-254a-44ab-bd4b-402c7b61a6d7",
+      "name": "Oscillators",
+      "activationType": "program",
+      "programCondition": {
+        "paramIndex": 0,
+        "programIndex": 1
+      }
+    },
+    {
+      "id": "37ed3389-3c63-4618-91aa-c5c32cc33995",
+      "name": "Mix",
+      "activationType": "program",
+      "programCondition": {
+        "paramIndex": 0,
+        "programIndex": 1
+      }
+    },
+    {
+      "id": "244fd3ea-322a-41e4-b144-2e3459437d2d",
+      "name": "Mix/Osc3",
+      "activationType": "program",
+      "programCondition": {
+        "paramIndex": 0,
+        "programIndex": 2
+      }
+    },
+    {
+      "id": "20dcdf7d-cddd-4f32-834d-15724c18354e",
+      "name": "Filter",
+      "activationType": "program",
+      "programCondition": {
+        "paramIndex": 0,
+        "programIndex": 3
+      }
+    },
+    {
+      "id": "fd7725d9-c565-44fc-9ea8-152bce4b0714",
+      "name": "Envelopes",
+      "activationType": "program",
+      "programCondition": {
+        "paramIndex": 0,
+        "programIndex": 4
+      }
+    },
+    {
+      "id": "54a02eae-f101-474a-b7a6-793b86e48e99",
+      "name": "LFO/Arpeggiator",
+      "activationType": "program",
+      "programCondition": {
+        "paramIndex": 0,
+        "programIndex": 5
+      }
+    },
+    {
+      "id": "eea61370-e538-421a-93fd-385d213bfc98",
+      "name": "Modulation",
+      "activationType": "program",
+      "programCondition": {
+        "paramIndex": 0,
+        "programIndex": 6
+      }
+    },
+    {
+      "id": "6569f502-c849-4e8a-9759-c9a1e23dd6f8",
+      "name": "General",
+      "activationType": "program",
+      "programCondition": {
+        "paramIndex": 0,
+        "programIndex": 7
+      }
+    },
+    {
+      "id": "bf5e6f5e-6346-4073-9b45-cea4a40e698d",
+      "name": "Effects Generic",
+      "activationType": "program",
+      "programCondition": {
+        "paramIndex": 0,
+        "programIndex": 8
+      }
+    },
+    {
+      "id": "0a8d8566-9def-43fc-91bc-8b3aaa6e60e3",
+      "name": "ModMatrix",
+      "activationType": "program",
+      "programCondition": {
+        "paramIndex": 0,
+        "programIndex": 9
+      }
+    }
+  ],
+  "mappings": [
+    {
+      "id": "fe4560fb-af05-4c5e-b5af-a796993d2683",
+      "name": "Bank: Oscillators",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 8,
+        "character": 1,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "minTargetValue": 0.01,
+        "maxTargetValue": 0.01,
+        "outOfRangeBehavior": "min"
+      },
+      "target": {
+        "fxAnchor": "this",
+        "paramIndex": 100,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "56a46fb2-5639-45ea-8fe4-4419db62df1b",
+      "name": "Bank: Mix/Osc3",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 9,
+        "character": 1,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "minTargetValue": 0.02,
+        "maxTargetValue": 0.02,
+        "outOfRangeBehavior": "min"
+      },
+      "target": {
+        "fxAnchor": "this",
+        "paramIndex": 100,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "a2a11f16-9deb-4549-970a-d6470e186b48",
+      "name": "Bank: Filter",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 10,
+        "character": 1,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "minTargetValue": 0.03,
+        "maxTargetValue": 0.03,
+        "outOfRangeBehavior": "min"
+      },
+      "target": {
+        "fxAnchor": "this",
+        "paramIndex": 100,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "b9d54ebe-2882-4877-afd0-1d123fb448d7",
+      "name": "Bank: Envelopes",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 11,
+        "character": 1,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "minTargetValue": 0.04,
+        "maxTargetValue": 0.04,
+        "outOfRangeBehavior": "min"
+      },
+      "target": {
+        "fxAnchor": "this",
+        "paramIndex": 100,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "e3532859-afa3-47d8-af73-20a2fbd420e8",
+      "name": "Bank: LFO/Arpeggiator",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 12,
+        "character": 1,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "minTargetValue": 0.05,
+        "maxTargetValue": 0.05,
+        "outOfRangeBehavior": "min"
+      },
+      "target": {
+        "fxAnchor": "this",
+        "paramIndex": 100,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "adb60abd-c20b-47aa-92cf-cc0a014226cb",
+      "name": "Bank: Modulation",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 13,
+        "character": 1,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "minTargetValue": 0.06,
+        "maxTargetValue": 0.06,
+        "outOfRangeBehavior": "min"
+      },
+      "target": {
+        "fxAnchor": "this",
+        "paramIndex": 100,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "846c9baa-4fd1-4943-8028-49dab7402f85",
+      "name": "Bank: General",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 14,
+        "character": 1,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "minTargetValue": 0.07,
+        "maxTargetValue": 0.07,
+        "outOfRangeBehavior": "min"
+      },
+      "target": {
+        "fxAnchor": "this",
+        "paramIndex": 100,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "05d638d3-0932-4fba-aa03-4eff4e1461ac",
+      "name": "Bank: Effects/Generic",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 15,
+        "character": 1,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "minTargetValue": 0.08,
+        "maxTargetValue": 0.08,
+        "outOfRangeBehavior": "min"
+      },
+      "target": {
+        "fxAnchor": "this",
+        "paramIndex": 100,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "4cfef6cd-89ed-4c52-a627-49684c7d5b6f",
+      "name": "Bank: ModMatrix",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 23,
+        "character": 1,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "minTargetValue": 0.09,
+        "maxTargetValue": 0.09,
+        "outOfRangeBehavior": "min"
+      },
+      "target": {
+        "fxAnchor": "this",
+        "paramIndex": 100,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "729b9a7f-2100-4ade-aa21-21c5b232f093",
+      "name": "Osc1 Pitch",
+      "groupId": "2a39f666-254a-44ab-bd4b-402c7b61a6d7",
+      "source": {
+        "channel": 10,
+        "number": 1,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/Osc1Pitch",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "2c4e4861-b623-4390-b40f-89de6f6b3d07",
+      "name": "Osc1 Pitch Reset",
+      "groupId": "2a39f666-254a-44ab-bd4b-402c7b61a6d7",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 0,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "eelControlTransformation": "y=0.34",
+        "buttonUsage": "press-only"
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/Osc1Pitch",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "f4200fa9-f46c-45ab-bdb4-82b92323872c",
+      "name": "Osc1 Pitch Fine",
+      "groupId": "2a39f666-254a-44ab-bd4b-402c7b61a6d7",
+      "source": {
+        "channel": 10,
+        "number": 2,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/Osc1PitchFine",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "9be15deb-a50f-4be2-bb44-d2912fe929f4",
+      "name": "Osc1 Pitch Fine Reset",
+      "groupId": "2a39f666-254a-44ab-bd4b-402c7b61a6d7",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 1,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "eelControlTransformation": "y=0.5",
+        "buttonUsage": "press-only"
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/Osc1PitchFine",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "214a82cd-04e6-46fb-918a-3b51745fa5a9",
+      "name": "Osc1 Waveform",
+      "groupId": "2a39f666-254a-44ab-bd4b-402c7b61a6d7",
+      "source": {
+        "channel": 10,
+        "number": 3,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/Osc1Waveform",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "20fafb1a-461a-48ce-a317-9fff30566488",
+      "name": "Osc1 Waveform Reset",
+      "groupId": "2a39f666-254a-44ab-bd4b-402c7b61a6d7",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 2,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "eelControlTransformation": "y=0.5",
+        "buttonUsage": "press-only"
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/Osc1Waveform",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "3ba9983c-0697-4372-b69d-59d0c44fc6f0",
+      "name": "Osc1 Pulswidth",
+      "groupId": "2a39f666-254a-44ab-bd4b-402c7b61a6d7",
+      "source": {
+        "channel": 10,
+        "number": 4,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/Osc1Pulsewdth",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "99b22ea6-e562-4895-9df1-629fe429e078",
+      "name": "Osc1 Pulswidth Reset",
+      "groupId": "2a39f666-254a-44ab-bd4b-402c7b61a6d7",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 3,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "eelControlTransformation": "y=0.5",
+        "buttonUsage": "press-only"
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/Osc1Pulsewdth",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "224812ae-ab48-4e70-8df3-2f077a780b3d",
+      "name": "Osc2 Pitch",
+      "groupId": "2a39f666-254a-44ab-bd4b-402c7b61a6d7",
+      "source": {
+        "channel": 10,
+        "number": 5,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/Osc2Pitch",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "8c7b8603-61aa-4767-bc00-714a3fe952e8",
+      "name": "Osc2 Pitch Reset",
+      "groupId": "2a39f666-254a-44ab-bd4b-402c7b61a6d7",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 4,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "eelControlTransformation": "y=0.34",
+        "buttonUsage": "press-only"
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/Osc2Pitch",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "79dfff15-9550-4667-beb5-13a77cdfc1c4",
+      "name": "Osc2 Pitch Fine",
+      "groupId": "2a39f666-254a-44ab-bd4b-402c7b61a6d7",
+      "source": {
+        "channel": 10,
+        "number": 6,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/Osc2PitchFine",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "b7250145-e7dc-424d-b21b-e05154aba2e7",
+      "name": "Osc2 Pitch Fine Reset",
+      "groupId": "2a39f666-254a-44ab-bd4b-402c7b61a6d7",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 5,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "eelControlTransformation": "y=0.5",
+        "buttonUsage": "press-only"
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/Osc2PitchFine",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "3d0c1837-0b0d-452a-94b8-819c05742b4f",
+      "name": "Osc2 Waveform",
+      "groupId": "2a39f666-254a-44ab-bd4b-402c7b61a6d7",
+      "source": {
+        "channel": 10,
+        "number": 7,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/Osc2Waveform",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "0bfc6a10-e0f7-42d4-b317-52e37bb69a51",
+      "name": "Osc2 Waveform Reset",
+      "groupId": "2a39f666-254a-44ab-bd4b-402c7b61a6d7",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 6,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "eelControlTransformation": "y=0.5",
+        "buttonUsage": "press-only"
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/Osc2Waveform",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "fc7bab2d-0d0d-4701-906f-7453a8b849e4",
+      "name": "Osc2 Pulswidth",
+      "groupId": "2a39f666-254a-44ab-bd4b-402c7b61a6d7",
+      "source": {
+        "channel": 10,
+        "number": 8,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/Osc2Pulsewdth",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "91bf9804-8809-454e-9154-f16711ce8b41",
+      "name": "Osc2 Pulswidth Reset",
+      "groupId": "2a39f666-254a-44ab-bd4b-402c7b61a6d7",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 7,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "eelControlTransformation": "y=0.5",
+        "buttonUsage": "press-only"
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/Osc2Pulsewdth",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "b3386c9a-b3c0-4f5b-a085-5f3b87b33c41",
+      "name": "Osc1 Level or Osc1/2 Mix",
+      "groupId": "244fd3ea-322a-41e4-b144-2e3459437d2d",
+      "source": {
+        "channel": 10,
+        "number": 1,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/Osc1Level",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "cd9b54ed-ac33-4024-b164-c40c4ee5bdd0",
+      "name": "Osc1 Level or Osc1/2 Mix Reset",
+      "groupId": "244fd3ea-322a-41e4-b144-2e3459437d2d",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 0,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "eelControlTransformation": "y=0.5",
+        "buttonUsage": "press-only"
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/Osc1Level",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "142b7035-f1e2-4603-89f2-8b20d299583d",
+      "name": "Osc2 Level",
+      "groupId": "244fd3ea-322a-41e4-b144-2e3459437d2d",
+      "source": {
+        "channel": 10,
+        "number": 2,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/Osc2Level",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "3fda54c9-f07b-4654-87a3-2e84054ac0b8",
+      "name": "Osc2 Level Reset",
+      "groupId": "244fd3ea-322a-41e4-b144-2e3459437d2d",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 1,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "eelControlTransformation": "y=0.5",
+        "buttonUsage": "press-only"
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/Osc2Level",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "3acfe22a-3168-43ed-b2d3-99f3cd68d46f",
+      "name": "Osc3 or SubOsc Level",
+      "groupId": "244fd3ea-322a-41e4-b144-2e3459437d2d",
+      "source": {
+        "channel": 10,
+        "number": 3,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/Osc3|SubLevel",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "e0295c48-6bfe-46d7-83c7-0b86d042b0ef",
+      "name": "Osc3 or SubOsc Level Reset",
+      "groupId": "244fd3ea-322a-41e4-b144-2e3459437d2d",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 2,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "eelControlTransformation": "y=0.5",
+        "buttonUsage": "press-only"
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/Osc3|SubLevel",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "1708deae-73a2-41c2-8eae-96e80a292db9",
+      "name": "Noise Level",
+      "groupId": "244fd3ea-322a-41e4-b144-2e3459437d2d",
+      "source": {
+        "channel": 10,
+        "number": 4,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/NoiseLevel",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "ebe57333-65cb-4ad9-956e-8c35ecaf38a8",
+      "name": "Noise Level Reset",
+      "groupId": "244fd3ea-322a-41e4-b144-2e3459437d2d",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 3,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "eelControlTransformation": "y=0",
+        "buttonUsage": "press-only"
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/NoiseLevel",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "ce99733c-8837-452d-9ffe-41ed03cc8fed",
+      "name": "Feedback Level",
+      "groupId": "244fd3ea-322a-41e4-b144-2e3459437d2d",
+      "source": {
+        "channel": 10,
+        "number": 5,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/FeedbackLevel",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "f17f4ee0-9401-4641-b7d4-baf2caf41dac",
+      "name": "Feedback Level Reset",
+      "groupId": "244fd3ea-322a-41e4-b144-2e3459437d2d",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 4,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "eelControlTransformation": "y=0",
+        "buttonUsage": "press-only"
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/FeedbackLevel",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "d588ee87-58a2-4b49-8f79-85a6c50bec71",
+      "name": "Osc3 Pitch",
+      "groupId": "244fd3ea-322a-41e4-b144-2e3459437d2d",
+      "source": {
+        "channel": 10,
+        "number": 6,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/Osc3Pitch",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "7d4bc9de-a901-4ab0-aea3-57db4e78e577",
+      "name": "Osc3 Pitch Reset",
+      "groupId": "244fd3ea-322a-41e4-b144-2e3459437d2d",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 5,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "eelControlTransformation": "y=0.5",
+        "buttonUsage": "press-only"
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/Osc3Pitch",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "b0f26a77-3994-48ec-b868-75e11fb32745",
+      "name": "Osc3 Pitch Fine",
+      "groupId": "244fd3ea-322a-41e4-b144-2e3459437d2d",
+      "source": {
+        "channel": 10,
+        "number": 7,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/Osc3PitchFine",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "2996bac5-3640-4088-be79-31a018e16138",
+      "name": "Osc3 Pitch Fine Reset",
+      "groupId": "244fd3ea-322a-41e4-b144-2e3459437d2d",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 6,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "eelControlTransformation": "y=0.5",
+        "buttonUsage": "press-only"
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/Osc3PitchFine",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "ce17a9fb-5195-4812-aa20-d3c9bd1bf2c3",
+      "name": "Osc3 Waveform",
+      "groupId": "244fd3ea-322a-41e4-b144-2e3459437d2d",
+      "source": {
+        "channel": 10,
+        "number": 8,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/Osc3Waveform",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "1f9363d0-dd7f-4cea-87aa-d1afa8342a29",
+      "name": "Osc3 Waveform Reset",
+      "groupId": "244fd3ea-322a-41e4-b144-2e3459437d2d",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 7,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "eelControlTransformation": "y=0.5",
+        "buttonUsage": "press-only"
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/Osc3Waveform",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "944b5e3e-f437-4bfb-9a98-9b283f93b78c",
+      "name": "Cutoff",
+      "groupId": "20dcdf7d-cddd-4f32-834d-15724c18354e",
+      "source": {
+        "channel": 10,
+        "number": 1,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/Cutoff",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "51c0a0f6-912e-4372-846e-57c81b8f9b78",
+      "name": "Cutoff Reset",
+      "groupId": "20dcdf7d-cddd-4f32-834d-15724c18354e",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 0,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "eelControlTransformation": "y=0.5",
+        "buttonUsage": "press-only"
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/Cutoff",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "d92a201c-3f47-42a9-9e9f-275687d13620",
+      "name": "Resonance",
+      "groupId": "20dcdf7d-cddd-4f32-834d-15724c18354e",
+      "source": {
+        "channel": 10,
+        "number": 2,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/Resonance",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "1083aafa-ae1a-4492-b490-d2986cceb6f9",
+      "name": "Resonance Reset",
+      "groupId": "20dcdf7d-cddd-4f32-834d-15724c18354e",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 1,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "eelControlTransformation": "y=0.5",
+        "buttonUsage": "press-only"
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/Resonance",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "432d5035-ae39-41c0-95e1-51c650cc48e8",
+      "name": "Filter Type",
+      "groupId": "20dcdf7d-cddd-4f32-834d-15724c18354e",
+      "source": {
+        "channel": 10,
+        "number": 3,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/FilterType",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "b6d3f5d2-1b8b-4dea-b1e0-73c2df521024",
+      "name": "Filter Type Reset",
+      "groupId": "20dcdf7d-cddd-4f32-834d-15724c18354e",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 2,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "eelControlTransformation": "y=0",
+        "buttonUsage": "press-only"
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/FilterType",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "584773f1-612e-4707-be40-f800a1b636c9",
+      "name": "High Pass Cutoff",
+      "groupId": "20dcdf7d-cddd-4f32-834d-15724c18354e",
+      "source": {
+        "channel": 10,
+        "number": 4,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/HPCutoff",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "e5c556f7-2eac-4ec9-8370-41c2654085ca",
+      "name": "High Pass Cutoff Reset",
+      "groupId": "20dcdf7d-cddd-4f32-834d-15724c18354e",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 3,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "eelControlTransformation": "y=0",
+        "buttonUsage": "press-only"
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/HPCutoff",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "742fc663-bab2-425b-b52d-89b904db8dcc",
+      "name": "Cutoff Envelope Modulation Amount Bipolar",
+      "groupId": "20dcdf7d-cddd-4f32-834d-15724c18354e",
+      "source": {
+        "channel": 10,
+        "number": 5,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/CutoffEnvModB",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "0c2d353e-207f-4a2e-9750-ec8d3b473dda",
+      "name": "Cutoff Envelope Modulation Amount Bipolar Reset",
+      "groupId": "20dcdf7d-cddd-4f32-834d-15724c18354e",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 4,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "eelControlTransformation": "y=0.66",
+        "buttonUsage": "press-only"
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/CutoffEnvModB",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "01dfb198-510c-4ba9-8286-bc240f2eabb2",
+      "name": "Cutoff Key Track Amount Unipolar",
+      "groupId": "20dcdf7d-cddd-4f32-834d-15724c18354e",
+      "source": {
+        "channel": 10,
+        "number": 6,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/CutoffKeyTrkU",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "6a4a04a1-7943-4f74-aad8-5dbdea5c4b3f",
+      "name": "Cutoff Key Track Amount Unipolar Reset",
+      "groupId": "20dcdf7d-cddd-4f32-834d-15724c18354e",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 5,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "eelControlTransformation": "y=0",
+        "buttonUsage": "press-only"
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/CutoffKeyTrkU",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "1c87edbf-c3bb-4c48-a7e9-378b1c0e4550",
+      "name": "Cutoff LFO Modulation Amount Bipolar",
+      "groupId": "20dcdf7d-cddd-4f32-834d-15724c18354e",
+      "source": {
+        "channel": 10,
+        "number": 7,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/CutoffLFOModB",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "96f75e2c-b594-4f85-b214-5ac91d61f15e",
+      "name": "Cutoff LFO Modulation Amount Bipolar Reset",
+      "groupId": "20dcdf7d-cddd-4f32-834d-15724c18354e",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 6,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "eelControlTransformation": "y=0.5",
+        "buttonUsage": "press-only"
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/CutoffLFOModB",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "21114526-dd96-4164-8a03-76e7bd907377",
+      "name": "Cutoff Velocity Modulation Amount Unipolar",
+      "groupId": "20dcdf7d-cddd-4f32-834d-15724c18354e",
+      "source": {
+        "channel": 10,
+        "number": 8,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/CutoffVelModU",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "4ad8a800-3e52-4e8e-8ad6-5264110da471",
+      "name": "Cutoff Velocity Modulation Amount Unipolar Reset",
+      "groupId": "20dcdf7d-cddd-4f32-834d-15724c18354e",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 7,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "eelControlTransformation": "y=0",
+        "buttonUsage": "press-only"
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/CutoffVelModU",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "af46e6f9-f09b-471f-a029-60019954eabd",
+      "name": "Filter Attack",
+      "groupId": "fd7725d9-c565-44fc-9ea8-152bce4b0714",
+      "source": {
+        "channel": 10,
+        "number": 1,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/FilterAttack",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "8b1fb93c-cd33-43d8-bf47-2dd66240e295",
+      "name": "Filter Attack Reset",
+      "groupId": "fd7725d9-c565-44fc-9ea8-152bce4b0714",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 0,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "eelControlTransformation": "y=0",
+        "buttonUsage": "press-only"
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/FilterAttack",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "7db28292-8bd6-4da0-846d-bb1108ef3d31",
+      "name": "Filter Decay",
+      "groupId": "fd7725d9-c565-44fc-9ea8-152bce4b0714",
+      "source": {
+        "channel": 10,
+        "number": 2,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/FilterDecay",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "1e127e22-bef1-4aa0-9456-676e5e0bac99",
+      "name": "Filter Decay Reset",
+      "groupId": "fd7725d9-c565-44fc-9ea8-152bce4b0714",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 1,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "eelControlTransformation": "y=0.5",
+        "buttonUsage": "press-only"
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/FilterDecay",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "d45ab78d-11f9-4ab7-b567-cf3fba4652ed",
+      "name": "Filter Sustain",
+      "groupId": "fd7725d9-c565-44fc-9ea8-152bce4b0714",
+      "source": {
+        "channel": 10,
+        "number": 3,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/FilterSustain",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "961ee367-cf0f-486b-aa74-ff735de5be36",
+      "name": "Filter Sustain Reset",
+      "groupId": "fd7725d9-c565-44fc-9ea8-152bce4b0714",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 2,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "eelControlTransformation": "y=0",
+        "buttonUsage": "press-only"
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/FilterSustain",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "c3266738-cd4e-4197-81ce-44211ad47f56",
+      "name": "Filter Release",
+      "groupId": "fd7725d9-c565-44fc-9ea8-152bce4b0714",
+      "source": {
+        "channel": 10,
+        "number": 4,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/FilterRelease",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "94bf752b-d8e7-404d-98a7-8ec7ca363bdf",
+      "name": "Filter Release Reset",
+      "groupId": "fd7725d9-c565-44fc-9ea8-152bce4b0714",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 3,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "eelControlTransformation": "y=0.5",
+        "buttonUsage": "press-only"
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/FilterRelease",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "fcfc1f75-7aed-4473-93cd-86f9f86f2688",
+      "name": "Amplifier Attack",
+      "groupId": "fd7725d9-c565-44fc-9ea8-152bce4b0714",
+      "source": {
+        "channel": 10,
+        "number": 5,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/AmpAttack",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "e8161b42-2f8a-4aa5-8fc8-cd107a8ced29",
+      "name": "Amplifier Attack Reset",
+      "groupId": "fd7725d9-c565-44fc-9ea8-152bce4b0714",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 4,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "eelControlTransformation": "y=0",
+        "buttonUsage": "press-only"
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/AmpAttack",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "7fdb8f96-c7e0-4b17-aca2-3d5240be089f",
+      "name": "Amplifier Decay",
+      "groupId": "fd7725d9-c565-44fc-9ea8-152bce4b0714",
+      "source": {
+        "channel": 10,
+        "number": 6,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/AmpDecay",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "f8b579f6-3f12-44b0-95d9-e6ffaf7e1cc8",
+      "name": "Amplifier Decay Reset",
+      "groupId": "fd7725d9-c565-44fc-9ea8-152bce4b0714",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 5,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "eelControlTransformation": "y=0",
+        "buttonUsage": "press-only"
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/AmpDecay",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "33ee535e-7d6b-4941-a416-d717c7663f1a",
+      "name": "Amplifier Sustain",
+      "groupId": "fd7725d9-c565-44fc-9ea8-152bce4b0714",
+      "source": {
+        "channel": 10,
+        "number": 7,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/AmpSustain",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "752266b8-1c67-4eca-9574-505c652ab5f8",
+      "name": "Amplifier Sustain Reset",
+      "groupId": "fd7725d9-c565-44fc-9ea8-152bce4b0714",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 6,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "eelControlTransformation": "y=1",
+        "buttonUsage": "press-only"
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/AmpSustain",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "53f0c4e0-90a0-43ac-a3f0-83280b22686e",
+      "name": "Amplifier Release",
+      "groupId": "fd7725d9-c565-44fc-9ea8-152bce4b0714",
+      "source": {
+        "channel": 10,
+        "number": 8,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/AmpRelease",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "cdb18672-cfc5-47a4-8092-0b6dc683b71a",
+      "name": "Amplifier Release Reset",
+      "groupId": "fd7725d9-c565-44fc-9ea8-152bce4b0714",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 7,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "eelControlTransformation": "y=0.5",
+        "buttonUsage": "press-only"
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/AmpRelease",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "bb022eb1-cb2e-43ab-84ab-32e8319632ad",
+      "name": "LFO1 Delay",
+      "groupId": "54a02eae-f101-474a-b7a6-793b86e48e99",
+      "source": {
+        "channel": 10,
+        "number": 1,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/LFO1Delay",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "46404002-3b2e-4fa9-a7ea-61d2c7d16fc1",
+      "name": "LFO1 Delay Reset",
+      "groupId": "54a02eae-f101-474a-b7a6-793b86e48e99",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 0,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "eelControlTransformation": "y=0",
+        "buttonUsage": "press-only"
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/LFO1Delay",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "9cab5346-8106-457c-9511-e8c76439df61",
+      "name": "LFO1 Frequency",
+      "groupId": "54a02eae-f101-474a-b7a6-793b86e48e99",
+      "source": {
+        "channel": 10,
+        "number": 2,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/LFO1Frequency",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "c71757c1-26b4-4f21-b909-6ec0dfe1aec1",
+      "name": "LFO1 Frequency Reset",
+      "groupId": "54a02eae-f101-474a-b7a6-793b86e48e99",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 1,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "eelControlTransformation": "y=0.5",
+        "buttonUsage": "press-only"
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/LFO1Frequency",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "1d1bd313-3f2a-423f-a928-3f104fd4cb63",
+      "name": "LFO1 Waveform",
+      "groupId": "54a02eae-f101-474a-b7a6-793b86e48e99",
+      "source": {
+        "channel": 10,
+        "number": 3,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/LFO1Waveform",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "f01cb6b3-ba74-4653-8845-9bed85f7ffa4",
+      "name": "LFO1 Waveform Reset",
+      "groupId": "54a02eae-f101-474a-b7a6-793b86e48e99",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 2,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "eelControlTransformation": "y=0",
+        "buttonUsage": "press-only"
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/LFO1Waveform",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "06ed340a-80ea-4f66-ba25-876209dcc01c",
+      "name": "LFO2 Delay",
+      "groupId": "54a02eae-f101-474a-b7a6-793b86e48e99",
+      "source": {
+        "channel": 10,
+        "number": 4,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/LFO2Delay",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "666afaca-e57e-48ad-acab-013fa93a78b7",
+      "name": "LFO2 Delay Reset",
+      "groupId": "54a02eae-f101-474a-b7a6-793b86e48e99",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 3,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "eelControlTransformation": "y=0",
+        "buttonUsage": "press-only"
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/LFO2Delay",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "d4798def-9702-45d2-85c7-de6f8f93b9c7",
+      "name": "LFO2 Frequency",
+      "groupId": "54a02eae-f101-474a-b7a6-793b86e48e99",
+      "source": {
+        "channel": 10,
+        "number": 5,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/LFO2Frequency",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "a624a0e0-d1e5-4e9a-8caf-f628ec754915",
+      "name": "LFO2 Frequency Reset",
+      "groupId": "54a02eae-f101-474a-b7a6-793b86e48e99",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 4,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "eelControlTransformation": "y=0.5",
+        "buttonUsage": "press-only"
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/LFO2Frequency",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "49e3f16d-89c0-4b54-9f01-100542f38855",
+      "name": "LFO2 Waveform",
+      "groupId": "54a02eae-f101-474a-b7a6-793b86e48e99",
+      "source": {
+        "channel": 10,
+        "number": 6,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/LFO2Waveform",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "b9b34d03-48cd-4c8a-8d5a-620c14832c98",
+      "name": "LFO2 Waveform Reset",
+      "groupId": "54a02eae-f101-474a-b7a6-793b86e48e99",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 5,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "eelControlTransformation": "y=0",
+        "buttonUsage": "press-only"
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/LFO2Waveform",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "8cc7cc1a-c87a-4db3-b4f0-440c6219ecae",
+      "name": "Arpeggiator Rate or Division",
+      "groupId": "54a02eae-f101-474a-b7a6-793b86e48e99",
+      "source": {
+        "channel": 10,
+        "number": 7,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/ArpRate|Divis",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "44a228ca-07c9-46cc-8c7a-971d858ad41a",
+      "name": "Arpeggiator Rate or Division Reset",
+      "groupId": "54a02eae-f101-474a-b7a6-793b86e48e99",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 6,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "eelControlTransformation": "y=0.5",
+        "buttonUsage": "press-only"
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/ArpRate|Divis",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "475e459a-99fb-4a44-a311-f5a214a5630b",
+      "name": "Arpeggiator Mode",
+      "groupId": "54a02eae-f101-474a-b7a6-793b86e48e99",
+      "source": {
+        "channel": 10,
+        "number": 8,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/ArpMode",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "582e6860-9518-4fcf-8406-646bb0a5939d",
+      "name": "Arpeggiator Mode Reset",
+      "groupId": "54a02eae-f101-474a-b7a6-793b86e48e99",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 7,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "eelControlTransformation": "y=0",
+        "buttonUsage": "press-only"
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/ArpMode",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "d9988b75-b8f0-41fe-9893-eba0fe76bcfe",
+      "name": "Pitch Envelope Modulation Amount Bipolar",
+      "groupId": "eea61370-e538-421a-93fd-385d213bfc98",
+      "source": {
+        "channel": 10,
+        "number": 1,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/PitchEnvModB",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "d4fe7623-2a54-45c4-b85e-28637460f22c",
+      "name": "Pitch Envelope Modulation Amount Bipolar Reset",
+      "groupId": "eea61370-e538-421a-93fd-385d213bfc98",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 0,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "eelControlTransformation": "y=0.5",
+        "buttonUsage": "press-only"
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/PitchEnvModB",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "13e72f20-d4ee-4a46-aeae-f7aa0a889ce8",
+      "name": "Pitch LFO Modulation Amount Bipolar",
+      "groupId": "eea61370-e538-421a-93fd-385d213bfc98",
+      "source": {
+        "channel": 10,
+        "number": 2,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/PitchLFOModB",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "b0932414-07e8-43ad-a4a0-bd33ed8f6c72",
+      "name": "Pitch LFO Modulation Amount Bipolar Reset",
+      "groupId": "eea61370-e538-421a-93fd-385d213bfc98",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 1,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "eelControlTransformation": "y=0.5",
+        "buttonUsage": "press-only"
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/PitchLFOModB",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "7bcc4613-ad9d-4c53-b3c6-2520d703a92e",
+      "name": "Pulsewidth Modulation Amount (LFO or Envelope) Bipolar",
+      "groupId": "eea61370-e538-421a-93fd-385d213bfc98",
+      "source": {
+        "channel": 10,
+        "number": 3,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/PulsewdthModB",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "b9dfb56d-7766-40cd-a24c-8c89021f71d5",
+      "name": "Pulsewidth Modulation Amount (LFO or Envelope) Bipolar Reset",
+      "groupId": "eea61370-e538-421a-93fd-385d213bfc98",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 2,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "eelControlTransformation": "y=0.5",
+        "buttonUsage": "press-only"
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/PulsewdthModB",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "0c2b5dde-510c-4d07-b78f-be3104306044",
+      "name": "Volume LFO Modulation Amount Bipolar",
+      "groupId": "eea61370-e538-421a-93fd-385d213bfc98",
+      "source": {
+        "channel": 10,
+        "number": 4,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/VolumeLFOModB",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "083df44c-a2fe-45e8-8a5b-7a64f62ad649",
+      "name": "Volume LFO Modulation Amount Bipolar Reset",
+      "groupId": "eea61370-e538-421a-93fd-385d213bfc98",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 3,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "eelControlTransformation": "y=0.5",
+        "buttonUsage": "press-only"
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/VolumeLFOModB",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "4ba378db-caed-4219-a85d-167f9d7c8dbb",
+      "name": "Modulation Matrix1 Amount Bipolar",
+      "groupId": "eea61370-e538-421a-93fd-385d213bfc98",
+      "source": {
+        "channel": 10,
+        "number": 5,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/ModMx1AmountB",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "90bdd0a1-92b2-4f16-8d61-3963248dfd08",
+      "name": "Modulation Matrix1 Amount Bipolar Reset",
+      "groupId": "eea61370-e538-421a-93fd-385d213bfc98",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 4,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "eelControlTransformation": "y=0.5",
+        "buttonUsage": "press-only"
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/ModMx1AmountB",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "f025d7e5-2b89-4c76-a164-9ad6b720ee9b",
+      "name": "Modulation Matrix2 Amount Bipolar",
+      "groupId": "eea61370-e538-421a-93fd-385d213bfc98",
+      "source": {
+        "channel": 10,
+        "number": 6,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/ModMx2AmountB",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "77a6e061-0924-4909-ba23-23310aed8caa",
+      "name": "Modulation Matrix2 Amount Bipolar Reset",
+      "groupId": "eea61370-e538-421a-93fd-385d213bfc98",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 5,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "eelControlTransformation": "y=0.5",
+        "buttonUsage": "press-only"
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/ModMx2AmountB",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "b243f0d2-48f9-4af8-9504-04f8c8b3341d",
+      "name": "Modulation Matrix3 Amount Bipolar",
+      "groupId": "eea61370-e538-421a-93fd-385d213bfc98",
+      "source": {
+        "channel": 10,
+        "number": 7,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/ModMx3AmountB",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "fb44b709-d95f-4df0-9547-4fddd7e76ce0",
+      "name": "Modulation Matrix3 Amount Bipolar Reset",
+      "groupId": "eea61370-e538-421a-93fd-385d213bfc98",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 6,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "eelControlTransformation": "y=0.5",
+        "buttonUsage": "press-only"
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/ModMx3AmountB",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "f33bac68-881c-4069-bd35-ca8397279df8",
+      "name": "Modulation Matrix4 Amount Bipolar",
+      "groupId": "eea61370-e538-421a-93fd-385d213bfc98",
+      "source": {
+        "channel": 10,
+        "number": 8,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/ModMx4AmountB",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "7e3e54c3-24cd-4423-89b3-8491fd8cb789",
+      "name": "Modulation Matrix4 Amount Bipolar Reset",
+      "groupId": "eea61370-e538-421a-93fd-385d213bfc98",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 7,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "eelControlTransformation": "y=0.5",
+        "buttonUsage": "press-only"
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/ModMx4AmountB",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "1d014466-0f92-4293-9fbe-39f927f98035",
+      "name": "Output Level",
+      "groupId": "6569f502-c849-4e8a-9759-c9a1e23dd6f8",
+      "source": {
+        "channel": 10,
+        "number": 1,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/OutputLevel",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "38c9c037-b5c6-4b00-83fa-1e31b67b8ea2",
+      "name": "Output Level Reset",
+      "groupId": "6569f502-c849-4e8a-9759-c9a1e23dd6f8",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 0,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "eelControlTransformation": "y=0.5",
+        "buttonUsage": "press-only"
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/OutputLevel",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "2674eff2-9d01-402b-af60-d4581aa9f2a2",
+      "name": "Pan Spread",
+      "groupId": "6569f502-c849-4e8a-9759-c9a1e23dd6f8",
+      "source": {
+        "channel": 10,
+        "number": 2,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/PanSpread",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "9d4559a7-3e37-427c-8131-aed75f7a4cdf",
+      "name": "Pan Spread Reset",
+      "groupId": "6569f502-c849-4e8a-9759-c9a1e23dd6f8",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 1,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "eelControlTransformation": "y=0",
+        "buttonUsage": "press-only"
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/PanSpread",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "3e8db446-2b77-4df9-94eb-cb3399c226f8",
+      "name": "Portamento Mode",
+      "groupId": "6569f502-c849-4e8a-9759-c9a1e23dd6f8",
+      "source": {
+        "channel": 10,
+        "number": 3,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/PortaMode",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "281c7b15-0c5f-4828-9a54-5157d55f6853",
+      "name": "Portamento Mode Reset",
+      "groupId": "6569f502-c849-4e8a-9759-c9a1e23dd6f8",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 2,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "eelControlTransformation": "y=0",
+        "buttonUsage": "press-only"
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/PortaMode",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "7134bd7b-12b0-4b4b-abea-1187792d0379",
+      "name": "Portamento Rate",
+      "groupId": "6569f502-c849-4e8a-9759-c9a1e23dd6f8",
+      "source": {
+        "channel": 10,
+        "number": 4,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/PortaRate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "4203b28f-517f-45ab-9366-e3b594918937",
+      "name": "Portamento Rate Reset",
+      "groupId": "6569f502-c849-4e8a-9759-c9a1e23dd6f8",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 3,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "eelControlTransformation": "y=0",
+        "buttonUsage": "press-only"
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/PortaRate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "cdf8e264-b7d4-4df5-98d5-9bdb174296ed",
+      "name": "Unison Mode",
+      "groupId": "6569f502-c849-4e8a-9759-c9a1e23dd6f8",
+      "source": {
+        "channel": 10,
+        "number": 5,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/UnisonMode",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "54400bcd-cc6d-4230-b856-0c2ed355d9dd",
+      "name": "Unison Mode Reset",
+      "groupId": "6569f502-c849-4e8a-9759-c9a1e23dd6f8",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 4,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "eelControlTransformation": "y=1",
+        "buttonUsage": "press-only"
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/UnisonMode",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "605e0042-42dd-45e7-91fa-99ee6cb29b9d",
+      "name": "General Detune, Drift or Slop",
+      "groupId": "6569f502-c849-4e8a-9759-c9a1e23dd6f8",
+      "source": {
+        "channel": 10,
+        "number": 6,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/Detune|Slop",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "6086a9c0-bb12-410c-9010-66e5075e289a",
+      "name": "General Detune, Drift or Slop Reset",
+      "groupId": "6569f502-c849-4e8a-9759-c9a1e23dd6f8",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 5,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "eelControlTransformation": "y=0",
+        "buttonUsage": "press-only"
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/Detune|Slop",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "78dff2c5-fdfd-48fc-8915-84d52c6f910f",
+      "name": "Layer Mix",
+      "groupId": "6569f502-c849-4e8a-9759-c9a1e23dd6f8",
+      "source": {
+        "channel": 10,
+        "number": 7,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/LayerMix",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "2724e1d0-a2e4-4e0d-8815-9a5addf9d1a3",
+      "name": "Layer Mix Reset",
+      "groupId": "6569f502-c849-4e8a-9759-c9a1e23dd6f8",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 6,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "eelControlTransformation": "y=0.5",
+        "buttonUsage": "press-only"
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/LayerMix",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "d32a8117-0aa7-4ca0-82a9-1435b0e8bf88",
+      "name": "Oscillator Crossmod or FM",
+      "groupId": "6569f502-c849-4e8a-9759-c9a1e23dd6f8",
+      "source": {
+        "channel": 10,
+        "number": 8,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/OscXMod|FM",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "e265c444-85e8-4c7a-8b08-5c2ae16df85e",
+      "name": "Oscillator Crossmod or FM Reset",
+      "groupId": "6569f502-c849-4e8a-9759-c9a1e23dd6f8",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 7,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "eelControlTransformation": "y=0",
+        "buttonUsage": "press-only"
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/OscXMod|FM",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "c5c1a7e8-6105-4327-91b4-f818e8195a0f",
+      "name": "FX Parameter 1",
+      "groupId": "bf5e6f5e-6346-4073-9b45-cea4a40e698d",
+      "source": {
+        "channel": 10,
+        "number": 1,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/FXParam1",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "d3678174-0ed1-4a42-9e61-f258383e16fe",
+      "name": "FX Parameter 1 Reset",
+      "groupId": "bf5e6f5e-6346-4073-9b45-cea4a40e698d",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 0,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "eelControlTransformation": "y=0.5",
+        "buttonUsage": "press-only"
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/FXParam1",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "b4feec65-d8ea-4af2-afed-005f24f165f6",
+      "name": "FX Parameter 2",
+      "groupId": "bf5e6f5e-6346-4073-9b45-cea4a40e698d",
+      "source": {
+        "channel": 10,
+        "number": 2,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/FXParam2",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "240b8378-34b0-47c2-8227-0ad18d3d4cb2",
+      "name": "FX Parameter 2 Reset",
+      "groupId": "bf5e6f5e-6346-4073-9b45-cea4a40e698d",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 1,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "eelControlTransformation": "y=0.5",
+        "buttonUsage": "press-only"
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/FXParam2",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "c3ffb6f5-14e2-4426-bba4-f80fabc304df",
+      "name": "FX Parameter 3",
+      "groupId": "bf5e6f5e-6346-4073-9b45-cea4a40e698d",
+      "source": {
+        "channel": 10,
+        "number": 3,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/FXParam3",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "45fda09a-4ddc-4451-9a38-f3ce736c6fdc",
+      "name": "FX Parameter 3 Reset",
+      "groupId": "bf5e6f5e-6346-4073-9b45-cea4a40e698d",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 2,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "eelControlTransformation": "y=0.5",
+        "buttonUsage": "press-only"
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/FXParam3",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "53be82b9-2a91-429a-943b-72a210ad358a",
+      "name": "FX Parameter 4",
+      "groupId": "bf5e6f5e-6346-4073-9b45-cea4a40e698d",
+      "source": {
+        "channel": 10,
+        "number": 4,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/FXParam4",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "8e3d92c5-4a51-48fb-958b-093df2294770",
+      "name": "FX Parameter 4 Reset",
+      "groupId": "bf5e6f5e-6346-4073-9b45-cea4a40e698d",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 3,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "eelControlTransformation": "y=0.5",
+        "buttonUsage": "press-only"
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/FXParam4",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "b9cc5d9f-6021-485f-afbd-6c79c87ae01b",
+      "name": "FX Parameter 5",
+      "groupId": "bf5e6f5e-6346-4073-9b45-cea4a40e698d",
+      "source": {
+        "channel": 10,
+        "number": 5,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/FXParam5",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "aef2a6ff-e38e-4e09-b030-3897a69d7c8e",
+      "name": "FX Parameter 5 Reset",
+      "groupId": "bf5e6f5e-6346-4073-9b45-cea4a40e698d",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 4,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "eelControlTransformation": "y=0.5",
+        "buttonUsage": "press-only"
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/FXParam5",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "ddd99aa7-6d46-48c6-8546-2701ce695d0c",
+      "name": "FX Parameter 6",
+      "groupId": "bf5e6f5e-6346-4073-9b45-cea4a40e698d",
+      "source": {
+        "channel": 10,
+        "number": 6,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/FXParam6",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "33038115-7bfd-4c93-9304-a009467c89ec",
+      "name": "FX Parameter 6 Reset",
+      "groupId": "bf5e6f5e-6346-4073-9b45-cea4a40e698d",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 5,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "eelControlTransformation": "y=0.5",
+        "buttonUsage": "press-only"
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/FXParam6",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "6cfabef6-c566-4fbe-9c88-5c6fd142f8cd",
+      "name": "FX Parameter 7",
+      "groupId": "bf5e6f5e-6346-4073-9b45-cea4a40e698d",
+      "source": {
+        "channel": 10,
+        "number": 7,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/FXParam7",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "fa85b3ba-a58b-4fbd-b1fc-8427a7966090",
+      "name": "FX Parameter 7 Reset",
+      "groupId": "bf5e6f5e-6346-4073-9b45-cea4a40e698d",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 6,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "eelControlTransformation": "y=0.5",
+        "buttonUsage": "press-only"
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/FXParam7",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "34ec8ef9-e8d1-4665-8b93-a575ea9c812b",
+      "name": "FX Parameter 8",
+      "groupId": "bf5e6f5e-6346-4073-9b45-cea4a40e698d",
+      "source": {
+        "channel": 10,
+        "number": 8,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/FXParam8",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "d1d010f8-84ad-4a4b-8a21-6bd02101b9b8",
+      "name": "FX Parameter 8 Reset",
+      "groupId": "bf5e6f5e-6346-4073-9b45-cea4a40e698d",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 7,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "eelControlTransformation": "y=0.5",
+        "buttonUsage": "press-only"
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/FXParam8",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "2606c2a2-1584-4f6d-bf7a-39aff84a0fc1",
+      "name": "Modulation Matrix1 Source",
+      "groupId": "0a8d8566-9def-43fc-91bc-8b3aaa6e60e3",
+      "source": {
+        "channel": 10,
+        "number": 1,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/ModMx1Source",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "5ce83e74-5b65-4163-a46f-89b47628329f",
+      "name": "Modulation Matrix1 Source Reset",
+      "groupId": "0a8d8566-9def-43fc-91bc-8b3aaa6e60e3",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 0,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "eelControlTransformation": "y=0",
+        "buttonUsage": "press-only"
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/ModMx1Source",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "78c1a2bc-e482-4ba2-b852-09cfe8a64a53",
+      "name": "Modulation Matrix1 Destination",
+      "groupId": "0a8d8566-9def-43fc-91bc-8b3aaa6e60e3",
+      "source": {
+        "channel": 10,
+        "number": 2,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/ModMx1Dest",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "20180f37-c002-4efe-9fc7-d7909796716a",
+      "name": "Modulation Matrix1 Destination Reset",
+      "groupId": "0a8d8566-9def-43fc-91bc-8b3aaa6e60e3",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 1,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "eelControlTransformation": "y=0",
+        "buttonUsage": "press-only"
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/ModMx1Dest",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "7086ee1e-0fd5-4d6c-9c14-8f76542aa302",
+      "name": "Modulation Matrix2 Source",
+      "groupId": "0a8d8566-9def-43fc-91bc-8b3aaa6e60e3",
+      "source": {
+        "channel": 10,
+        "number": 3,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/ModMx2Source",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "9ae9a992-0541-4198-a2fb-a782217fa0cb",
+      "name": "Modulation Matrix2 Source Reset",
+      "groupId": "0a8d8566-9def-43fc-91bc-8b3aaa6e60e3",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 2,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "eelControlTransformation": "y=0",
+        "buttonUsage": "press-only"
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/ModMx2Source",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "2d7a18fb-4cc7-4fea-948a-e6d59732c171",
+      "name": "Modulation Matrix2 Destination",
+      "groupId": "0a8d8566-9def-43fc-91bc-8b3aaa6e60e3",
+      "source": {
+        "channel": 10,
+        "number": 4,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/ModMx2Dest",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "f670cd11-45ed-4281-9dd3-27ccc0c6512a",
+      "name": "Modulation Matrix2 Destination Reset",
+      "groupId": "0a8d8566-9def-43fc-91bc-8b3aaa6e60e3",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 3,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "eelControlTransformation": "y=0",
+        "buttonUsage": "press-only"
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/ModMx2Dest",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "bdaf9949-ed34-4c58-ad24-fa7fc213df07",
+      "name": "Modulation Matrix3 Source",
+      "groupId": "0a8d8566-9def-43fc-91bc-8b3aaa6e60e3",
+      "source": {
+        "channel": 10,
+        "number": 5,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/ModMx3Source",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "1636f568-7b77-4778-a139-cd4b10c63ceb",
+      "name": "Modulation Matrix3 Source Reset",
+      "groupId": "0a8d8566-9def-43fc-91bc-8b3aaa6e60e3",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 4,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "eelControlTransformation": "y=0",
+        "buttonUsage": "press-only"
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/ModMx3Source",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "07d5868a-3e1a-494b-b836-8cd5b4de6a80",
+      "name": "Modulation Matrix3 Destination",
+      "groupId": "0a8d8566-9def-43fc-91bc-8b3aaa6e60e3",
+      "source": {
+        "channel": 10,
+        "number": 6,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/ModMx3Dest",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "2ece1ce5-0765-441f-9436-5a0f885704ba",
+      "name": "Modulation Matrix3 Destination Reset",
+      "groupId": "0a8d8566-9def-43fc-91bc-8b3aaa6e60e3",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 5,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "eelControlTransformation": "y=0",
+        "buttonUsage": "press-only"
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/ModMx3Dest",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "5b22e7f2-5556-4b78-b4cc-687e322c9874",
+      "name": "Modulation Matrix4 Source",
+      "groupId": "0a8d8566-9def-43fc-91bc-8b3aaa6e60e3",
+      "source": {
+        "channel": 10,
+        "number": 7,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/ModMx4Source",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "c78f3437-a34e-4526-9514-81ef3174c6f4",
+      "name": "Modulation Matrix4 Source Reset",
+      "groupId": "0a8d8566-9def-43fc-91bc-8b3aaa6e60e3",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 6,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "eelControlTransformation": "y=0",
+        "buttonUsage": "press-only"
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/ModMx4Source",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "827f3050-768d-4b96-9cb2-7e9ed0755b25",
+      "name": "Modulation Matrix4 Destination",
+      "groupId": "0a8d8566-9def-43fc-91bc-8b3aaa6e60e3",
+      "source": {
+        "channel": 10,
+        "number": 8,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/ModMx4Dest",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "fa05b2ce-b8e3-4715-a362-cbd5df0cf255",
+      "name": "Modulation Matrix4 Destination Reset",
+      "groupId": "0a8d8566-9def-43fc-91bc-8b3aaa6e60e3",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 7,
+        "character": 2,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "eelControlTransformation": "y=0",
+        "buttonUsage": "press-only"
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/ModMx4Dest",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "41cb8384-8d02-49fc-8cfa-a3004984a736",
+      "name": "Oscillator Sync",
+      "groupId": "2a39f666-254a-44ab-bd4b-402c7b61a6d7",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 16,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {},
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementType": "button",
+        "controlElementIndex": "SY/OscSync",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "sendFeedbackAfterControl": true
+    },
+    {
+      "id": "8b8a5465-c710-406c-93be-f4e0076e237c",
+      "name": "Bandpass or Filter Slope",
+      "groupId": "20dcdf7d-cddd-4f32-834d-15724c18354e",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 16,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {},
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementType": "button",
+        "controlElementIndex": "SY/BP|FiltrSlope",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "sendFeedbackAfterControl": true
+    },
+    {
+      "id": "a960740f-0898-40e3-a14e-60ea4f832240",
+      "name": "LFO1 Sync",
+      "groupId": "54a02eae-f101-474a-b7a6-793b86e48e99",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 16,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {},
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementType": "button",
+        "controlElementIndex": "SY/LFO1Sync",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "sendFeedbackAfterControl": true
+    },
+    {
+      "id": "3feca12e-c35b-4113-9028-a9bb821aab60",
+      "name": "Portamento On",
+      "groupId": "6569f502-c849-4e8a-9759-c9a1e23dd6f8",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 16,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {},
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementType": "button",
+        "controlElementIndex": "SY/PortaOn",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "sendFeedbackAfterControl": true
+    },
+    {
+      "id": "f4d3e012-70ff-4bf2-a1b2-102a036c91d6",
+      "name": "FX On",
+      "groupId": "bf5e6f5e-6346-4073-9b45-cea4a40e698d",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 16,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {},
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementType": "button",
+        "controlElementIndex": "SY/FXOn",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "sendFeedbackAfterControl": true
+    },
+    {
+      "id": "d3a29eea-5643-4b5b-9376-e20a85f6a59e",
+      "name": "FX Switch 1",
+      "groupId": "bf5e6f5e-6346-4073-9b45-cea4a40e698d",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 17,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {},
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementType": "button",
+        "controlElementIndex": "SY/FXSwitch1",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "sendFeedbackAfterControl": true
+    },
+    {
+      "id": "e9f108fb-3fd6-4f06-aede-be106f89de54",
+      "name": "FX Switch 2",
+      "groupId": "bf5e6f5e-6346-4073-9b45-cea4a40e698d",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 18,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {},
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementType": "button",
+        "controlElementIndex": "SY/FXSwitch2",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "sendFeedbackAfterControl": true
+    },
+    {
+      "id": "670822fd-2fdd-4f8d-bb2c-62262e142967",
+      "name": "Unison On",
+      "groupId": "6569f502-c849-4e8a-9759-c9a1e23dd6f8",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 17,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {},
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementType": "button",
+        "controlElementIndex": "SY/UnisonOn",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "sendFeedbackAfterControl": true
+    },
+    {
+      "id": "1efccd73-e737-41bd-9d69-2d42b84e719a",
+      "name": "Select Alternate Layer",
+      "groupId": "6569f502-c849-4e8a-9759-c9a1e23dd6f8",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 18,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {},
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementType": "button",
+        "controlElementIndex": "SY/OtherLayer",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "sendFeedbackAfterControl": true
+    },
+    {
+      "id": "d7341661-ef8a-4ce0-a957-1a6961e7bbc3",
+      "name": "Select Alternate Layer - Bank-independent additional Button",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 22,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {},
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementType": "button",
+        "controlElementIndex": "SY/OtherLayer",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "sendFeedbackAfterControl": true
+    },
+    {
+      "id": "0f886f64-1258-479e-951f-b1b73fedd0c9",
+      "name": "LFO2 Sync",
+      "groupId": "54a02eae-f101-474a-b7a6-793b86e48e99",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 17,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {},
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementType": "button",
+        "controlElementIndex": "SY/LFO2Sync",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "sendFeedbackAfterControl": true
+    },
+    {
+      "id": "0ce6b696-5949-4f41-b12e-44d104d9d059",
+      "name": "Arp On",
+      "groupId": "54a02eae-f101-474a-b7a6-793b86e48e99",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 18,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {},
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementType": "button",
+        "controlElementIndex": "SY/ArpOn",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "sendFeedbackAfterControl": true
+    },
+    {
+      "id": "36b0a2ad-451e-4d7a-8613-6851f050af59",
+      "name": "Osc1 On",
+      "groupId": "244fd3ea-322a-41e4-b144-2e3459437d2d",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 16,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {},
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementType": "button",
+        "controlElementIndex": "SY/Osc1On",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "sendFeedbackAfterControl": true
+    },
+    {
+      "id": "8f950d12-53ee-4d70-9302-1e795e5330e9",
+      "name": "Oscillator Keyboard Tracking",
+      "groupId": "2a39f666-254a-44ab-bd4b-402c7b61a6d7",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 17,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {},
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementType": "button",
+        "controlElementIndex": "SY/OscKeyTrack",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "sendFeedbackAfterControl": true
+    },
+    {
+      "id": "2322ab0f-aa8d-4889-8480-f174af8c5c65",
+      "name": "Osc2 On",
+      "groupId": "244fd3ea-322a-41e4-b144-2e3459437d2d",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 17,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {},
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementType": "button",
+        "controlElementIndex": "SY/Osc2On",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "sendFeedbackAfterControl": true
+    },
+    {
+      "id": "92e407fb-3aad-4192-82e6-726bcbd992d3",
+      "name": "Oscillator Low Frequency Mode",
+      "groupId": "2a39f666-254a-44ab-bd4b-402c7b61a6d7",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 18,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {},
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementType": "button",
+        "controlElementIndex": "SY/OscLowFreq",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "sendFeedbackAfterControl": true
+    },
+    {
+      "id": "34753382-ba55-464f-8c16-f285995b7b22",
+      "name": "Osc3 On",
+      "groupId": "244fd3ea-322a-41e4-b144-2e3459437d2d",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 18,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {},
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementType": "button",
+        "controlElementIndex": "SY/Osc3On",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "sendFeedbackAfterControl": true
+    },
+    {
+      "id": "df0241e0-7966-4d29-b5fd-77646ddc5b7a",
+      "name": "Modulation Matrix1 On",
+      "groupId": "0a8d8566-9def-43fc-91bc-8b3aaa6e60e3",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 16,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {},
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementType": "button",
+        "controlElementIndex": "SY/ModMx1On",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "sendFeedbackAfterControl": true
+    },
+    {
+      "id": "8f0cdaf6-195d-4ddd-b89d-571e606f0969",
+      "name": "Modulation Matrix2 On",
+      "groupId": "0a8d8566-9def-43fc-91bc-8b3aaa6e60e3",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 17,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {},
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementType": "button",
+        "controlElementIndex": "SY/ModMx2On",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "sendFeedbackAfterControl": true
+    },
+    {
+      "id": "42e74072-5b9c-469c-801b-552338cfe5d2",
+      "name": "Modulation Matrix3 On",
+      "groupId": "0a8d8566-9def-43fc-91bc-8b3aaa6e60e3",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 18,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {},
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementType": "button",
+        "controlElementIndex": "SY/ModMx3On",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "sendFeedbackAfterControl": true
+    },
+    {
+      "id": "5a7204c8-ec06-4e98-a97a-34cf980150bd",
+      "name": "Modulation Matrix4 On",
+      "groupId": "0a8d8566-9def-43fc-91bc-8b3aaa6e60e3",
+      "source": {
+        "type": 1,
+        "channel": 10,
+        "number": 19,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {},
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementType": "button",
+        "controlElementIndex": "SY/ModMx4On",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "sendFeedbackAfterControl": true
+    }
+  ],
+  "parameters": {
+    "0": {
+      "name": "Bank"
+    }
+  }
+}
