@@ -1,0 +1,2409 @@
+{
+  "version": "2.8.0-rc.5",
+  "name": "SY J-8",
+  "defaultGroup": {},
+  "groups": [
+    {
+      "id": "48070d0e-e9f7-40c3-93bc-b2db0f9c946a",
+      "name": "LowerPanel",
+      "activationType": "modifiers",
+      "modifierCondition1": {
+        "paramIndex": 0,
+        "isOn": false
+      }
+    },
+    {
+      "id": "9a3c4d2c-c74c-49d1-ad97-b6810f33c8b2",
+      "name": "UpperPanel",
+      "activationType": "modifiers",
+      "modifierCondition1": {
+        "paramIndex": 0,
+        "isOn": true
+      }
+    }
+  ],
+  "mappings": [
+    {
+      "id": "6c121c72-ab32-4ee2-98fc-3076481213f4",
+      "name": "Upper Panel (Switch)",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementType": "button",
+        "controlElementIndex": "SY/OtherLayer"
+      },
+      "mode": {
+        "type": 2,
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*ReaLearn*",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "2ed6bf79-c87c-491c-b2b1-6a7c0d737df7",
+      "name": "1",
+      "groupId": "48070d0e-e9f7-40c3-93bc-b2db0f9c946a",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/Osc1Pitch"
+      },
+      "mode": {
+        "minStepSize": 0.17,
+        "maxStepSize": 0.17
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 87,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "e634f9d8-d84b-47fc-b072-d3b0047d68d0",
+      "name": "Copy of 1",
+      "groupId": "9a3c4d2c-c74c-49d1-ad97-b6810f33c8b2",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/Osc1Pitch"
+      },
+      "mode": {
+        "minStepSize": 0.17,
+        "maxStepSize": 0.17
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 88,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "6e7fae8f-abcf-4ab0-80ea-2e01a1139a73",
+      "name": "2",
+      "groupId": "48070d0e-e9f7-40c3-93bc-b2db0f9c946a",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/Osc1Waveform"
+      },
+      "mode": {
+        "minStepSize": 0.17,
+        "maxStepSize": 0.17
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 89,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "01fa418c-1bf3-4043-9324-12acee9036f2",
+      "name": "Copy of 2",
+      "groupId": "9a3c4d2c-c74c-49d1-ad97-b6810f33c8b2",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/Osc1Waveform"
+      },
+      "mode": {
+        "minStepSize": 0.17,
+        "maxStepSize": 0.17
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 90,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "515be4d2-868c-4a1c-a411-0abf6f5bdf75",
+      "name": "3",
+      "groupId": "48070d0e-e9f7-40c3-93bc-b2db0f9c946a",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/Osc2Pitch"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 91,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "27fe1da6-e1c7-487f-acfc-0360aaed43bc",
+      "name": "Copy of 3",
+      "groupId": "9a3c4d2c-c74c-49d1-ad97-b6810f33c8b2",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/Osc2Pitch"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 92,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "caffe6e2-bea0-4497-825d-102b411a8081",
+      "name": "4",
+      "groupId": "48070d0e-e9f7-40c3-93bc-b2db0f9c946a",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/Osc2PitchFine"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 95,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "6b37874f-4c5f-4cbf-8f3f-1d68692db984",
+      "name": "Copy of 4",
+      "groupId": "9a3c4d2c-c74c-49d1-ad97-b6810f33c8b2",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/Osc2PitchFine"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 96,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "df919ec9-0b2d-415e-953e-16f85937111d",
+      "name": "5",
+      "groupId": "48070d0e-e9f7-40c3-93bc-b2db0f9c946a",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/Osc2Waveform"
+      },
+      "mode": {
+        "minStepSize": 0.17,
+        "maxStepSize": 0.17
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 93,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "51839067-1674-4373-961e-3173cae759f2",
+      "name": "Copy of 5",
+      "groupId": "9a3c4d2c-c74c-49d1-ad97-b6810f33c8b2",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/Osc2Waveform"
+      },
+      "mode": {
+        "minStepSize": 0.17,
+        "maxStepSize": 0.17
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 94,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "ee937a93-1211-412c-89e9-1bcae40508b3",
+      "name": "6",
+      "groupId": "48070d0e-e9f7-40c3-93bc-b2db0f9c946a",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementType": "button",
+        "controlElementIndex": "SY/OscSync"
+      },
+      "mode": {
+        "type": 2,
+        "minTargetValue": 0.5
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 97,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "51bc326a-3978-4b61-9b56-8b88be37e10d",
+      "name": "Copy of 6",
+      "groupId": "9a3c4d2c-c74c-49d1-ad97-b6810f33c8b2",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementType": "button",
+        "controlElementIndex": "SY/OscSync"
+      },
+      "mode": {
+        "type": 2,
+        "minTargetValue": 0.5
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 98,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "96edf6b3-c8b7-4ba2-b686-79998fac1dca",
+      "name": "7",
+      "groupId": "48070d0e-e9f7-40c3-93bc-b2db0f9c946a",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementType": "button",
+        "controlElementIndex": "SY/OscLowFreq"
+      },
+      "mode": {
+        "type": 2,
+        "reverseIsEnabled": true
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 99,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "227c6d01-805e-422d-9c7f-579a74c0d100",
+      "name": "Copy of 7",
+      "groupId": "9a3c4d2c-c74c-49d1-ad97-b6810f33c8b2",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementType": "button",
+        "controlElementIndex": "SY/OscLowFreq"
+      },
+      "mode": {
+        "type": 2,
+        "reverseIsEnabled": true
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 100,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "557194ed-a69a-4b7a-adc0-5f5acbc48f07",
+      "name": "8",
+      "groupId": "48070d0e-e9f7-40c3-93bc-b2db0f9c946a",
+      "source": {
+        "category": "virtual",
+        "type": 6,
+        "channel": 0,
+        "number": 2,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/Osc1Level"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 83,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "f99bdc4c-9ec6-4a3b-8c5e-1ff3e22d2b93",
+      "name": "Copy of 8",
+      "groupId": "9a3c4d2c-c74c-49d1-ad97-b6810f33c8b2",
+      "source": {
+        "category": "virtual",
+        "type": 6,
+        "channel": 0,
+        "number": 2,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/Osc1Level"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 84,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "2eb164b4-d801-4ca9-9a94-b40e20c436b5",
+      "name": "9",
+      "groupId": "48070d0e-e9f7-40c3-93bc-b2db0f9c946a",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/Cutoff"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 103,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "97a0ee4e-897d-4826-9e6f-dd7ae2301692",
+      "name": "Copy of 9",
+      "groupId": "9a3c4d2c-c74c-49d1-ad97-b6810f33c8b2",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/Cutoff"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 104,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "f0214eae-754c-43f7-bee6-0fe26923513d",
+      "name": "10",
+      "groupId": "48070d0e-e9f7-40c3-93bc-b2db0f9c946a",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/Resonance"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 105,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "6c04de5b-9c1f-4a58-ac07-9662da7a3bf8",
+      "name": "Copy of 10",
+      "groupId": "9a3c4d2c-c74c-49d1-ad97-b6810f33c8b2",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/Resonance"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 106,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "f58b50f3-2f5a-4009-a43f-bc94279157ba",
+      "name": "11",
+      "groupId": "48070d0e-e9f7-40c3-93bc-b2db0f9c946a",
+      "source": {
+        "category": "virtual",
+        "type": 6,
+        "channel": 0,
+        "number": 160,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/HPCutoff"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 101,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "2e878002-f460-4a35-895d-83e6eefa8cec",
+      "name": "Copy of 11",
+      "groupId": "9a3c4d2c-c74c-49d1-ad97-b6810f33c8b2",
+      "source": {
+        "category": "virtual",
+        "type": 6,
+        "channel": 0,
+        "number": 160,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/HPCutoff"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 102,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "3feb45fc-a49e-471e-b2e7-2a70663933c0",
+      "name": "12",
+      "groupId": "48070d0e-e9f7-40c3-93bc-b2db0f9c946a",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/CutoffEnvModB"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 109,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "ff2083f6-831b-4639-aa03-b371d8bab9c7",
+      "name": "Copy of 12",
+      "groupId": "9a3c4d2c-c74c-49d1-ad97-b6810f33c8b2",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/CutoffEnvModB"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 110,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "d3d0ffef-28ba-4b39-8f80-087b5bcc0d20",
+      "name": "13",
+      "groupId": "48070d0e-e9f7-40c3-93bc-b2db0f9c946a",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/CutoffKeyTrkU"
+      },
+      "mode": {
+        "minTargetValue": 0.5,
+        "maxStepSize": 0.1
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 115,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "a80e7216-555e-4878-a312-974ba355b932",
+      "name": "Copy of 13",
+      "groupId": "9a3c4d2c-c74c-49d1-ad97-b6810f33c8b2",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/CutoffKeyTrkU"
+      },
+      "mode": {
+        "minTargetValue": 0.5,
+        "maxStepSize": 0.1
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 116,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "aaf8a2ec-ea15-4126-af28-2461556b9056",
+      "name": "14",
+      "groupId": "48070d0e-e9f7-40c3-93bc-b2db0f9c946a",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/CutoffLFOModB"
+      },
+      "mode": {
+        "maxStepSize": 0.1
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 113,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "3f42c74e-9599-41ee-8bba-5f503760f1c7",
+      "name": "Copy of 14",
+      "groupId": "9a3c4d2c-c74c-49d1-ad97-b6810f33c8b2",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/CutoffLFOModB"
+      },
+      "mode": {
+        "maxStepSize": 0.1
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 114,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "15672017-621c-49f2-89f6-31cea27e94e4",
+      "name": "15",
+      "groupId": "48070d0e-e9f7-40c3-93bc-b2db0f9c946a",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/CutoffVelModU"
+      },
+      "mode": {
+        "maxStepSize": 0.1
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 117,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "b613c63b-99b0-4ec6-b93d-71c29f07443e",
+      "name": "Copy of 15",
+      "groupId": "9a3c4d2c-c74c-49d1-ad97-b6810f33c8b2",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/CutoffVelModU"
+      },
+      "mode": {
+        "maxStepSize": 0.1
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 118,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "3e5bfa29-bd89-4355-ba1f-c6a6e26aecb4",
+      "name": "16",
+      "groupId": "48070d0e-e9f7-40c3-93bc-b2db0f9c946a",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementType": "button",
+        "controlElementIndex": "SY/BP|FiltrSlope"
+      },
+      "mode": {
+        "type": 2
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 107,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "5b157f34-2fca-47ff-86a8-281b930cbf30",
+      "name": "Copy of 16",
+      "groupId": "9a3c4d2c-c74c-49d1-ad97-b6810f33c8b2",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementType": "button",
+        "controlElementIndex": "SY/BP|FiltrSlope"
+      },
+      "mode": {
+        "type": 2
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 108,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "4a11df37-17de-4506-9ee3-0983bff0c389",
+      "name": "18",
+      "groupId": "48070d0e-e9f7-40c3-93bc-b2db0f9c946a",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/FilterAttack"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 63,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "819457e2-9678-458a-9b4d-426ae2cf6382",
+      "name": "Copy of 18",
+      "groupId": "9a3c4d2c-c74c-49d1-ad97-b6810f33c8b2",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/FilterAttack"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 64,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "14931640-587c-4d17-9ab5-4523278ea409",
+      "name": "19",
+      "groupId": "48070d0e-e9f7-40c3-93bc-b2db0f9c946a",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/FilterDecay"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 65,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "ef218f3d-277e-4a7b-89ae-abaf70ba59e3",
+      "name": "Copy of 19",
+      "groupId": "9a3c4d2c-c74c-49d1-ad97-b6810f33c8b2",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/FilterDecay"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 66,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "04ebcea8-6e84-4bbe-8bf1-400d24d284c3",
+      "name": "20",
+      "groupId": "48070d0e-e9f7-40c3-93bc-b2db0f9c946a",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/FilterSustain"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 67,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "d5d7e7fe-3e7f-44bd-a918-9e43eca1bd19",
+      "name": "Copy of 20",
+      "groupId": "9a3c4d2c-c74c-49d1-ad97-b6810f33c8b2",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/FilterSustain"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 68,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "957701e7-8756-4761-8986-ff520e3a3aba",
+      "name": "21",
+      "groupId": "48070d0e-e9f7-40c3-93bc-b2db0f9c946a",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/FilterRelease"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 69,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "31ed9893-87ff-4c01-a8a8-09b1f0010df9",
+      "name": "Copy of 21",
+      "groupId": "9a3c4d2c-c74c-49d1-ad97-b6810f33c8b2",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/FilterRelease"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 70,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "2f099f5c-1eac-42f4-bd44-e95279480ba5",
+      "name": "22",
+      "groupId": "48070d0e-e9f7-40c3-93bc-b2db0f9c946a",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/AmpAttack"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 73,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "0d733dfa-13f3-4c12-8a44-9b550996ec45",
+      "name": "Copy of 22",
+      "groupId": "9a3c4d2c-c74c-49d1-ad97-b6810f33c8b2",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/AmpAttack"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 74,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "e16eb56d-77ab-4d3a-b973-621e39acf118",
+      "name": "23",
+      "groupId": "48070d0e-e9f7-40c3-93bc-b2db0f9c946a",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/AmpDecay"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 75,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "28456359-3c2a-4fb9-97e4-a42f576c870d",
+      "name": "Copy of 23",
+      "groupId": "9a3c4d2c-c74c-49d1-ad97-b6810f33c8b2",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/AmpDecay"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 76,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "46c5c7dc-2a71-4dc3-86bb-085440e4dee8",
+      "name": "24",
+      "groupId": "48070d0e-e9f7-40c3-93bc-b2db0f9c946a",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/AmpSustain"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 77,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "60d9ca51-d046-417e-b7d0-afc46789fbbf",
+      "name": "Copy of 24",
+      "groupId": "9a3c4d2c-c74c-49d1-ad97-b6810f33c8b2",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/AmpSustain"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 78,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "d39afd4f-407d-4bb3-9054-7f712d307f63",
+      "name": "25",
+      "groupId": "48070d0e-e9f7-40c3-93bc-b2db0f9c946a",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/AmpRelease"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 79,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "d5d1fd3e-73f5-40bf-8c12-84baae17f8c9",
+      "name": "Copy of 25",
+      "groupId": "9a3c4d2c-c74c-49d1-ad97-b6810f33c8b2",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/AmpRelease"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 80,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "1069e90b-baee-406e-9b8d-531fa665b06b",
+      "name": "26",
+      "groupId": "48070d0e-e9f7-40c3-93bc-b2db0f9c946a",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/LFO1Delay"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 45,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "1f97962c-4846-44cc-8d95-f70fd2dea74e",
+      "name": "Copy of 26",
+      "groupId": "9a3c4d2c-c74c-49d1-ad97-b6810f33c8b2",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/LFO1Delay"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 46,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "ee2c69ce-7893-443c-961c-f9dda37efbc2",
+      "name": "27",
+      "groupId": "48070d0e-e9f7-40c3-93bc-b2db0f9c946a",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/LFO1Frequency"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 41,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "b3660170-5eab-4a81-8c26-d26b66f8b682",
+      "name": "Copy of 27",
+      "groupId": "9a3c4d2c-c74c-49d1-ad97-b6810f33c8b2",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/LFO1Frequency"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 42,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "d1c3db7f-c11e-4118-90c5-ef2159bf2ce6",
+      "name": "28",
+      "groupId": "48070d0e-e9f7-40c3-93bc-b2db0f9c946a",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/LFO1Waveform"
+      },
+      "mode": {
+        "minStepSize": 0.17,
+        "maxStepSize": 0.17
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 47,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "3cda073e-51f2-4297-a216-f29893ee2ed9",
+      "name": "Copy of 28",
+      "groupId": "9a3c4d2c-c74c-49d1-ad97-b6810f33c8b2",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/LFO1Waveform"
+      },
+      "mode": {
+        "minStepSize": 0.17,
+        "maxStepSize": 0.17
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 48,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "92c0622c-03ac-48ce-8172-14e864712b3c",
+      "name": "29",
+      "groupId": "48070d0e-e9f7-40c3-93bc-b2db0f9c946a",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/ArpRate|Divis"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 32,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "709397e5-8617-469d-b687-3436c2d9a4d6",
+      "name": "Copy of 29",
+      "groupId": "9a3c4d2c-c74c-49d1-ad97-b6810f33c8b2",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/ArpRate|Divis"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 33,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "696904d5-f7e8-404a-8129-59cc848ebfd7",
+      "name": "29 b",
+      "groupId": "48070d0e-e9f7-40c3-93bc-b2db0f9c946a",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/ArpMode"
+      },
+      "mode": {
+        "minStepSize": 0.13,
+        "maxStepSize": 0.13
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 38,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "9264b6a1-45c8-4e0b-92b1-c18a5801d737",
+      "name": "Copy of 29 b",
+      "groupId": "9a3c4d2c-c74c-49d1-ad97-b6810f33c8b2",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/ArpMode"
+      },
+      "mode": {
+        "minStepSize": 0.14,
+        "maxStepSize": 0.14
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 39,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "185bb0b0-a189-4675-8af3-f0637347cabb",
+      "name": "29 c",
+      "groupId": "48070d0e-e9f7-40c3-93bc-b2db0f9c946a",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementType": "button",
+        "controlElementIndex": "SY/LFO1Sync"
+      },
+      "mode": {
+        "type": 2
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 43,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "72bfd05a-f3c5-4df9-85c4-ca2de38abede",
+      "name": "Copy of 29 c",
+      "groupId": "9a3c4d2c-c74c-49d1-ad97-b6810f33c8b2",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementType": "button",
+        "controlElementIndex": "SY/LFO1Sync"
+      },
+      "mode": {
+        "type": 2
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 44,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "db97aca7-83be-4872-8229-d9236a834adf",
+      "name": "Copy of 29 c",
+      "groupId": "48070d0e-e9f7-40c3-93bc-b2db0f9c946a",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementType": "button",
+        "controlElementIndex": "SY/ArpOn"
+      },
+      "mode": {
+        "type": 2,
+        "maxTargetValue": 0.2
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 38,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "9d35cb58-d93c-4828-b602-b8415975a33e",
+      "name": "Copy of copy of 29 c",
+      "groupId": "9a3c4d2c-c74c-49d1-ad97-b6810f33c8b2",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementType": "button",
+        "controlElementIndex": "SY/ArpOn"
+      },
+      "mode": {
+        "maxTargetValue": 0.2
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 39,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "d8829105-1898-4889-98f5-d553db20ebcc",
+      "name": "30",
+      "groupId": "48070d0e-e9f7-40c3-93bc-b2db0f9c946a",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/PitchEnvModB"
+      },
+      "mode": {
+        "maxStepSize": 0.1
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 53,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "c1955b89-e7fb-4846-acff-47e9a799ebc6",
+      "name": "Copy of 30",
+      "groupId": "9a3c4d2c-c74c-49d1-ad97-b6810f33c8b2",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/PitchEnvModB"
+      },
+      "mode": {
+        "maxStepSize": 0.1
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 54,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "e25090cb-190c-4414-a8ad-f8ceb477b9d2",
+      "name": "31",
+      "groupId": "48070d0e-e9f7-40c3-93bc-b2db0f9c946a",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/PitchLFOModB"
+      },
+      "mode": {
+        "maxStepSize": 0.1
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 51,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "f36b303e-216d-4258-8114-521f514970a1",
+      "name": "Copy of 31",
+      "groupId": "9a3c4d2c-c74c-49d1-ad97-b6810f33c8b2",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/PitchLFOModB"
+      },
+      "mode": {
+        "maxStepSize": 0.1
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 52,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "a3a5dc95-e327-4624-93d8-b4d7f96534c8",
+      "name": "Copy of 31",
+      "groupId": "48070d0e-e9f7-40c3-93bc-b2db0f9c946a",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/PulsewdthModB"
+      },
+      "mode": {
+        "minStepSize": 0.0,
+        "maxStepSize": 0.0,
+        "eelControlTransformation": "y = (x == 0.5) ? 0 : 1-x"
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 61,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "0146e5ee-ad1a-4b46-98ff-a88da552ed00",
+      "name": "Copy of Copy of 31",
+      "groupId": "9a3c4d2c-c74c-49d1-ad97-b6810f33c8b2",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/PulsewdthModB"
+      },
+      "mode": {
+        "minStepSize": 0.0,
+        "maxStepSize": 0.0,
+        "eelControlTransformation": "y = (x == 0.5) ? 0 : 1-x"
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 62,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "4e7f02b8-2924-4e41-9721-4a9c886c5462",
+      "name": "32",
+      "groupId": "48070d0e-e9f7-40c3-93bc-b2db0f9c946a",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/PulsewdthModB"
+      },
+      "mode": {
+        "maxStepSize": 0.1,
+        "eelControlTransformation": "y=2*abs(0.5-x)"
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 57,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "aa5473dc-41ae-4492-a17c-03e9ab695bcf",
+      "name": "Copy of 32",
+      "groupId": "9a3c4d2c-c74c-49d1-ad97-b6810f33c8b2",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/PulsewdthModB"
+      },
+      "mode": {
+        "maxStepSize": 0.1,
+        "eelControlTransformation": "y=2*abs(0.5-x)"
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 58,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "9c10af6c-2e42-49f5-8f9c-f4e35f3f32b3",
+      "name": "33",
+      "groupId": "48070d0e-e9f7-40c3-93bc-b2db0f9c946a",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/VolumeLFOModB"
+      },
+      "mode": {
+        "maxStepSize": 0.1
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 121,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "95dc7345-fe0e-450e-a713-01041e889e8f",
+      "name": "Copy of 33",
+      "groupId": "9a3c4d2c-c74c-49d1-ad97-b6810f33c8b2",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/VolumeLFOModB"
+      },
+      "mode": {
+        "maxStepSize": 0.1
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 122,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "cba6f5ee-0717-47ec-85b3-f02aa7a877f8",
+      "name": "34",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/ModMx1AmountB"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "eelControlTransformation": "y=2*abs(x-0.5)"
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 12,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "a795f38d-464c-4fdf-bd44-97d9ae996814",
+      "name": "35",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/ModMx2AmountB"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "eelControlTransformation": "y=2*abs(x-0.5)"
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 14,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "3a107421-432a-4c96-ab95-ec5e84edfefc",
+      "name": "36",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/ModMx3AmountB"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "eelControlTransformation": "y=2*abs(x-0.5)"
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 15,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "ad4f7367-b106-4676-a9d1-943d0a347399",
+      "name": "37",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/ModMx4AmountB"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "eelControlTransformation": "y=2*abs(x-0.5)"
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 16,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "9e8a6f62-d849-4e69-8c11-343ce80fb37f",
+      "name": "38",
+      "groupId": "48070d0e-e9f7-40c3-93bc-b2db0f9c946a",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/OutputLevel"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 119,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "392403c5-9bae-437e-9d48-554d771f1a19",
+      "name": "38",
+      "groupId": "9a3c4d2c-c74c-49d1-ad97-b6810f33c8b2",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/OutputLevel"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 120,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "f0e9fd9d-3f9c-4fe9-8325-241efaa79424",
+      "name": "39",
+      "groupId": "48070d0e-e9f7-40c3-93bc-b2db0f9c946a",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/PanSpread"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 133,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "bedaba08-86b1-4f7f-af73-52c1fbf29c13",
+      "name": "Copy of 39",
+      "groupId": "9a3c4d2c-c74c-49d1-ad97-b6810f33c8b2",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/PanSpread"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 134,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "8021e4d6-2cf3-4ea9-acaa-2c7ee1dfff7b",
+      "name": "40",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/PortaMode"
+      },
+      "mode": {
+        "minStepSize": 0.17,
+        "maxStepSize": 0.17
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 10,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "8ee2c03d-3fb0-4d76-b593-405d7644f481",
+      "name": "41",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/PortaRate"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 9,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "e3e63818-2e03-4469-a76e-65600f12e7a1",
+      "name": "42",
+      "groupId": "48070d0e-e9f7-40c3-93bc-b2db0f9c946a",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/UnisonMode"
+      },
+      "mode": {
+        "minStepSize": 0.17,
+        "maxStepSize": 0.17
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 18,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "db731078-34ae-4116-b039-3d16ca239d6d",
+      "name": "Copy of 42",
+      "groupId": "9a3c4d2c-c74c-49d1-ad97-b6810f33c8b2",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/UnisonMode"
+      },
+      "mode": {
+        "minStepSize": 0.17,
+        "maxStepSize": 0.17
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 19,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "0a8dfa5e-f2e3-4408-ab7c-052885676e8e",
+      "name": "43",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/LayerMix"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 6,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "95cf4d7a-c0f6-4d31-b147-2542d711a3a6",
+      "name": "29",
+      "groupId": "48070d0e-e9f7-40c3-93bc-b2db0f9c946a",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/OscXMod|FM"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 85,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "81cab2de-385c-4b5b-8738-70d69cf0ed19",
+      "name": "Copy of 29",
+      "groupId": "9a3c4d2c-c74c-49d1-ad97-b6810f33c8b2",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/OscXMod|FM"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 86,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "84dbb9ab-6c67-4174-8b91-b60736d72083",
+      "name": "44",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementType": "button",
+        "controlElementIndex": "SY/PortaOn"
+      },
+      "mode": {
+        "type": 2,
+        "maxTargetValue": 0.25
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 10,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "62e85a37-06a5-495d-bf2c-773e97211dbc",
+      "name": "45",
+      "groupId": "48070d0e-e9f7-40c3-93bc-b2db0f9c946a",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementType": "button",
+        "controlElementIndex": "SY/UnisonOn"
+      },
+      "mode": {
+        "type": 2,
+        "minTargetValue": 0.33,
+        "maxTargetValue": 0.66,
+        "reverseIsEnabled": true
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 18,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "ecb195b1-dfde-4e45-b823-5551f32713ae",
+      "name": "Copy of 45",
+      "groupId": "9a3c4d2c-c74c-49d1-ad97-b6810f33c8b2",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementType": "button",
+        "controlElementIndex": "SY/UnisonOn"
+      },
+      "mode": {
+        "type": 2,
+        "minTargetValue": 0.33,
+        "maxTargetValue": 0.66,
+        "reverseIsEnabled": true
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 19,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "96a9b390-0743-420d-bc42-033fa3acf386",
+      "name": "46",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementType": "button",
+        "controlElementIndex": "SY/OtherLayer"
+      },
+      "mode": {
+        "type": 2,
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 5,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "8f6a1178-11be-4e88-bc00-eb42d119fd4c",
+      "name": "47",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/FXParam1"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 137,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "723ee7f8-8663-4e1f-9e53-234f60c300fb",
+      "name": "48",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/FXParam2"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 138,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "36bb5dda-2e98-4d2b-9863-986d492ceeaf",
+      "name": "49",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/FXParam3"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 140,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "dede71f1-3d8e-4798-b7c6-f468e7b642cf",
+      "name": "50",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/FXParam4"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 142,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "167a7be3-3926-4708-9293-e1dde6d5c1ea",
+      "name": "51",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/FXParam5"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 141,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "0f29fe42-a851-467d-bb60-5a19a04e04de",
+      "name": "52",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/FXParam6"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 143,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "290bbdfb-f7ff-42a9-84af-d56a401d1bb0",
+      "name": "53",
+      "source": {
+        "category": "virtual",
+        "type": 6,
+        "channel": 0,
+        "number": 130,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/FXParam6"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 143,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "ca53328b-8f6c-4613-8e0f-96667a95c768",
+      "name": "54",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementType": "button",
+        "controlElementIndex": "SY/FXSwitch1"
+      },
+      "mode": {
+        "type": 2
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 135,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    },
+    {
+      "id": "08fd9207-88a8-4fc8-b8f1-87569d582efb",
+      "name": "55",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementType": "button",
+        "controlElementIndex": "SY/FXSwitch2"
+      },
+      "mode": {
+        "type": 2
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*TAL-J-8*",
+        "paramIndex": 136,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true
+      }
+    }
+  ],
+  "parameters": {
+    "0": {
+      "name": "Upper Panel"
+    }
+  }
+}
