@@ -494,6 +494,29 @@
     },
     {
       "id": "60848cea-895c-43d2-979a-e4f07e71fd6c",
+      "name": "23a",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/LFO2Frequency"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*BassLine 101*",
+        "paramIndex": 59,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "def1e0ee-71ff-443f-b93f-42ee0a837090",
       "name": "23",
       "source": {
         "category": "virtual",
