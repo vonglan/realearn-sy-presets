@@ -42,8 +42,9 @@ You need
 - Similarly, you can create Main Mappings for other analog synth VSTs. Again, it would be nice to add these Mappings here.
 
 How to:
-- Install the ReaLearn SY mapping presets via ReaPack or directly from here: https://github.com/vonglan/realearn-sy-presets
-  - If you did not use ReaPack: put the presets in the corresponding Reaper folders Data/helgoboss/realearn/presets/controller and .../main (to navigate to this folder, use: Reaper menu Options / Show REAPER Resource Path in explorer/finder)
+- Install the ReaLearn SY mapping presets via ReaPack or directly
+  - Via ReaPack: like ReaLearn, but use repository URL https://github.com/vonglan/reaper-packages/raw/main/index.xml
+  - Directly: download individual files from here: https://github.com/vonglan/realearn-sy-presets and put the presets in the corresponding Reaper folders Data/helgoboss/realearn/presets/controller and .../main (to navigate to this folder, use: Reaper menu Options / Show REAPER Resource Path in explorer/finder)
 - Depending on the controller, some configurations on the controller have to be made, see below
 - Put a ReaLearn instance in the same track as your VST, before it
 - In ReaLearn, load the suitable Controller Mapping and Main Mapping
