@@ -22,10 +22,11 @@ Currently available VST presets (Main Mappings):
 - TAL BaseLine 101
 - u-he Repro (1 and 5)
 - u-he Hive
+- 
 Planned VST presets: 
 - u-he Diva
 - Sonicprojects OP-X Pro
-Maybe Dexed (but that would be a different concept)
+- Maybe Dexed (with a different concept)
 
 Advanced features planned by Helgoboss: 
 - „make relative“ function for normal (absolute) knobs (Vote for this [here](https://github.com/helgoboss/realearn/issues/203))
@@ -36,15 +37,15 @@ Advanced features planned by Helgoboss:
 You need 
 - Reaper
 - Version 2.8.2 of ReaLearn (available via ReaPack or GitHub)
-- One of the currently „supported“ synthesizers/controllers
-- One of the currently „supported“ VSTs
-- If you have some time and skills, you can create a Controller Mapping for other devices, using the existing presets as template. If you do this, please share your Mapping!
-- Similarly, you can create Main Mappings for other analog synth VSTs. Again, it would be nice to add these Mappings here.
+- One of the currently supported synthesizers/controllers, see list above
+  - If you have some time and skills, you can create a Controller Mapping for other devices, using the existing presets as template. If you do this, please share your Mapping!
+- One of the currently supported VSTs, see list above
+  - Similarly, you can create Main Mappings for other analog synth VSTs. Again, it would be nice to add these Mappings here.
 
 How to:
 - Install the ReaLearn SY mapping presets via ReaPack or directly
   - Via ReaPack: like ReaLearn, but use repository URL https://github.com/vonglan/reaper-packages/raw/main/index.xml
-  - Directly: download individual files from here: https://github.com/vonglan/realearn-sy-presets and put the presets in the corresponding Reaper folders Data/helgoboss/realearn/presets/controller and .../main (to navigate to this folder, use: Reaper menu Options / Show REAPER Resource Path in explorer/finder)
+  - Directly: download individual files from here: https://github.com/vonglan/realearn-sy-presets and put the presets in the corresponding Reaper folders Data/helgoboss/realearn/presets/controller and .../main (to navigate to these folders, use: Reaper menu Options / Show REAPER Resource Path in explorer/finder)
 - Depending on the controller, some configurations on the controller have to be made, see below
 - Put a ReaLearn instance in the same track as your VST, before it
 - In ReaLearn, load the suitable Controller Mapping and Main Mapping
@@ -72,10 +73,10 @@ In this case, "Other Layer" switches between left and right side.
 - Layer A is for Analog Synth
 - The upper row of buttons is for selecting the first 8 banks
 - In the lower row
-  - the last button is for selecting bank 9
   - the 4 first buttons are for functions in the selected bank
-  - button 6 is for selecting "alternate layer" (for synths like Hive or J-8). (This is duplicate to General / Button 3)
-  - Button 5 is reserved, for example for a “Zoom” function, see https://github.com/helgoboss/realearn/issues/204
+  - Buttons 5 and 6 are reserved, for example for a “Zoom” function, see https://github.com/helgoboss/realearn/issues/204
+  - button 7 is for selecting "alternate layer" (for synths like Hive or J-8). (This is duplicate to General / Button 3)
+  - the last button is for selecting bank 9
 - Details: see tables below or in [Banks of 8 Layout](https://github.com/vonglan/realearn-sy-presets/tree/main/doc)
 
 ![image](https://user-images.githubusercontent.com/17814756/116811138-f8cacc80-ab47-11eb-91f8-7e857d70d49d.png)
@@ -88,7 +89,7 @@ In this case, "Other Layer" switches between left and right side.
 
 ## Midiplus X2 to X6 mini
 
-### General	Configuration
+### General Configuration
 - According to the manual, this should work for Midiplus X2 to X6 mini. I tested with X3 mini
 - If you have changed anything, reset to Factory Default: hold button 1 and 2 while unplugging and replugging the Midiplus, keep holding for 3 seconds after power-up. "rst" is displayed
 - Press shift and each of the 6 buttons, to change the color to blue (default is red).
@@ -96,7 +97,9 @@ In this case, "Other Layer" switches between left and right side.
 ### Used controller elements	
 - The 6 buttons select the bank.
 - The 4 knobs control 4 parameters for each bank.
-- Details: see table in [Banks of 4 Layout](https://github.com/vonglan/realearn-sy-presets/tree/main/doc) 
+- Details: see table below or in [Banks of 4 Layout](https://github.com/vonglan/realearn-sy-presets/tree/main/doc) 
+
+![image](https://user-images.githubusercontent.com/17814756/116825824-2ee06e80-ab91-11eb-9609-3fbb31318279.png)
 
 ## Sequential OB-6
 
