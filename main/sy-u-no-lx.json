@@ -277,7 +277,7 @@
         "controlElementIndex": "SY/CutoffEnvModB"
       },
       "mode": {
-        "maxStepSize": 0.05,
+        "maxStepSize": 0.1,
         "eelControlTransformation": "y=2*abs(x-0.5)"
       },
       "target": {
@@ -327,7 +327,7 @@
         "controlElementIndex": "SY/CutoffKeyTrkU"
       },
       "mode": {
-        "maxStepSize": 0.05
+        "maxStepSize": 0.1
       },
       "target": {
         "fxAnchor": "name",
@@ -350,7 +350,7 @@
         "controlElementIndex": "SY/CutoffLFOModB"
       },
       "mode": {
-        "maxStepSize": 0.05
+        "maxStepSize": 0.1
       },
       "target": {
         "fxAnchor": "name",
@@ -373,7 +373,7 @@
         "controlElementIndex": "SY/CutoffVelModU"
       },
       "mode": {
-        "maxStepSize": 0.05
+        "maxStepSize": 0.1
       },
       "target": {
         "fxAnchor": "name",
@@ -679,7 +679,7 @@
         "controlElementIndex": "SY/PitchLFOModB"
       },
       "mode": {
-        "maxStepSize": 0.05,
+        "maxStepSize": 0.1,
         "eelControlTransformation": "y=2*abs(x-0.5)"
       },
       "target": {
@@ -727,7 +727,7 @@
         "controlElementIndex": "SY/VolumeLFOModB"
       },
       "mode": {
-        "maxStepSize": 0.05,
+        "maxStepSize": 0.1,
         "eelControlTransformation": "y=2*abs(x-0.5)"
       },
       "target": {

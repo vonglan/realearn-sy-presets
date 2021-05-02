@@ -428,7 +428,7 @@
         "controlElementIndex": "SY/CutoffKeyTrkU"
       },
       "mode": {
-        "maxStepSize": 0.05
+        "maxStepSize": 0.1
       },
       "target": {
         "fxAnchor": "name",
@@ -452,7 +452,7 @@
         "controlElementIndex": "SY/CutoffLFOModB"
       },
       "mode": {
-        "maxStepSize": 0.05
+        "maxStepSize": 0.1
       },
       "target": {
         "fxAnchor": "name",
@@ -888,7 +888,7 @@
         "controlElementIndex": "SY/PitchLFOModB"
       },
       "mode": {
-        "maxStepSize": 0.05
+        "maxStepSize": 0.1
       },
       "target": {
         "fxAnchor": "name",
@@ -1993,7 +1993,7 @@
         "controlElementIndex": "SY/CutoffKeyTrkU"
       },
       "mode": {
-        "maxStepSize": 0.05
+        "maxStepSize": 0.1
       },
       "target": {
         "fxAnchor": "id",
@@ -2018,7 +2018,7 @@
         "controlElementIndex": "SY/CutoffLFOModB"
       },
       "mode": {
-        "maxStepSize": 0.05
+        "maxStepSize": 0.1
       },
       "target": {
         "fxAnchor": "id",
@@ -2348,7 +2348,7 @@
         "controlElementIndex": "SY/PitchLFOModB"
       },
       "mode": {
-        "maxStepSize": 0.05
+        "maxStepSize": 0.1
       },
       "target": {
         "fxAnchor": "id",
