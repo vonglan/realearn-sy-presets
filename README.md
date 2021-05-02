@@ -1,5 +1,5 @@
 # ReaLearn SY - Softsynth parameter mapping presets for ReaLearn
-Presets for ReaLearn ([Homepage](https://www.helgoboss.org/projects/realearn/), [GitHub](https://github.com/helgoboss/realearn), (Reaper discussion thread)[https://forum.cockos.com/showthread.php?t=178015]) that map the control elements of Controllers (for example Behringer X-Touch Mini) or hardware synthesizers (for example Sequential OB-6) to Software Synthesizers like u-he RePro or TAL J-8.
+Presets for ReaLearn ([Homepage](https://www.helgoboss.org/projects/realearn/), [GitHub](https://github.com/helgoboss/realearn), [Reaper discussion thread](https://forum.cockos.com/showthread.php?t=178015)) that map the control elements of Controllers (for example Behringer X-Touch Mini) or hardware synthesizers (for example Sequential OB-6) to Software Synthesizers like u-he RePro or TAL J-8.
 
 ReaLearn is a plugin for the [Reaper](https://www.reaper.fm) DAW (Digital Audio Workstation).
 
@@ -31,7 +31,7 @@ Advanced features planned by Helgoboss:
 - „make relative“ function for normal (absolute) knobs (Vote for this [here](https://github.com/helgoboss/realearn/issues/203))
 - zoom function for fine control of parameters (Vote for this [here](https://github.com/helgoboss/realearn/issues/204))
 
-# Requirements
+# Requirements and How To
 
 You need 
 - Reaper
@@ -41,9 +41,9 @@ You need
 - If you have some time and skills, you can create a Controller Mapping for other devices, using the existing presets as template. If you do this, please share your Mapping!
 - Similarly, you can create Main Mappings for other analog synth VSTs. Again, it would be nice to add these Mappings here.
 
-# HowTo
+How to:
 - Install the ReaLearn SY mapping presets via ReaPack or directly from here: https://github.com/vonglan/realearn-sy-presets
-- If you did not use ReaPack: put the presets in the corresponding Reaper folders Data/helgoboss/realearn/presets/controller and .../main (to navigate to this folder, use: Reaper menu Options / Show REAPER Resource Path in explorer/finder)
+  - If you did not use ReaPack: put the presets in the corresponding Reaper folders Data/helgoboss/realearn/presets/controller and .../main (to navigate to this folder, use: Reaper menu Options / Show REAPER Resource Path in explorer/finder)
 - Depending on the controller, some configurations on the controller have to be made, see below
 - Put a ReaLearn instance in the same track as your VST, before it
 - In ReaLearn, load the suitable Controller Mapping and Main Mapping
@@ -63,18 +63,27 @@ In this case, "Other Layer" switches between left and right side.
 
 ## Behringer X-Touch Mini
 
-### General	Configuration
+### General Configuration
 - You need to configure MinValue for all Encoders to Relative1 via the preset files [here](https://github.com/vonglan/realearn-sy-presets/tree/main/resources), or as described in ReaLearn User’s Guide for the X-Touch compact https://www.helgoboss.org/projects/realearn/user-guide#behringer-x-touch-compact
 - Currently (March 2021) the Behringer Editor for this is only available for Windows. But it is portable and only required once, so it is worth the effort, even if you normally use OS-X.
 	
 ### Used controller elements	
-- Layer A is for Analog Synth, Layer B is not used (could be used for controlling Reaper)
+- Layer A is for Analog Synth
 - The upper row of buttons is for selecting the first 8 banks
--	In the lower row, the last button is for selecting bank 9
--	In the lower row, the 4 first buttons are for functions in the selected bank
--	In the lower row, button 6 is for selecting "alternate layer" (for synths like Hive or J-8). (This is duplicate to General / Button 3)
--	Buttons 5-6 in the lower row are reserved, for example for a “Zoom” function, see https://github.com/helgoboss/realearn/issues/204
--	Details: see table in [Banks of 8 Layout](https://github.com/vonglan/realearn-sy-presets/tree/main/doc) 
+- In the lower row
+  - the last button is for selecting bank 9
+  - the 4 first buttons are for functions in the selected bank
+  - button 6 is for selecting "alternate layer" (for synths like Hive or J-8). (This is duplicate to General / Button 3)
+  - Button 5 is reserved, for example for a “Zoom” function, see https://github.com/helgoboss/realearn/issues/204
+- Details: see tables below or in [Banks of 8 Layout](https://github.com/vonglan/realearn-sy-presets/tree/main/doc)
+
+![image](https://user-images.githubusercontent.com/17814756/116811138-f8cacc80-ab47-11eb-91f8-7e857d70d49d.png)
+
+![image](https://user-images.githubusercontent.com/17814756/116811206-5232fb80-ab48-11eb-9ce1-f6f5c4eb23a0.png)
+
+### Unused controller elements
+- Layer B is not used (could be used for controlling Reaper functions)
+- The fader is not used
 
 ## Midiplus X2 to X6 mini
 
@@ -84,13 +93,13 @@ In this case, "Other Layer" switches between left and right side.
 - Press shift and each of the 6 buttons, to change the color to blue (default is red).
 	
 ### Used controller elements	
--	The 6 buttons select the bank.
--	The 4 knobs control 4 parameters for each bank.
--	Details: see table in [Banks of 4 Layout](https://github.com/vonglan/realearn-sy-presets/tree/main/doc) 
+- The 6 buttons select the bank.
+- The 4 knobs control 4 parameters for each bank.
+- Details: see table in [Banks of 4 Layout](https://github.com/vonglan/realearn-sy-presets/tree/main/doc) 
 
 ## Sequential OB-6
 
-### General	Configuration	
+### General Configuration	
 Switch “Param Xmit” and “Param Rcv” to NRPN:
 -	Globals
 - 5 (then again for 6)
@@ -137,3 +146,56 @@ LFO Shape: moving (up or down) always increments by 1.
 -	Arp Range	
 -	Tempo	
 
+## Sequential Prophet-6
+
+I did not test this (because I do not have a Prophet-6), I only created it based on the OB6 mapping and the Prophet-6 documentation.
+Especially, I am not sure whether the buttons LFO LP, HP and Amp are correctly mapped – please tell me if these are wrong.
+
+### General Configuration	
+Switch “Param Xmit” and “Param Rcv” to NRPN:
+-	Globals
+- 5 (then again for 6)
+-	Use Bank and Tens to select "nr", if not already selected
+-	Globals	
+		
+### Shift Function
+
+|Prophet-6|Virtual Target|
+|---|--------------|
+|Arp On/Off|SHIFT|
+|Osc 1 Freq|Osc 1 Pitch Fine|
+|Osc 2|Osc 3|
+|Noise Mix|Feedback Level|
+|LFO|LFO 2|
+|PolyMod F.Env|Mod Matrix 1 Amount|
+|PolyMod Osc2|Mod Matrix 2 Amount|
+|Osc1 Pulsewidth|Layer Mix|
+|Osc1 Waveform|Osc CrossMod/FM|
+		
+### Special		
+
+|Prophet-6|Virtual Target|
+|---|--------------|
+|HP Velo Env Amount|BP or Filter Slope|
+|LFO Initial|Amount LFO1 Decay|
+|LFO VCO 2|Pitch Env Amount|
+|PolyMod F.Env| Mod Matrix 1 Amount|
+|PolyMod Osc2|Mod Matrix 2 Amount|
+|AmpEnv Velo|Other Layer|
+|HP Resonance|Filter Type|
+
+Some continuous parameters for which the Prophet-6 only offers a button (like Filter Keytrack) work with an "incremental button" mechanism
+
+LFO Shape: moving (up or down) always increments by 1.	
+		
+### Unused Buttons		
+- All AT Mod Switches	
+- All Xmod Switches
+- HP Key Amount	
+- LFO Mod Switch: HP
+
+### Unused Knobs		
+- AT Mod	
+- Arp Range	
+- Tempo	
+- HP Env Amount
