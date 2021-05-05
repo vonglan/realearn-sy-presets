@@ -1021,7 +1021,7 @@
         "oscArgIndex": 0
       },
       "mode": {
-        "eelControlTransformation": "y=0.5",
+        "eelControlTransformation": "y=0.34",
         "buttonUsage": "press-only"
       },
       "target": {
