@@ -21,12 +21,15 @@ Currently available VST presets (Main Mappings):
 - TAL U-No
 - TAL BaseLine 101
 - u-he Repro (1 and 5)
-- u-he Hive
-- 
-Planned VST presets: 
 - u-he Diva
+- u-he Hive
+ 
+Planned VST presets: 
 - Sonicprojects OP-X Pro
 - Maybe Dexed (with a different concept)
+
+Important Restriction:
+The presets were developed and tested with the VSTi version of these softsynths. With VST3i and AUi, problems can occur. (In some cases the parameter numbers differ between AUi and VSTi. There are also sometimes differences between VSTi and AUi for the behavior regarding parameters with discrete values.)
 
 Advanced features planned by Helgoboss: 
 - „make relative“ function for normal (absolute) knobs (Vote for this [here](https://github.com/helgoboss/realearn/issues/203))
