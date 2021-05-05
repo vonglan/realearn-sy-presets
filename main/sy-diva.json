@@ -1,0 +1,3169 @@
+{
+  "version": "2.8.2",
+  "name": "SY Diva",
+  "defaultGroup": {},
+  "mappings": [
+    {
+      "id": "73bfc573-17ea-40c3-8e97-80ec93e40221",
+      "name": "1",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/Osc1Pitch"
+      },
+      "mode": {
+        "minTargetValue": 0.2,
+        "minStepSize": 0.2,
+        "maxStepSize": 0.2
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 86,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "5c9d59c4-8d37-4030-add0-18930280e0c0",
+      "name": "2 Triple VCO",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/Osc1Waveform"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 91,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "4f9aee71-0764-44fc-bab7-869aaca2adf0",
+      "name": "2 Dual VCO 1",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/Osc1Waveform"
+      },
+      "mode": {
+        "minStepSize": 0.0666,
+        "maxStepSize": 0.0666,
+        "makeAbsoluteEnabled": true
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 119,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "fb0212fd-5ff3-486f-a464-5409b766ddc5",
+      "name": "2 Dual VCO 2",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/Osc1Waveform"
+      },
+      "mode": {
+        "minStepSize": 0.0666,
+        "maxStepSize": 0.0666,
+        "eelControlTransformation": "y=(2*x/1.00001)-floor(2*x/1.00001)",
+        "makeAbsoluteEnabled": true
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 114,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "a229f6ab-04a0-4b2c-8882-6171226d2213",
+      "name": "2 Dual VCO 3",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/Osc1Waveform"
+      },
+      "mode": {
+        "minStepSize": 0.0666,
+        "maxStepSize": 0.0666,
+        "eelControlTransformation": "y=(4*x/1.00001)-floor(4*x/1.00001)",
+        "makeAbsoluteEnabled": true
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 113,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "0e41caa1-d1ce-4e54-99bc-ff318f29b920",
+      "name": "2 Dual VCO 4",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/Osc1Waveform"
+      },
+      "mode": {
+        "minStepSize": 0.0666,
+        "maxStepSize": 0.0666,
+        "eelControlTransformation": "y=(8*x/1.00001)-floor(8*x/1.00001)",
+        "makeAbsoluteEnabled": true
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 111,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "5e08d0ff-7e51-4f5b-b5c3-ba67e073b8dd",
+      "name": "2 DCO",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/Osc1Waveform"
+      },
+      "mode": {
+        "minStepSize": 0.2,
+        "maxStepSize": 0.2
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 101,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "0e09cfb4-33fe-474f-bf36-8c8414448bef",
+      "name": "2 Dual VCO Eco",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/Osc1Waveform"
+      },
+      "mode": {
+        "minStepSize": 0.33340000000000003,
+        "maxStepSize": 0.33340000000000003
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 131,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "9774e10a-21a3-4511-a7a6-4246791e15e2",
+      "name": "2 Digital",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/Osc1Waveform"
+      },
+      "mode": {
+        "minStepSize": 0.1667,
+        "maxStepSize": 0.1667
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 278,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "7beff809-4019-4d5f-9add-bbb54fc27bf8",
+      "name": "3",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/Osc1Pulsewdth"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 90,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "9c791995-1b02-41f5-95e3-c6de56bd0f12",
+      "name": "3",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/Osc2Pitch"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 87,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "9e8d77a3-d532-4fc1-a613-bcc3c219218b",
+      "name": "3",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/Osc2PitchFine"
+      },
+      "mode": {
+        "maxTargetJump": 0.0005,
+        "minStepSize": 0.0005,
+        "maxStepSize": 0.0005,
+        "takeoverMode": "parallel"
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 87,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "712cbba1-4972-4fda-8a9f-a6c7e1ae62a5",
+      "name": "2 Triple VCO",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/Osc2Waveform"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 92,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "8675ca77-bba8-4443-b3fc-8c75430cb191",
+      "name": "2 Dual VCO 1",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/Osc2Waveform"
+      },
+      "mode": {
+        "minStepSize": 0.0666,
+        "maxStepSize": 0.0666,
+        "makeAbsoluteEnabled": true
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 112,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "efb56716-219b-49bb-8ee3-0efd55895e71",
+      "name": "2 Dual VCO 2",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/Osc2Waveform"
+      },
+      "mode": {
+        "minStepSize": 0.0666,
+        "maxStepSize": 0.0666,
+        "eelControlTransformation": "y=(2*x/1.00001)-floor(2*x/1.00001)",
+        "makeAbsoluteEnabled": true
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 117,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "7c901606-5e4a-4619-aeb4-98ec95d81b4b",
+      "name": "2 Dual VCO 3",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/Osc2Waveform"
+      },
+      "mode": {
+        "minStepSize": 0.0666,
+        "maxStepSize": 0.0666,
+        "eelControlTransformation": "y=(4*x/1.00001)-floor(4*x/1.00001)",
+        "makeAbsoluteEnabled": true
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 116,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "b9a8094d-83ff-4964-a4fa-9abdd6471843",
+      "name": "2 Dual VCO 4",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/Osc2Waveform"
+      },
+      "mode": {
+        "minStepSize": 0.0666,
+        "maxStepSize": 0.0666,
+        "eelControlTransformation": "y=(8*x/1.00001)-floor(8*x/1.00001)",
+        "makeAbsoluteEnabled": true
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 115,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "bcfa6475-ac94-43c7-897f-abee1355b993",
+      "name": "2 DCO",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/Osc2Waveform"
+      },
+      "mode": {
+        "minStepSize": 0.2,
+        "maxStepSize": 0.2
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 102,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "bd6ff2b1-1367-4e1d-bf9b-e1f490cf4a40",
+      "name": "2 Dual VCO Eco",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/Osc2Waveform"
+      },
+      "mode": {
+        "minStepSize": 0.33340000000000003,
+        "maxStepSize": 0.33340000000000003
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 132,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "a01775f1-b837-45a2-9fd1-e2f16a1b34d0",
+      "name": "2 Digital",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/Osc2Waveform"
+      },
+      "mode": {
+        "minStepSize": 0.1667,
+        "maxStepSize": 0.1667
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 279,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "e940a12d-3403-40c5-ae66-e59da1831ddc",
+      "name": "5",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/Osc2Pulsewdth"
+      },
+      "mode": {
+        "minStepSize": 0.33340000000000003,
+        "maxStepSize": 0.33340000000000003
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 100,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "f028a18c-2f08-43be-b140-d6c75d4936b6",
+      "name": "5",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/Osc2Pulsewdth"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 265,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "91206281-3eec-4e76-b870-22b8dae2ad75",
+      "name": "22",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementType": "button",
+        "controlElementIndex": "SY/OscSync"
+      },
+      "mode": {
+        "type": 2,
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 95,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "bc4a2e4e-057f-4711-8d65-429d6d5854f6",
+      "name": "23",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/Osc1Level"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 97,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "3b291e8e-6e98-4ffb-a781-0f1d1b7e6194",
+      "name": "23",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/Osc1Level"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 96,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "76d64f35-bf1d-4781-ae03-21742c40df59",
+      "name": "24",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/Osc2Level"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 98,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "01ea7103-a568-4f00-b911-ddffd795c4e5",
+      "name": "25",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/Osc3|SubLevel"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 99,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "64439e71-caa1-48fd-ba89-4950700775bf",
+      "name": "26",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/NoiseLevel"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 122,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "84c9d57c-6991-4cd0-a326-f08161e39b7a",
+      "name": "27",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/FeedbackLevel"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 160,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "14262b45-8d40-4fbc-8726-c61b078cd1ca",
+      "name": "28",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/Osc3Pitch"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 88,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "7327e0dd-af8e-44b4-873d-79beec06c057",
+      "name": "28",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/Osc3PitchFine"
+      },
+      "mode": {
+        "maxTargetJump": 0.0005,
+        "minStepSize": 0.0005,
+        "maxStepSize": 0.0005,
+        "takeoverMode": "parallel"
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 88,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "9bdbf267-526d-4594-abda-54ecf62190ca",
+      "name": "29",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/Osc3Waveform"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 93,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "7e2deb86-ed24-4ce9-92f6-ea15a90b9a52",
+      "name": "31",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/Cutoff"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 148,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "efa11acf-3cb1-4ad3-a8a2-ec30459e6bd3",
+      "name": "32",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/Resonance"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 149,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "9ec7b1d1-c703-4c18-a081-a4d65f741fa3",
+      "name": "33",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/FilterType"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 267,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "0617093c-5fbf-49e4-9936-57f92a09a1e5",
+      "name": "33",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/FilterType"
+      },
+      "mode": {
+        "minStepSize": 1.0,
+        "maxStepSize": 1.0
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 157,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "05c7033e-15d8-45f3-8c78-b7329a73497f",
+      "name": "33",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/FilterType"
+      },
+      "mode": {
+        "minStepSize": 1.0,
+        "maxStepSize": 1.0
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 158,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "fcfaa60e-a153-48ec-b3f2-a69cf46bfc56",
+      "name": "33",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/FilterType"
+      },
+      "mode": {
+        "minStepSize": 0.33340000000000003,
+        "maxStepSize": 0.33340000000000003
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 159,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "bfc0f0fe-67bf-428d-99a5-63602057e93b",
+      "name": "34",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/HPCutoff"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 140,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "7cfa4017-08e2-41b4-aee9-4ec6306f877b",
+      "name": "35",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/CutoffEnvModB"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 151,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "5a2eecc2-97b0-4040-822b-5fe5ab984087",
+      "name": "36",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/CutoffKeyTrkU"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 154,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "5d91498d-9787-40ef-acc9-9bbff8bd7990",
+      "name": "37",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/CutoffLFOModB"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 153,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "b1056bce-7481-4cce-93e1-0b4efaca6875",
+      "name": "38",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/CutoffVelModU"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 48,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "ff5dd5c3-cc87-4705-bb15-6b755e3e1119",
+      "name": "42",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementType": "button",
+        "controlElementIndex": "SY/BP|FiltrSlope"
+      },
+      "mode": {
+        "type": 2,
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 156,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "2a247ef8-efc9-48d1-82cf-c88144a3684c",
+      "name": "42",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementType": "button",
+        "controlElementIndex": "SY/BP|FiltrSlope"
+      },
+      "mode": {
+        "type": 2,
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 270,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "46819381-ee63-4a2f-87ae-aa073e6c5333",
+      "name": "44",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/FilterAttack"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 44,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "c48c9ec0-7fd4-43d8-a78e-8afc9fd17f13",
+      "name": "45",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/FilterDecay"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 45,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "dbc1c4d0-b967-48c7-b90c-a5392b50e91a",
+      "name": "46",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/FilterSustain"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 46,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "7404de92-e35d-4c3d-92bd-8b984853a3ea",
+      "name": "47",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/FilterRelease"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 47,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "3a045599-808d-44b6-a3d6-13e9b47362d6",
+      "name": "47",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/FilterRelease"
+      },
+      "mode": {
+        "minStepSize": 1.0,
+        "maxStepSize": 1.0
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 53,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "8f78e0a2-4888-46d1-a8d8-ba507405c72f",
+      "name": "48",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/AmpAttack"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 33,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "317c7bfe-5ceb-43c9-b59b-90629150f7d3",
+      "name": "49",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/AmpDecay"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 34,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "190fdec7-ebea-4257-b3e1-94395e90a1bf",
+      "name": "50",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/AmpSustain"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 35,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "02179454-197e-4bcb-965c-fba73789f417",
+      "name": "51",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/AmpRelease"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 36,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "ea8afbc2-139b-4ecb-8ae1-0229c171481d",
+      "name": "51",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/AmpRelease"
+      },
+      "mode": {
+        "minStepSize": 1.0,
+        "maxStepSize": 1.0
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 42,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "3c262337-49b8-4cd1-9743-70ed6393c859",
+      "name": "54",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/LFO1Delay"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 59,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "33a08464-dccf-49b0-ad19-deb95ea4ffb5",
+      "name": "55",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/LFO1Frequency"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 62,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "e29c3426-1152-4432-910c-009ded1622ca",
+      "name": "56",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/LFO1Waveform"
+      },
+      "mode": {
+        "minStepSize": 0.1429,
+        "maxStepSize": 0.1429
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 57,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "85e6b0c5-d08e-43bc-827d-865865731015",
+      "name": "57",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/LFO2Delay"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 69,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "043e038c-5b05-48fb-9889-7cc4b45a3349",
+      "name": "58",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/LFO2Frequency"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 72,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "0198d8a4-ee80-49b3-ad5c-17babfb425bd",
+      "name": "59",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/LFO2Waveform"
+      },
+      "mode": {
+        "minStepSize": 0.1429,
+        "maxStepSize": 0.1429
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 67,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "857d0fc3-ff20-4faf-9c82-955c47eca989",
+      "name": "60",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/ArpRate|Divis"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 256,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "f132704e-9b5f-4169-afdf-6502130a1487",
+      "name": "61",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/ArpMode"
+      },
+      "mode": {
+        "minStepSize": 0.2,
+        "maxStepSize": 0.2
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 259,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "81fd89b4-5a13-46ef-b41d-5b5cb7b1fea7",
+      "name": "64",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementType": "button",
+        "controlElementIndex": "SY/LFO1Sync"
+      },
+      "mode": {
+        "type": 2,
+        "maxTargetValue": 0.6666,
+        "maxStepSize": 0.05,
+        "reverseIsEnabled": true
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 56,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "17a1394a-b48a-4270-986e-760dd5e2ebd3",
+      "name": "64",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementType": "button",
+        "controlElementIndex": "SY/LFO2Sync"
+      },
+      "mode": {
+        "type": 2,
+        "maxTargetValue": 0.6666,
+        "maxStepSize": 0.05,
+        "reverseIsEnabled": true
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 66,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "a82ba1d1-1222-49bf-afe9-fa5d07ba1317",
+      "name": "66",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementType": "button",
+        "controlElementIndex": "SY/ArpOn"
+      },
+      "mode": {
+        "type": 2,
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 263,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "49a2d153-f920-4a20-9524-67736670e1e0",
+      "name": "67",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/PitchEnvModB"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 104,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "48b41294-e176-49a9-a778-9e54e9a8b0ab",
+      "name": "68",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/PitchLFOModB"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "eelControlTransformation": "y=1-2*abs(x-0.5)"
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 89,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "88e7b923-abf9-41ab-a556-818e598eb281",
+      "name": "69",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/PulsewdthModB"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 110,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "4a3e8ad3-4c50-41b6-9973-dc64d5472b10",
+      "name": "69",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/PulsewdthModB"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 108,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "d6797693-d598-4526-8ff4-5bc7a8a1e1cb",
+      "name": "70",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/VolumeLFOModB"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 171,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "e9abd475-67f5-499c-a7a8-404af1675f2c",
+      "name": "72",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/ModMx1AmountB"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 136,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "dd56ba88-75aa-4a30-be9e-315b1495d01b",
+      "name": "73",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/ModMx2AmountB"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 138,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "73eaaf4e-1349-40d0-bad9-251aa50e5a7c",
+      "name": "74",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/ModMx3AmountB"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 162,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "5dc2d9a5-781b-44f0-995c-321a9c46b8b0",
+      "name": "75",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/ModMx4AmountB"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 164,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "1f57a846-d8b8-4b76-b748-0a723718a75c",
+      "name": "76",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/OutputLevel"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 168,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "e69f07b7-794b-4d8d-b109-69e9fe18a44c",
+      "name": "77",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/PanSpread"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 173,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "1e89d4fc-8d90-4e25-95ef-1a3b609b8a05",
+      "name": "78",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/PortaMode"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 10,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "15afb69e-a643-4862-b579-7eaeb91db760",
+      "name": "79",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/PortaRate"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 8,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "073b0a22-f061-43eb-bd4e-4bae6fb1bb1f",
+      "name": "80",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/UnisonMode"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 6,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "66a85858-da3b-4abd-8f64-bd6be0fdfe3c",
+      "name": "81",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/Detune|Slop"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 20,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "6af97f2f-463a-4f1d-aea7-9d374b413a8b",
+      "name": "82",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/OscXMod|FM"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 94,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "7852acc1-ef54-48c9-b12a-1c511a172eed",
+      "name": "84",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementType": "button",
+        "controlElementIndex": "SY/UnisonOn"
+      },
+      "mode": {
+        "type": 2,
+        "maxTargetValue": 0.25,
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 6,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "e536c858-dc2d-4e61-b213-1202c498e6a8",
+      "name": "84",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/FXParam1"
+      },
+      "mode": {
+        "minStepSize": 0.25,
+        "maxStepSize": 0.25
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 178,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "77d5f1a0-1c16-4d01-a75b-05fcf3de2918",
+      "name": "85",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/FXParam2"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 180,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "5c63be85-31cf-4b73-829c-2c9ad119b1dc",
+      "name": "86",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/FXParam3"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 181,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "b4b5aa1a-2ca9-4daf-896f-118cabb4ac3e",
+      "name": "87",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/FXParam4"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 182,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "cc5ec21e-8e7d-4005-b1bb-3d5ba1b3368b",
+      "name": "85",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/FXParam2"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 184,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "f909bdce-af76-4f2f-b5ec-47de6c07cc80",
+      "name": "86",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/FXParam3"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 274,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "42c4f557-38d9-49e0-ae1d-9a54f37d889b",
+      "name": "87",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/FXParam4"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 189,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "c7e279f1-dffc-41af-b105-ffdfef335fba",
+      "name": "85",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/FXParam2"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 194,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "38e90ebc-c55c-43ba-a2d6-91f9199af3c3",
+      "name": "86",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/FXParam3"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 193,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "8ca1754d-d298-4139-bd6a-ad709745b60c",
+      "name": "87",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/FXParam4"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 196,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "1aec9803-5649-48f4-8978-f6fc60869e94",
+      "name": "87",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/FXParam4"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "reverseIsEnabled": true
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 195,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "1b0b2c30-3ee1-4826-bb80-6543cd7d73ad",
+      "name": "89",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/FXParam2"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 197,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "5f2dbd48-6545-4c14-9966-be444cbf1a10",
+      "name": "89",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/FXParam2"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 198,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "b2bdb376-69dd-4b1d-ba2f-ecbbf09c0ca2",
+      "name": "89",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/FXParam2"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 199,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "361de528-f998-406f-801d-1101eeeed6b9",
+      "name": "90",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/FXParam3"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 202,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "e800d299-ae8b-4c4e-b74a-f6e1605a128c",
+      "name": "91",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/FXParam4"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "reverseIsEnabled": true
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 205,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "b9235c71-30cf-4234-b5f3-9064b31aff87",
+      "name": "85",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/FXParam2"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 213,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "0c31fd6e-61e2-4300-aab3-e88f01a8d9e7",
+      "name": "85",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/FXParam2"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "eelControlTransformation": "y=1-x"
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 214,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "c45f6086-c9c2-4ef4-890b-4d09807cd810",
+      "name": "86",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/FXParam3"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 210,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "316229e8-0553-4955-a6d4-107429d6e285",
+      "name": "87",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/FXParam4"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 208,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "9217f9f6-c880-44ac-a3f0-342470ef696f",
+      "name": "88",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/FXParam5"
+      },
+      "mode": {
+        "minStepSize": 0.25,
+        "maxStepSize": 0.25
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 217,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "ec9adbcf-a761-4225-98d2-8dc874987f7e",
+      "name": "85",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/FXParam6"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 219,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "72cdde38-461c-4d91-a283-aab54ce6345d",
+      "name": "86",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/FXParam7"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 220,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "7e7a6734-2977-4dfe-8c1f-286a8c99cdd3",
+      "name": "87",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/FXParam8"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 221,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "2b8a6974-29e3-496f-a228-6a2f395a9d09",
+      "name": "85",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/FXParam6"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 223,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "c66eaee1-4f78-43fc-9e19-be8cc48818c7",
+      "name": "86",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/FXParam7"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 276,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "bc6491df-0086-45dc-9c53-9d8a5e6bb2c6",
+      "name": "87",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/FXParam8"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 228,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "dc2ff92f-1c59-4283-b7ae-eb94bb0770fc",
+      "name": "85",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/FXParam6"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 233,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "28033a6b-4f8e-4e00-8768-268a91492178",
+      "name": "86",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/FXParam7"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 232,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "47e5301f-d28a-4218-a8bc-58c499103249",
+      "name": "87",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/FXParam8"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 235,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "ac640f93-9b33-4571-b22a-1d235dbee6f7",
+      "name": "87",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/FXParam8"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "reverseIsEnabled": true
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 234,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "c434df77-1c20-4471-9558-e6b868f1c1f8",
+      "name": "89",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/FXParam6"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 236,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "ffeed001-f040-4f0a-a90c-25e80b2be8a3",
+      "name": "89",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/FXParam6"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 237,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "73b97680-bd90-4c13-a3f9-c666ba80493a",
+      "name": "89",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/FXParam6"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 238,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "568e1a31-1ab5-4b29-94de-545c438af87e",
+      "name": "90",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/FXParam7"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 241,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "52eeef7e-0b82-47d6-8e33-31975de309bb",
+      "name": "91",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/FXParam8"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "reverseIsEnabled": true
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 244,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "f7827e09-ded4-4988-9d68-fa0f60a417cd",
+      "name": "85",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/FXParam6"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 252,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "c217a0e4-356b-46f7-a312-efc432997417",
+      "name": "85",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/FXParam6"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "eelControlTransformation": "y=1-x"
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 253,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "4cdc7355-fc16-4102-9352-42d2904a3985",
+      "name": "86",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/FXParam7"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 249,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "982915fc-395b-430b-bb82-bd6f66e12e2b",
+      "name": "87",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/FXParam8"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 247,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "cabd5888-6a9c-4cdb-8999-dc8ff80d3c9c",
+      "name": "92",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementType": "button",
+        "controlElementIndex": "SY/FXOn"
+      },
+      "mode": {
+        "type": 2,
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 1,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "0e777b06-703c-48ab-b205-f359be34a734",
+      "name": "93",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementType": "button",
+        "controlElementIndex": "SY/FXSwitch1"
+      },
+      "mode": {
+        "type": 2,
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 2,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "3a9ba0ae-80be-4731-a82e-3955330b61b9",
+      "name": "96",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/ModMx1Source"
+      },
+      "mode": {
+        "minStepSize": 0.25,
+        "maxStepSize": 0.25
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 85,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "fa47151b-175a-4cef-abcc-8a84f1f464f6",
+      "name": "97",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/ModMx1Dest"
+      },
+      "mode": {
+        "minStepSize": 0.0435,
+        "maxStepSize": 0.0435
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 103,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "107d7edb-d456-41a4-8cdb-8db89d5c0eb7",
+      "name": "98",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/ModMx2Source"
+      },
+      "mode": {
+        "minStepSize": 0.0435,
+        "maxStepSize": 0.0435
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 105,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "4f19365e-14cf-4bae-927f-41bb252b5888",
+      "name": "99",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/ModMx2Dest"
+      },
+      "mode": {
+        "minStepSize": 0.25,
+        "maxStepSize": 0.25
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 147,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "481861a4-ba49-4b84-b9e7-0c6171697dc8",
+      "name": "100",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/ModMx3Source"
+      },
+      "mode": {
+        "minStepSize": 0.0435,
+        "maxStepSize": 0.0435
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 150,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "6db389b8-7f0a-48f7-b2ed-9bb3a92df99e",
+      "name": "101",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/ModMx3Dest"
+      },
+      "mode": {
+        "minStepSize": 0.0435,
+        "maxStepSize": 0.0435
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 152,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "2151aaaa-2d7a-4e45-a53f-4be3429f85ec",
+      "name": "102",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/ModMx4Source"
+      },
+      "mode": {
+        "minStepSize": 0.5,
+        "maxStepSize": 0.5
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 38,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "81165a12-05a4-47b0-a698-1dce41a4e3b4",
+      "name": "103",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/ModMx4Dest"
+      },
+      "mode": {
+        "minStepSize": 0.5,
+        "maxStepSize": 0.5
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Diva*",
+        "paramIndex": 49,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    }
+  ]
+}
