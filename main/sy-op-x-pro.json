@@ -1,0 +1,2184 @@
+{
+  "version": "2.8.2",
+  "name": "SY OP-X Pro",
+  "defaultGroup": {},
+  "mappings": [
+    {
+      "id": "a4c4ab81-29f5-41b6-a21a-45c6d71c4655",
+      "name": "1",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/Osc1Pitch"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*OP-X PRO*",
+        "paramIndex": 113,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "d8ef2f86-cdd0-4101-9efc-56794f3ff46f",
+      "name": "1",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/Osc1PitchFine"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "eelControlTransformation": "y=abs(x-0.5)*2"
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*OP-X PRO*",
+        "paramIndex": 53,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "dc7d8ab1-d02f-489f-bb7e-bfb24fb5afc8",
+      "name": "2",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/Osc1Waveform"
+      },
+      "mode": {
+        "minStepSize": 0.3333,
+        "maxStepSize": 0.3333,
+        "eelControlTransformation": "y = x > 0.5? 1 : 0",
+        "makeAbsoluteEnabled": true
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*OP-X PRO*",
+        "paramIndex": 31,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "57eca024-73a9-4b18-89a0-bbd3520c7232",
+      "name": "2",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/Osc1Waveform"
+      },
+      "mode": {
+        "minStepSize": 0.3333,
+        "maxStepSize": 0.3333,
+        "eelControlTransformation": "y=(2*x/1.00001)-floor(2*x/1.00001) > 0.5 ? 1 : 0",
+        "makeAbsoluteEnabled": true
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*OP-X PRO*",
+        "paramIndex": 4,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "cb539e24-2325-4eea-a3ce-6f7d7ad58db9",
+      "name": "3",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/Osc1Pulsewdth"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*OP-X PRO*",
+        "paramIndex": 103,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "3f033738-2430-47eb-bc5d-44eedb003b81",
+      "name": "4",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/Osc2Pitch"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*OP-X PRO*",
+        "paramIndex": 49,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "ce11e094-5fe2-4841-af04-4fd701e0e0c3",
+      "name": "7",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/Osc2PitchFine"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "eelControlTransformation": "y=abs(x-0.5)*2"
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*OP-X PRO*",
+        "paramIndex": 38,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "b828afc1-5c87-47be-9f32-6f7c4c202651",
+      "name": "2",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/Osc2Waveform"
+      },
+      "mode": {
+        "minStepSize": 0.3333,
+        "maxStepSize": 0.3333,
+        "eelControlTransformation": "y = x>0.5 ? 1: 0",
+        "makeAbsoluteEnabled": true
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*OP-X PRO*",
+        "paramIndex": 64,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "7e62062e-b50d-4991-999f-680199bb2e99",
+      "name": "2",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/Osc2Waveform"
+      },
+      "mode": {
+        "minStepSize": 0.3333,
+        "maxStepSize": 0.3333,
+        "eelControlTransformation": "y=(2*x/1.00001)-floor(2*x/1.00001) > 0.5 ? 1 : 0",
+        "makeAbsoluteEnabled": true
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*OP-X PRO*",
+        "paramIndex": 106,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "e5ae0e42-9a36-48ce-86c2-234c24bd7b5c",
+      "name": "2",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/Osc2Pulsewdth"
+      },
+      "mode": {
+        "minStepSize": 0.3333,
+        "maxStepSize": 0.3333,
+        "makeAbsoluteEnabled": true
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*OP-X PRO*",
+        "paramIndex": 95,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "c97b6ce2-f688-4aad-bb06-75d661517276",
+      "name": "6",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementType": "button",
+        "controlElementIndex": "SY/OscSync"
+      },
+      "mode": {
+        "type": 2,
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*OP-X PRO*",
+        "paramIndex": 97,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "c07ba98c-c75e-4e1f-8711-8c6274c8c2e1",
+      "name": "11",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementType": "button",
+        "controlElementIndex": "SY/OscKeyTrack"
+      },
+      "mode": {
+        "type": 2,
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*OP-X PRO*",
+        "paramIndex": 105,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "0afabcf7-4985-4595-927d-87c6625342ef",
+      "name": "12",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/Osc1Level"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*OP-X PRO*",
+        "paramIndex": 3,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "37ba721f-225f-4a0b-9c30-7fd882b40707",
+      "name": "13",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/Osc2Level"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*OP-X PRO*",
+        "paramIndex": 110,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "c0c21a9e-e20a-4fcc-9b48-dc27f3d01ff6",
+      "name": "14",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/NoiseLevel"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*OP-X PRO*",
+        "paramIndex": 102,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "3f951761-52fb-4485-ba2d-c9a1fdab2300",
+      "name": "14",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/FeedbackLevel"
+      },
+      "mode": {
+        "minStepSize": 0.3333,
+        "maxStepSize": 0.3333
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*OP-X PRO*",
+        "paramIndex": 45,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "d0e68a5b-4129-48a3-be72-d586dc33f08b",
+      "name": "15",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/Cutoff"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*OP-X PRO*",
+        "paramIndex": 40,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "21e15ffe-3196-4d2d-8b46-603a932e9a71",
+      "name": "16",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/Resonance"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*OP-X PRO*",
+        "paramIndex": 94,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "2cf8c958-2fa2-4594-98d3-433b65a746d7",
+      "name": "17",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/FilterType"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*OP-X PRO*",
+        "paramIndex": 11,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "fec7570c-271b-4fcb-91cb-e7512f237e16",
+      "name": "18",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/HPCutoff"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*OP-X PRO*",
+        "paramIndex": 115,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "0fb70252-9fde-4120-8aec-9b81bdb79683",
+      "name": "19",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/CutoffEnvModB"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "eelControlTransformation": "y=abs(0.5-x)*2"
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*OP-X PRO*",
+        "paramIndex": 90,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "fa6844e1-3d04-4294-bd9a-6951bdc41f5a",
+      "name": "19",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/CutoffEnvModB"
+      },
+      "mode": {
+        "minStepSize": 0.0,
+        "maxStepSize": 0.0,
+        "eelControlTransformation": "y = x<0.5 ? 1 : 0"
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*OP-X PRO*",
+        "paramIndex": 68,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "f6d05e29-e1f0-49d7-822f-bb6033aff0ce",
+      "name": "20",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/CutoffKeyTrkU"
+      },
+      "mode": {
+        "maxStepSize": 0.1
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*OP-X PRO*",
+        "paramIndex": 96,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "6bc6c282-63cb-4449-a55a-b7ab7cbfa74e",
+      "name": "20",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/CutoffKeyTrkU"
+      },
+      "mode": {
+        "minTargetValue": 1.0,
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*OP-X PRO*",
+        "paramIndex": 75,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "216b0d1c-97c6-4c95-ac90-df4b27fd73ea",
+      "name": "21",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/CutoffLFOModB"
+      },
+      "mode": {
+        "maxStepSize": 0.1
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*OP-X PRO*",
+        "paramIndex": 46,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "8fbb0fd1-d7cc-4cb5-a489-05e7a4be8112",
+      "name": "21",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/CutoffLFOModB"
+      },
+      "mode": {
+        "maxTargetValue": 0.0,
+        "minStepSize": 1.0,
+        "maxStepSize": 1.0,
+        "eelControlTransformation": "y = x > 0.5 ? 1 : 0"
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*OP-X PRO*",
+        "paramIndex": 77,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "714b0b94-3f6c-4a89-bcc5-45b5f762e245",
+      "name": "21",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/CutoffLFOModB"
+      },
+      "mode": {
+        "maxTargetValue": 0.0,
+        "minStepSize": 1.0,
+        "maxStepSize": 1.0,
+        "eelControlTransformation": "y = x > 0.5 ? 1 : 0"
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*OP-X PRO*",
+        "paramIndex": 81,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "026b8a81-c162-49dd-a15b-98d449cbb4b3",
+      "name": "21",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/CutoffLFOModB"
+      },
+      "mode": {
+        "minTargetValue": 1.0,
+        "minStepSize": 1.0,
+        "maxStepSize": 1.0,
+        "eelControlTransformation": "y = x > 0.5 ? 1 : 0"
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*OP-X PRO*",
+        "paramIndex": 42,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "10acce5c-1bf2-4114-a91c-71c3b98302d8",
+      "name": "22",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/CutoffVelModU"
+      },
+      "mode": {
+        "maxStepSize": 0.1
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*OP-X PRO*",
+        "paramIndex": 48,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "4187ff90-15c5-445d-8137-6b54f175efa3",
+      "name": "22",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/CutoffVelModU"
+      },
+      "mode": {
+        "minTargetValue": 1.0,
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*OP-X PRO*",
+        "paramIndex": 63,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "8bd5848d-26b5-4a61-9f55-58d46021527a",
+      "name": "25",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementType": "button",
+        "controlElementIndex": "SY/BP|FiltrSlope"
+      },
+      "mode": {
+        "type": 2,
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*OP-X PRO*",
+        "paramIndex": 84,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "6e399abe-952c-4eb8-8510-3aa08bbf73ed",
+      "name": "26",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/FilterAttack"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*OP-X PRO*",
+        "paramIndex": 28,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "6c0c5de8-d68d-4999-a6ae-177897567558",
+      "name": "27",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/FilterDecay"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*OP-X PRO*",
+        "paramIndex": 34,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "1eea25ef-0044-4de2-a6d1-a01928650839",
+      "name": "28",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/FilterSustain"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*OP-X PRO*",
+        "paramIndex": 1,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "fbc85b2c-a4d0-4a71-ae2b-c55f62e2cd07",
+      "name": "29",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/FilterRelease"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*OP-X PRO*",
+        "paramIndex": 101,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "61e3e5b9-816a-436f-873d-cc879d48b254",
+      "name": "30",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/AmpAttack"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*OP-X PRO*",
+        "paramIndex": 138,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "3f2fcf71-d043-4d6a-a6fe-b1eeddde3eac",
+      "name": "31",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/AmpDecay"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*OP-X PRO*",
+        "paramIndex": 44,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "f0219626-066c-4b7d-ace1-905e916b2d86",
+      "name": "32",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/AmpSustain"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*OP-X PRO*",
+        "paramIndex": 134,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "2cb9b6c3-90da-4ba7-a20b-93f01daeffbc",
+      "name": "33",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/AmpRelease"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*OP-X PRO*",
+        "paramIndex": 15,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "23d11aa2-ff7c-4133-8e1c-00e973fa0d5b",
+      "name": "34",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/LFO1Frequency"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*OP-X PRO*",
+        "paramIndex": 117,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "388b63dc-f8cb-447b-a145-d119baa91eb3",
+      "name": "34",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/LFO1Waveform"
+      },
+      "mode": {
+        "minStepSize": 0.14279999999999998,
+        "maxStepSize": 0.14279999999999998,
+        "makeAbsoluteEnabled": true
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*OP-X PRO*",
+        "paramIndex": 98,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "f7caa84e-0de1-45ac-934c-b12eb15ef04f",
+      "name": "34",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/LFO1Waveform"
+      },
+      "mode": {
+        "minStepSize": 0.14279999999999998,
+        "maxStepSize": 0.14279999999999998,
+        "eelControlTransformation": "y=(2*x/1.00001)-floor(2*x/1.00001)",
+        "makeAbsoluteEnabled": true
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*OP-X PRO*",
+        "paramIndex": 99,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "99737052-b463-4492-a54e-ba3788e58d34",
+      "name": "34",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/LFO1Waveform"
+      },
+      "mode": {
+        "minStepSize": 0.14279999999999998,
+        "maxStepSize": 0.14279999999999998,
+        "eelControlTransformation": "y=(4*x/1.00001)-floor(4*x/1.00001)",
+        "makeAbsoluteEnabled": true
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*OP-X PRO*",
+        "paramIndex": 29,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "957dc99f-e4b2-4a16-a89e-5a5c13d8576e",
+      "name": "58",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/LFO2Frequency"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*OP-X PRO*",
+        "paramIndex": 56,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "edfcaea4-cd07-42d7-8051-566c3e63f4bb",
+      "name": "58",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementType": "button",
+        "controlElementIndex": "SY/LFO1Sync"
+      },
+      "mode": {
+        "type": 2,
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*OP-X PRO*",
+        "paramIndex": 123,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "08543f35-cb55-4868-89b2-1953cc5dcf79",
+      "name": "38",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/ArpRate|Divis"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*OP-X PRO*",
+        "paramIndex": 69,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "2e2ba8d5-f4b8-4432-aee7-1bcc49ebeaba",
+      "name": "39",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/ArpMode"
+      },
+      "mode": {
+        "minStepSize": 0.03125,
+        "maxStepSize": 0.03125
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*OP-X PRO*",
+        "paramIndex": 35,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "cdb2dbcf-3231-435a-87b5-6be694709938",
+      "name": "40",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementType": "button",
+        "controlElementIndex": "SY/ArpOn"
+      },
+      "mode": {
+        "type": 2,
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*OP-X PRO*",
+        "paramIndex": 14,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "10793abf-963b-4357-8167-1597992f66c0",
+      "name": "48",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/PitchEnvModB"
+      },
+      "mode": {
+        "maxStepSize": 0.1,
+        "eelControlTransformation": "y=abs(0.5-x)*2"
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*OP-X PRO*",
+        "paramIndex": 112,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "de2ae71d-630b-4618-96ba-98bcf00fc36f",
+      "name": "48",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/PitchEnvModB"
+      },
+      "mode": {
+        "minStepSize": 0.0,
+        "maxStepSize": 0.0,
+        "eelControlTransformation": "y=x<0 ? 1 : 0"
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*OP-X PRO*",
+        "paramIndex": 108,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "96f6d66e-cf7f-42f3-b852-3eadb7d57166",
+      "name": "41",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/PitchLFOModB"
+      },
+      "mode": {
+        "maxStepSize": 0.1
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*OP-X PRO*",
+        "paramIndex": 46,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "3c89b378-d6bd-4f19-90ec-6070cbd539bc",
+      "name": "41",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/PitchLFOModB"
+      },
+      "mode": {
+        "minTargetValue": 1.0,
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*OP-X PRO*",
+        "paramIndex": 77,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "4e2456c6-f70f-4a92-bfae-13cb93d2af31",
+      "name": "41",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/PitchLFOModB"
+      },
+      "mode": {
+        "minTargetValue": 1.0,
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*OP-X PRO*",
+        "paramIndex": 81,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "5de53678-ddca-4cd2-bfee-387865e7bfcf",
+      "name": "41",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/PitchLFOModB"
+      },
+      "mode": {
+        "maxTargetValue": 0.0,
+        "maxStepSize": 0.1
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*OP-X PRO*",
+        "paramIndex": 42,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "f0e126da-bd4b-4cc3-bb8f-5d63e4dcf559",
+      "name": "50",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/PulsewdthModB"
+      },
+      "mode": {
+        "maxStepSize": 0.1
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*OP-X PRO*",
+        "paramIndex": 91,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "a24348e9-7c90-4e44-8e54-f651eedaa7f1",
+      "name": "50",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/PulsewdthModB"
+      },
+      "mode": {
+        "minTargetValue": 1.0,
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*OP-X PRO*",
+        "paramIndex": 62,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "e3d78d3d-7c89-4200-b78f-b15e59f4ffaa",
+      "name": "50",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/PulsewdthModB"
+      },
+      "mode": {
+        "minTargetValue": 1.0,
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*OP-X PRO*",
+        "paramIndex": 39,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "eb9bac10-3008-41a3-bf99-476cf08128df",
+      "name": "50",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/PulsewdthModB"
+      },
+      "mode": {
+        "maxTargetValue": 0.0,
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*OP-X PRO*",
+        "paramIndex": 76,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "5fdc8779-7ad3-482b-84c1-3780b66b0d02",
+      "name": "50",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/VolumeLFOModB"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*OP-X PRO*",
+        "paramIndex": 91,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "16edcabd-e617-413b-bd06-ba2869251019",
+      "name": "50",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/VolumeLFOModB"
+      },
+      "mode": {
+        "maxTargetValue": 0.0,
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*OP-X PRO*",
+        "paramIndex": 62,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "a6cf4579-f10c-4ccb-95a8-ae687d19c348",
+      "name": "50",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/VolumeLFOModB"
+      },
+      "mode": {
+        "maxTargetValue": 0.0,
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*OP-X PRO*",
+        "paramIndex": 39,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "9e5e32b2-a684-4eff-acc2-7eed80024c5b",
+      "name": "50",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/VolumeLFOModB"
+      },
+      "mode": {
+        "minTargetValue": 0.5,
+        "maxTargetValue": 0.5,
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*OP-X PRO*",
+        "paramIndex": 76,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "6301bc87-5fe5-4b0d-b8cd-d4a609471dea",
+      "name": "59",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/ModMx1AmountB"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "eelControlTransformation": "y=abs(x-0.5)*2"
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*OP-X PRO*",
+        "paramIndex": 119,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "a9ecc249-3b7d-4ce2-ba32-01ba3d7601ff",
+      "name": "60",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/ModMx2AmountB"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "eelControlTransformation": "y=abs(x-0.5)*2"
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*OP-X PRO*",
+        "paramIndex": 118,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "042646fc-515e-4676-9bc4-6edb187eb5bb",
+      "name": "61",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/ModMx3AmountB"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "eelControlTransformation": "y=abs(x-0.5)*2"
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*OP-X PRO*",
+        "paramIndex": 87,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "7e059416-7ffc-49c9-b0c7-7578a6def25f",
+      "name": "61",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/ModMx3AmountB"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "eelControlTransformation": "y = x<0.5 ? 1 : 0"
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*OP-X PRO*",
+        "paramIndex": 68,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "675e27d0-7031-4b10-baa4-599f1832ff9f",
+      "name": "64",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/ModMx4AmountB"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*OP-X PRO*",
+        "paramIndex": 127,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "700197d9-6073-46b2-b210-380763c1f546",
+      "name": "65",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/OutputLevel"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*OP-X PRO*",
+        "paramIndex": 92,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "ca1e7d96-aad8-4a85-aed6-bdd276d6d426",
+      "name": "66",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/PanSpread"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "eelControlTransformation": "y=0.5+0.5*x",
+        "makeAbsoluteEnabled": true
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*OP-X PRO*",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "bbe74e73-f4f5-4c3c-a0ca-68e5d74a66f8",
+      "name": "66",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/PanSpread"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "eelControlTransformation": "y=0.5-0.3*x",
+        "makeAbsoluteEnabled": true
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*OP-X PRO*",
+        "paramIndex": 86,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "0c953733-3701-49bd-b66c-02123a3e4a75",
+      "name": "66",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/PanSpread"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "eelControlTransformation": "y=0.5+0.1*x",
+        "makeAbsoluteEnabled": true
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*OP-X PRO*",
+        "paramIndex": 133,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "c7bf3899-a012-4fc0-8889-900b5c1fbdca",
+      "name": "66",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/PanSpread"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "eelControlTransformation": "y=0.5-0.4*x",
+        "makeAbsoluteEnabled": true
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*OP-X PRO*",
+        "paramIndex": 120,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "505f8465-e089-4faa-829b-6a02b218e3ab",
+      "name": "66",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/PanSpread"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "eelControlTransformation": "y=0.5+0.2*x",
+        "makeAbsoluteEnabled": true
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*OP-X PRO*",
+        "paramIndex": 121,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "94302ecd-8cc2-4831-baf7-6beca39d0d3b",
+      "name": "66",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/PanSpread"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "eelControlTransformation": "y=0.5-0.3*x",
+        "makeAbsoluteEnabled": true
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*OP-X PRO*",
+        "paramIndex": 66,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "79f9b6f4-e6dc-43c1-980a-28f24950e79e",
+      "name": "72",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/PortaRate"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*OP-X PRO*",
+        "paramIndex": 126,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "015fdb82-733e-4f9b-96e5-35f5cbc9df83",
+      "name": "75",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/UnisonMode"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "reverseIsEnabled": true
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*OP-X PRO*",
+        "paramIndex": 8,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "d48dbc22-7b04-4521-8ef8-b416c8269e38",
+      "name": "73",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/Detune|Slop"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "reverseIsEnabled": true
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*OP-X PRO*",
+        "paramIndex": 2,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "35efb5ec-5e4b-42af-abde-2975a1db824c",
+      "name": "74",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/LayerMix"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "reverseIsEnabled": true
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*OP-X PRO*",
+        "paramIndex": 74,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "b68aff12-d4c4-4d76-9f15-7faad3b42ddf",
+      "name": "76",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/OscXMod|FM"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*OP-X PRO*",
+        "paramIndex": 124,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "0ee65988-3680-4aed-ac13-4e3286ab591f",
+      "name": "77",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementType": "button",
+        "controlElementIndex": "SY/PortaOn"
+      },
+      "mode": {
+        "type": 2,
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*OP-X PRO*",
+        "paramIndex": 141,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "009bcca3-f1fd-4486-8fab-b1296b790db1",
+      "name": "77",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementType": "button",
+        "controlElementIndex": "SY/UnisonOn"
+      },
+      "mode": {
+        "type": 2,
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*OP-X PRO*",
+        "paramIndex": 82,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "d34b6184-e57a-4458-a81c-f3f67ecac686",
+      "name": "82",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/FXParam1"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*OP-X PRO*",
+        "paramIndex": 58,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "88ba1de7-819e-4ed2-a604-12bdddad995d",
+      "name": "83",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/FXParam2"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*OP-X PRO*",
+        "paramIndex": 17,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "516b78f5-0fff-4cf4-b415-8a940c8ff7a6",
+      "name": "84",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/FXParam3"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*OP-X PRO*",
+        "paramIndex": 37,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "93bd5f1c-785c-4178-8cd0-77f595acefee",
+      "name": "85",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/FXParam4"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*OP-X PRO*",
+        "paramIndex": 36,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "4b8f7651-0f71-4642-8700-db512915ae7e",
+      "name": "86",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/FXParam5"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*OP-X PRO*",
+        "paramIndex": 132,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "379e0589-4f0e-4894-8a5c-94034ff5ccf9",
+      "name": "87",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/FXParam6"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*OP-X PRO*",
+        "paramIndex": 139,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "ce5f48fd-cb96-4363-9766-49b5a7299c59",
+      "name": "88",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/FXParam7"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*OP-X PRO*",
+        "paramIndex": 93,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "3cd7beb4-74c4-4c03-b400-5d41aa30d83d",
+      "name": "89",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementType": "button",
+        "controlElementIndex": "SY/FXOn"
+      },
+      "mode": {
+        "type": 2,
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*OP-X PRO*",
+        "paramIndex": 50,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "6f7c9fd9-84e4-4df6-8a18-3267357b9010",
+      "name": "89",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementType": "button",
+        "controlElementIndex": "SY/FXSwitch1"
+      },
+      "mode": {
+        "type": 2,
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*OP-X PRO*",
+        "paramIndex": 111,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    }
+  ]
+}
