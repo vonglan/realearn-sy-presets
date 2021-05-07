@@ -79,13 +79,12 @@ Some special mappings:
 |ModMx2Amount|Aftertouch Filter Amount|
 |ModMx3Amount|Env PW Amount|
 |Unison Mode|Filter Slop|
-|Layer Mix|Env Slop|
+|Layer Mix|Envelope Slop|
 
-These parameters trigger multiple targets (to work intuitively) but can have unwanted side-effects:
+Some parameters trigger multiple targets, to work intuitively.
+In the case of
 - Cutoff Velocity Modulation
-- LFO1 Delay
-
-
+you need to make sure to deactivate the Hold/VEL button manually, if you want to switch off the Velocity Modulation (just setting it to 0 is not the same).
 
 # Controller Mapping Details
 
