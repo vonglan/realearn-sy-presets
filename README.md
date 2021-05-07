@@ -23,10 +23,10 @@ Currently available VST presets (Main Mappings):
 - u-he Repro (1 and 5)
 - u-he Diva
 - u-he Hive
+- Sonicprojects OP-X Pro II
  
 Planned VST presets: 
-- Sonicprojects OP-X Pro
-- Maybe Dexed (with a different concept, only for X-Touch Mini)
+- Dexed (with a different concept, only for X-Touch Mini)
 
 Important Restriction:
 The presets were developed and tested with the VSTi version of these softsynths. With VST3i and AUi, problems can occur. (In some cases the parameter numbers differ between AUi and VSTi. There are also sometimes differences between VSTi and AUi for the behavior regarding parameters with discrete values.)
