@@ -64,6 +64,29 @@ Note that there can be a mismatch between the layers (displayed layer is not the
 ## u-he Hive
 In this case, "Other Layer" switches between left and right side.
 
+## Sonicprojects OP-X Pro II
+This plugin was configured and tested with the VST3 version.
+
+Some special mappings:		
+
+|Virtual Parameter|OP-X Target|
+|---|--------------|
+|Osc2 PW|Spread (Osc Tuning)|
+|HP Cutoff|Filter Type|
+|Feedback Level|Filter Damping/Brilliance|
+|LFO1 Sync|Wheel LFO|
+|ModMx1Amount|Aftertouch Vibrato Amount|
+|ModMx2Amount|Aftertouch Filter Amount|
+|ModMx3Amount|Env PW Amount|
+|Unison Mode|Filter Slop|
+|Layer Mix|Env Slop|
+
+These parameters trigger multiple targets (to work intuitively) but can have unwanted side-effects:
+- Cutoff Velocity Modulation
+- LFO1 Delay
+
+
+
 # Controller Mapping Details
 
 ## Behringer X-Touch Mini
@@ -74,6 +97,8 @@ In this case, "Other Layer" switches between left and right side.
 	
 ### Used controller elements	
 - Layer A is for Analog Synth
+- The 8 encoders work in 9 banks
+- Pressing an encoder resets the parameter to a "neutral" value
 - The upper row of buttons is for selecting the first 8 banks
 - In the lower row
   - the 4 first buttons are for functions in the selected bank
