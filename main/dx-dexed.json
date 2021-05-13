@@ -8392,7 +8392,8 @@
         "isRegistered": false,
         "is14Bit": false,
         "oscArgIndex": 0,
-        "controlElementIndex": "DX/Encoder1"
+        "controlElementType": "button",
+        "controlElementIndex": "DX/EncoderPress1"
       },
       "mode": {
         "minTargetValue": 0.129,
@@ -8409,7 +8410,8 @@
         "moveView": true,
         "seekPlay": true,
         "oscArgIndex": 0
-      }
+      },
+      "feedbackIsEnabled": false
     },
     {
       "id": "dc192392-2640-422c-801d-f5bdf45f4038",
@@ -8439,14 +8441,15 @@
     },
     {
       "id": "c744e37c-c205-420e-88df-b419afdb0cfd",
-      "name": "Feedback",
+      "name": "Feedback Reset",
       "groupId": "2eabfb96-aff9-4558-b8da-5f883a00cb60",
       "source": {
         "category": "virtual",
         "isRegistered": false,
         "is14Bit": false,
         "oscArgIndex": 0,
-        "controlElementIndex": "DX/Encoder2"
+        "controlElementType": "button",
+        "controlElementIndex": "DX/EncoderPress2"
       },
       "mode": {
         "maxTargetValue": 0.0,
@@ -8462,7 +8465,8 @@
         "moveView": true,
         "seekPlay": true,
         "oscArgIndex": 0
-      }
+      },
+      "feedbackIsEnabled": false
     },
     {
       "id": "6a2ee497-c8f0-4540-b84c-d8379c68cdb5",
@@ -8491,14 +8495,15 @@
     },
     {
       "id": "356bb391-e461-4578-a592-c4d169de6938",
-      "name": "Master Tune Adjustment",
+      "name": "Master Tune Adjustment Reset",
       "groupId": "2eabfb96-aff9-4558-b8da-5f883a00cb60",
       "source": {
         "category": "virtual",
         "isRegistered": false,
         "is14Bit": false,
         "oscArgIndex": 0,
-        "controlElementIndex": "DX/Encoder3"
+        "controlElementType": "button",
+        "controlElementIndex": "DX/EncoderPress3"
       },
       "mode": {
         "minTargetValue": 0.5,
@@ -8514,7 +8519,8 @@
         "moveView": true,
         "seekPlay": true,
         "oscArgIndex": 0
-      }
+      },
+      "feedbackIsEnabled": false
     },
     {
       "id": "8baf0094-8a65-4535-be96-f7eeaf7a3448",
@@ -8543,14 +8549,15 @@
     },
     {
       "id": "3ab6906c-3833-4918-ac2a-0db7dd56ab70",
-      "name": "Cutoff",
+      "name": "Cutoff Reset",
       "groupId": "2eabfb96-aff9-4558-b8da-5f883a00cb60",
       "source": {
         "category": "virtual",
         "isRegistered": false,
         "is14Bit": false,
         "oscArgIndex": 0,
-        "controlElementIndex": "DX/Encoder4"
+        "controlElementType": "button",
+        "controlElementIndex": "DX/EncoderPress4"
       },
       "mode": {
         "minTargetValue": 1.0,
@@ -8565,7 +8572,8 @@
         "moveView": true,
         "seekPlay": true,
         "oscArgIndex": 0
-      }
+      },
+      "feedbackIsEnabled": false
     },
     {
       "id": "14650dfb-7495-441c-9336-f159c7bc75e7",
@@ -8594,14 +8602,15 @@
     },
     {
       "id": "9f09af4f-8383-4781-8a89-42e79a6bee07",
-      "name": "Resonance",
+      "name": "Resonance Reset",
       "groupId": "2eabfb96-aff9-4558-b8da-5f883a00cb60",
       "source": {
         "category": "virtual",
         "isRegistered": false,
         "is14Bit": false,
         "oscArgIndex": 0,
-        "controlElementIndex": "DX/Encoder5"
+        "controlElementType": "button",
+        "controlElementIndex": "DX/EncoderPress5"
       },
       "mode": {
         "maxTargetValue": 0.0,
@@ -8616,7 +8625,8 @@
         "moveView": true,
         "seekPlay": true,
         "oscArgIndex": 0
-      }
+      },
+      "feedbackIsEnabled": false
     },
     {
       "id": "7428d341-78ef-4355-ab34-6bf4b30b2dd0",
@@ -8645,14 +8655,15 @@
     },
     {
       "id": "f40fb03b-4fe9-4c69-bee7-85437ff57afd",
-      "name": "Output",
+      "name": "Output Reset",
       "groupId": "2eabfb96-aff9-4558-b8da-5f883a00cb60",
       "source": {
         "category": "virtual",
         "isRegistered": false,
         "is14Bit": false,
         "oscArgIndex": 0,
-        "controlElementIndex": "DX/Encoder6"
+        "controlElementType": "button",
+        "controlElementIndex": "DX/EncoderPress6"
       },
       "mode": {
         "minTargetValue": 0.5,
@@ -8668,7 +8679,8 @@
         "moveView": true,
         "seekPlay": true,
         "oscArgIndex": 0
-      }
+      },
+      "feedbackIsEnabled": false
     },
     {
       "id": "88c160cb-c2bf-4ef0-9038-98a25e73b45d",
@@ -8698,14 +8710,15 @@
     },
     {
       "id": "ebe73467-aa2d-4198-a8fa-3e3794247e83",
-      "name": "Transpose",
+      "name": "Transpose Reset",
       "groupId": "2eabfb96-aff9-4558-b8da-5f883a00cb60",
       "source": {
         "category": "virtual",
         "isRegistered": false,
         "is14Bit": false,
         "oscArgIndex": 0,
-        "controlElementIndex": "DX/Encoder7"
+        "controlElementType": "button",
+        "controlElementIndex": "DX/EncoderPress7"
       },
       "mode": {
         "minTargetValue": 0.5,
@@ -11941,11 +11954,11 @@
     }
   ],
   "parameters": {
-    "1": {
-      "name": "Area"
-    },
     "0": {
       "name": "Operator"
+    },
+    "1": {
+      "name": "Area"
     }
   }
 }
