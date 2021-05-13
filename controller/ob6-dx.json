@@ -1,0 +1,755 @@
+{
+  "version": "2.8.2",
+  "name": "OB6 DX",
+  "defaultGroup": {},
+  "mappings": [
+    {
+      "id": "1ee31f1b-2d7f-4b7a-aa8c-625a18586354",
+      "name": "Encoder 1",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 78,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxSourceValue": 0.007751937984496124,
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "DX/Encoder1",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "6f11d901-2036-44be-9ad7-868cc0761070",
+      "name": "Encoder 2",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 79,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxSourceValue": 0.007751937984496124,
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "DX/Encoder2",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "2e26c7aa-5fda-41da-b288-2f200356a438",
+      "name": "Encoder 3",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 80,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxSourceValue": 0.007751937984496124,
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "DX/Encoder3",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "6555c346-83ee-46cb-bacd-09934cbefa18",
+      "name": "Encoder 4",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 81,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxSourceValue": 0.007751937984496124,
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "DX/Encoder4",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "9e9dd39a-7824-4c45-9dfa-98f32a47f1ba",
+      "name": "Encoder 5",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 67,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxSourceValue": 0.007751937984496124,
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "DX/Encoder5",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "54644b17-5306-4ba0-86fd-96ee49e4479b",
+      "name": "Encoder 6",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 68,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxSourceValue": 0.007751937984496124,
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "DX/Encoder6",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "39f0f241-438c-4d02-b267-486af1761471",
+      "name": "Encoder 7",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 69,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxSourceValue": 0.007751937984496124,
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "DX/Encoder7",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "cb4ff999-b657-47f4-b14a-58e31b97b646",
+      "name": "Encoder 8",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 70,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxSourceValue": 0.007751937984496124,
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "DX/Encoder8",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "23a0b15e-368d-4de4-85c6-0c56d33ad8f8",
+      "name": "Select Operator 1",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 145,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxSourceValue": 0.00006103888176768602,
+        "minTargetValue": 0.01,
+        "maxTargetValue": 0.01,
+        "maxStepSize": 0.05,
+        "outOfRangeBehavior": "min"
+      },
+      "target": {
+        "fxAnchor": "this",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "f7830e20-d757-4841-8ec3-97fa87132777",
+      "name": "Select Operator 2",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 146,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxSourceValue": 0.00006103888176768602,
+        "minTargetValue": 0.02,
+        "maxTargetValue": 0.02,
+        "maxStepSize": 0.05,
+        "outOfRangeBehavior": "min"
+      },
+      "target": {
+        "fxAnchor": "this",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "e126e724-2a85-4dc5-809b-f7db3ca20f9c",
+      "name": "Select Operator 3",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 147,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxSourceValue": 0.00006103888176768602,
+        "minTargetValue": 0.03,
+        "maxTargetValue": 0.03,
+        "maxStepSize": 0.05,
+        "outOfRangeBehavior": "min"
+      },
+      "target": {
+        "fxAnchor": "this",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "7c9e8eb2-c878-445c-b4b0-b30b78d92237",
+      "name": "Select Operator 4",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 150,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxSourceValue": 0.00006103888176768602,
+        "minTargetValue": 0.04,
+        "maxTargetValue": 0.04,
+        "maxStepSize": 0.05,
+        "outOfRangeBehavior": "min"
+      },
+      "target": {
+        "fxAnchor": "this",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "600774be-695f-4e74-b724-630b395f1a3b",
+      "name": "Select Operator 5",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 148,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxSourceValue": 0.00006103888176768602,
+        "minTargetValue": 0.05,
+        "maxTargetValue": 0.05,
+        "maxStepSize": 0.05,
+        "outOfRangeBehavior": "min"
+      },
+      "target": {
+        "fxAnchor": "this",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "8d84c9a8-2e34-4211-bef4-2a572fad52ce",
+      "name": "Select Operator 6",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 149,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxSourceValue": 0.00006103888176768602,
+        "minTargetValue": 0.06,
+        "maxTargetValue": 0.06,
+        "maxStepSize": 0.05,
+        "outOfRangeBehavior": "min"
+      },
+      "target": {
+        "fxAnchor": "this",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "8ea1fb23-7f2b-4b12-a823-7f44a16c3cad",
+      "name": "Select Pitch (Operator 7)",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 93,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxSourceValue": 0.00006103888176768602,
+        "minTargetValue": 0.07,
+        "maxTargetValue": 0.07,
+        "maxStepSize": 0.05,
+        "outOfRangeBehavior": "min"
+      },
+      "target": {
+        "fxAnchor": "this",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "2dc9c794-81b5-4660-81ac-9cbafa3f0093",
+      "name": "Select Cross-Operator (Operator 8)",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 94,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxSourceValue": 0.00006103888176768602,
+        "minTargetValue": 0.08,
+        "maxTargetValue": 0.08,
+        "maxStepSize": 0.05,
+        "outOfRangeBehavior": "min"
+      },
+      "target": {
+        "fxAnchor": "this",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "5ee7fda1-a23a-41ae-9db5-8221de311c43",
+      "name": "Select Area 1: Main / X:Level",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 98,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxSourceValue": 0.00006103888176768602,
+        "minTargetValue": 0.01,
+        "maxTargetValue": 0.01,
+        "maxStepSize": 0.05,
+        "outOfRangeBehavior": "min"
+      },
+      "target": {
+        "fxAnchor": "this",
+        "paramIndex": 1,
+        "controlElementIndex": 1,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "c0092415-a0ee-4136-9202-5fa36abc1908",
+      "name": "Select Area 2: Env / X:Freq",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 96,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxSourceValue": 0.00006103888176768602,
+        "minTargetValue": 0.02,
+        "maxTargetValue": 0.02,
+        "maxStepSize": 0.05,
+        "outOfRangeBehavior": "min"
+      },
+      "target": {
+        "fxAnchor": "this",
+        "paramIndex": 1,
+        "controlElementIndex": 1,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "8afd360c-b406-43b4-a864-0c2b9ab6adb1",
+      "name": "Select Area 3: Scaling / X:Rates",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 97,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxSourceValue": 0.00006103888176768602,
+        "minTargetValue": 0.03,
+        "maxTargetValue": 0.03,
+        "maxStepSize": 0.05,
+        "outOfRangeBehavior": "min"
+      },
+      "target": {
+        "fxAnchor": "this",
+        "paramIndex": 1,
+        "controlElementIndex": 1,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "85d842c4-fdb1-422e-8fbb-fc06284417e8",
+      "name": "Reset Area",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 95,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxSourceValue": 0.00018311664530305805,
+        "minTargetValue": 0.03,
+        "maxTargetValue": 0.03,
+        "maxStepSize": 0.05,
+        "outOfRangeBehavior": "min"
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "this",
+        "paramIndex": 1,
+        "controlElementType": "button",
+        "controlElementIndex": "DX/EncoderPress1",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "0d8096d1-235c-49e0-978a-3717da4a596f",
+      "name": "Reset Area",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 95,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxSourceValue": 0.00018311664530305805,
+        "minTargetValue": 0.03,
+        "maxTargetValue": 0.03,
+        "maxStepSize": 0.05,
+        "outOfRangeBehavior": "min"
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "this",
+        "paramIndex": 1,
+        "controlElementType": "button",
+        "controlElementIndex": "DX/EncoderPress2",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "f938a851-9293-40be-a7dd-76b80e157394",
+      "name": "Reset Area",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 95,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxSourceValue": 0.00018311664530305805,
+        "minTargetValue": 0.03,
+        "maxTargetValue": 0.03,
+        "maxStepSize": 0.05,
+        "outOfRangeBehavior": "min"
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "this",
+        "paramIndex": 1,
+        "controlElementType": "button",
+        "controlElementIndex": "DX/EncoderPress3",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "4f10442c-e762-4093-8210-6a3cb158905b",
+      "name": "Reset Area",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 95,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxSourceValue": 0.00018311664530305805,
+        "minTargetValue": 0.03,
+        "maxTargetValue": 0.03,
+        "maxStepSize": 0.05,
+        "outOfRangeBehavior": "min"
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "this",
+        "paramIndex": 1,
+        "controlElementType": "button",
+        "controlElementIndex": "DX/EncoderPress4",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "e29fd5cd-9718-4825-8f8e-faaf734925c8",
+      "name": "Reset Area",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 95,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxSourceValue": 0.00018311664530305805,
+        "minTargetValue": 0.03,
+        "maxTargetValue": 0.03,
+        "maxStepSize": 0.05,
+        "outOfRangeBehavior": "min"
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "this",
+        "paramIndex": 1,
+        "controlElementType": "button",
+        "controlElementIndex": "DX/EncoderPress5",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "bf18f91a-6aa9-40a0-82ca-625728003fca",
+      "name": "Reset Area",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 95,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxSourceValue": 0.00018311664530305805,
+        "minTargetValue": 0.03,
+        "maxTargetValue": 0.03,
+        "maxStepSize": 0.05,
+        "outOfRangeBehavior": "min"
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "this",
+        "paramIndex": 1,
+        "controlElementType": "button",
+        "controlElementIndex": "DX/EncoderPress6",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "583b8bae-3316-4190-b527-72702b636ce7",
+      "name": "Reset Area",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 95,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxSourceValue": 0.00018311664530305805,
+        "minTargetValue": 0.03,
+        "maxTargetValue": 0.03,
+        "maxStepSize": 0.05,
+        "outOfRangeBehavior": "min"
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "this",
+        "paramIndex": 1,
+        "controlElementType": "button",
+        "controlElementIndex": "DX/EncoderPress7",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "0b318174-6ee3-4249-9ae0-db717f618891",
+      "name": "Reset Area",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 95,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxSourceValue": 0.00018311664530305805,
+        "minTargetValue": 0.03,
+        "maxTargetValue": 0.03,
+        "maxStepSize": 0.05,
+        "outOfRangeBehavior": "min"
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "this",
+        "paramIndex": 1,
+        "controlElementType": "button",
+        "controlElementIndex": "DX/EncoderPress8",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "feedbackIsEnabled": false
+    }
+  ]
+}
