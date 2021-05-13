@@ -28,7 +28,7 @@ Currently available VST presets (Main Mappings):
 - Sonicprojects OP-X Pro II
  
 VST preset with a different parameter set ("DX" instead of "SY"): 
-- Dexed (currently only for X-Touch Mini)
+- Dexed
 
 Important Restriction:
 The presets were developed and tested with the VSTi version of these softsynths. With VST3i and AUi, problems can occur. (In some cases the parameter numbers differ between AUi and VSTi. There are also sometimes differences between VSTi and AUi for the behavior regarding parameters with discrete values.)
@@ -235,9 +235,10 @@ LFO Shape: moving (up or down) always increments by 1.
 
 # Special: [Dexed](https://asb2m10.github.io/dexed/) (Open Source FM Synthesizer)
 Instead of the usual "SY" presets, this has the prefix/suffix "DX". Controller and Main Mapping are required.
-Currently, only the Behringer X-Touch Mini is supported as controller. But it would be fairly easy to adapt for other banks-of-8 controllers - contact me if you want to help with this or if your result can be published here).
 
-The upper row of buttons select the operator (or global / all), the lower row selects the area:
+## With Behringer X-Touch Mini as controller
+
+The upper row of buttons select the operator (or global / all), the lower row buttons select the area:
 
 ![image](https://user-images.githubusercontent.com/17814756/118041818-90fc5900-b373-11eb-9a8b-7c5c0180f5a0.png)
 
@@ -247,3 +248,27 @@ Depending on this selection, the encoders then control all of Dexed's parameters
 
 Pressing an Encoder resets the parameter to an initial value.
 Exception: All Operators / Level/Active toggles Operator active/inactive
+
+## With OB-6
+
+This does not work as well, because the OB-6 does not have encoders (and [this ReaLearn feature request](https://github.com/helgoboss/realearn/issues/203) has not yet been implemented).
+
+The X-Modulation buttons select the operator (or LFO VCO1/2 for global / all), and the lower row LFO buttons select the area:
+
+![image](https://user-images.githubusercontent.com/17814756/118182722-9de38000-b439-11eb-9768-d86617b58a26.png)
+
+The 8 envelope knobs (without "Amount") are used to change parameters (individual assignment see above for X-Touch Mini):
+
+![image](https://user-images.githubusercontent.com/17814756/118182833-bbb0e500-b439-11eb-91f6-f6d7d9121b7f.png)
+
+## With Prophet-6
+
+Similar to OB-6 (and I haven't tested it myself).
+
+The LFO and Aftertouch buttons select the operator (or global / all), and the Poly Mod buttons select the area:
+
+![image](https://user-images.githubusercontent.com/17814756/118183147-10ecf680-b43a-11eb-8d5a-f573b81762a4.png)
+
+Like for the OB-6, the 8 envelope knobs (without "Amount") are used to change parameters (individual assignment see above for X-Touch Mini).
+
+![image](https://user-images.githubusercontent.com/17814756/118183383-54476500-b43a-11eb-8692-67f2ad293fa0.png)
