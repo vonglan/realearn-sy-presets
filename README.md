@@ -236,7 +236,7 @@ LFO Shape: moving (up or down) always increments by 1.
 # Special: [Dexed](https://asb2m10.github.io/dexed/) (Open Source FM Synthesizer)
 Instead of the usual "SY" presets, this has the prefix/suffix "DX". Controller and Main Mapping are required.
 
-Note: currently (May 15, 2021), the VST3 version of Dexed is not responding to parameter changes. The AU version (if you are on macOS) is ok. I assume this is identical with this Dexed issue https://github.com/asb2m10/dexed/issues/277.
+Note: currently (May 15, 2021), the VST3 version of Dexed is not responding to parameter changes, so you cannot use this on Windows. The AU version (if you are on macOS) is ok. I assume this is identical with this Dexed issue https://github.com/asb2m10/dexed/issues/277.
 
 ## With Behringer X-Touch Mini as controller
 
