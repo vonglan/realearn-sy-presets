@@ -41,7 +41,7 @@ Advanced features planned by Helgoboss:
 
 You need 
 - Reaper
-- Version 2.8.2 of ReaLearn (available via ReaPack or GitHub)
+- Version 2.8.2 or higher of ReaLearn (available via ReaPack or GitHub) (but not 2.9 flat)
 - One of the currently supported synthesizers/controllers, see list above
   - If you have some time and skills, you can create a Controller Mapping for other devices, using the existing presets as template. If you do this, please share your Mapping!
 - One of the currently supported VSTs, see list above
