@@ -1,5 +1,5 @@
 {
-  "version": "2.8.0-rc.5",
+  "version": "2.9.1",
   "name": "Midiplus X mini SY",
   "defaultGroup": {},
   "groups": [
@@ -73,6 +73,7 @@
       "mode": {
         "minTargetValue": 0.01,
         "maxTargetValue": 0.01,
+        "maxPressMillis": 250,
         "outOfRangeBehavior": "min"
       },
       "target": {
@@ -98,6 +99,7 @@
       "mode": {
         "minTargetValue": 0.02,
         "maxTargetValue": 0.02,
+        "maxPressMillis": 250,
         "outOfRangeBehavior": "min"
       },
       "target": {
@@ -123,6 +125,7 @@
       "mode": {
         "minTargetValue": 0.03,
         "maxTargetValue": 0.03,
+        "maxPressMillis": 250,
         "outOfRangeBehavior": "min"
       },
       "target": {
@@ -148,6 +151,7 @@
       "mode": {
         "minTargetValue": 0.04,
         "maxTargetValue": 0.04,
+        "maxPressMillis": 250,
         "outOfRangeBehavior": "min"
       },
       "target": {
@@ -173,6 +177,7 @@
       "mode": {
         "minTargetValue": 0.05,
         "maxTargetValue": 0.05,
+        "maxPressMillis": 250,
         "outOfRangeBehavior": "min"
       },
       "target": {
@@ -198,6 +203,7 @@
       "mode": {
         "minTargetValue": 0.06,
         "maxTargetValue": 0.06,
+        "maxPressMillis": 250,
         "outOfRangeBehavior": "min"
       },
       "target": {
