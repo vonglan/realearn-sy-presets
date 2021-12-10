@@ -33,15 +33,14 @@ VST preset with a different parameter set ("DX" instead of "SY"):
 Important Restriction:
 The presets were developed and tested with the VSTi version of these softsynths. With VST3i and AUi, problems can occur. (In some cases the parameter numbers differ between AUi and VSTi. There are also sometimes differences between VSTi and AUi for the behavior regarding parameters with discrete values.)
 
-Advanced features planned by Helgoboss: 
-- „make relative“ function for normal (absolute) knobs (Vote for this [here](https://github.com/helgoboss/realearn/issues/203))
-- zoom function for fine control of parameters (Vote for this [here](https://github.com/helgoboss/realearn/issues/204))
+Advanced feature planned by Helgoboss: 
+- „make relative“ function for normal (absolute) knobs (Vote for this [here](https://github.com/helgoboss/realearn/issues/468))
 
 # Requirements and How To
 
 You need 
 - Reaper
-- Version 2.8.2 or higher of ReaLearn (available via ReaPack or GitHub) (but not 2.9 flat)
+- ReaLearn (available via ReaPack or GitHub) (Version 2.8.2 or higher, but not 2.9 flat)
 - One of the currently supported synthesizers/controllers, see list above
   - If you have some time and skills, you can create a Controller Mapping for other devices, using the existing presets as template. If you do this, please share your Mapping!
 - One of the currently supported VSTs, see list above
