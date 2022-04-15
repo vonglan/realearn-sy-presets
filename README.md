@@ -135,7 +135,9 @@ Switch “Param Xmit” and “Param Rcv” to NRPN:
 - 5 (then again for 6)
 -	Use Bank and Tens to select "nr", if not already selected
 -	Globals	
-		
+
+Current version (with relative mode) requires ReaLearn 2.13.0-pre.3.	
+	
 ### Shift Function
 
 |OB6|Virtual Target|
@@ -187,7 +189,9 @@ Switch “Param Xmit” and “Param Rcv” to NRPN:
 - 5 (then again for 6)
 -	Use Bank and Tens to select "nr", if not already selected
 -	Globals	
-		
+
+Current version (with relative mode) requires ReaLearn 2.13.0-pre.3.	
+	
 ### Shift Function
 
 |Prophet-6|Virtual Target|
