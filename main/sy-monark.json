@@ -1,0 +1,1001 @@
+{
+  "version": "2.9.1",
+  "name": "SY Monark",
+  "defaultGroup": {},
+  "mappings": [
+    {
+      "id": "a32b3d09-f851-457a-b85a-4bf3df665640",
+      "name": "1",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/Osc1Pitch"
+      },
+      "mode": {
+        "minStepSize": 0.205,
+        "maxStepSize": 0.205
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Reaktor*",
+        "paramIndex": 8,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "73f20c71-43a2-4f9b-90bf-72881285cf46",
+      "name": "2",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/Osc1Waveform"
+      },
+      "mode": {
+        "minStepSize": 0.205,
+        "maxStepSize": 0.205
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Reaktor*",
+        "paramIndex": 10,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "6c1fc9fb-3c06-4e77-a7fc-c4ec58e1612e",
+      "name": "3",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/Osc2Pitch"
+      },
+      "mode": {
+        "minStepSize": 0.205,
+        "maxStepSize": 0.205
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Reaktor*",
+        "paramIndex": 11,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "9bae9cb5-0c67-4ae1-b9d3-b0ec4bf9f5e8",
+      "name": "4",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/Osc2PitchFine"
+      },
+      "mode": {
+        "minStepSize": 0.1,
+        "maxStepSize": 1.0
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Reaktor*",
+        "paramIndex": 12,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "d4ad38e5-20d3-499f-b493-ce30135afa41",
+      "name": "5",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/Osc2Waveform"
+      },
+      "mode": {
+        "minStepSize": 0.205,
+        "maxStepSize": 0.205
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Reaktor*",
+        "paramIndex": 13,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "c1a4399e-f29d-448b-bd9d-a4e48b94f659",
+      "name": "6",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/Osc1Level"
+      },
+      "mode": {
+        "minStepSize": 5.0,
+        "maxStepSize": 50.0
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Reaktor*",
+        "paramIndex": 19,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "f385455d-449b-4c72-ac46-f23e959c17b8",
+      "name": "7",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/Osc2Level"
+      },
+      "mode": {
+        "minStepSize": 5.0,
+        "maxStepSize": 50.0
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Reaktor*",
+        "paramIndex": 21,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "d9db9e63-573d-4929-8f4f-105a7d824c1b",
+      "name": "8",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/Osc3|SubLevel"
+      },
+      "mode": {
+        "minStepSize": 5.0,
+        "maxStepSize": 50.0
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Reaktor*",
+        "paramIndex": 23,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "079c5b65-ae77-4891-bc83-1245f9807471",
+      "name": "9",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/NoiseLevel"
+      },
+      "mode": {
+        "minStepSize": 2.0,
+        "maxStepSize": 20.0
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Reaktor*",
+        "paramIndex": 29,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "17a2846f-715b-4c91-91b1-fda957952de4",
+      "name": "10",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/FeedbackLevel"
+      },
+      "mode": {
+        "minStepSize": 2.0,
+        "maxStepSize": 20.0
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Reaktor*",
+        "paramIndex": 26,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "849863e3-f4a5-45c3-9505-118e68bbb5d9",
+      "name": "11",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/Osc3Pitch"
+      },
+      "mode": {
+        "minStepSize": 0.205,
+        "maxStepSize": 0.205
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Reaktor*",
+        "paramIndex": 15,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "02ce3ac0-77a8-4c81-b3eb-40e1c19f2fea",
+      "name": "12",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/Osc3PitchFine"
+      },
+      "mode": {
+        "minStepSize": 0.1,
+        "maxStepSize": 1.0
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Reaktor*",
+        "paramIndex": 16,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "dc5b4acc-7024-4f05-bbf0-921d0dd102cc",
+      "name": "13",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/Osc3Waveform"
+      },
+      "mode": {
+        "minStepSize": 0.205,
+        "maxStepSize": 0.205
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Reaktor*",
+        "paramIndex": 17,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "71617141-c0f3-42db-ab98-289ce78a5cbd",
+      "name": "14",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementType": "button",
+        "controlElementIndex": "SY/OscKeyTrack"
+      },
+      "mode": {
+        "type": 2
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Reaktor*",
+        "paramIndex": 14,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "87c03daa-e074-4de1-97f2-f1d05cf7cc92",
+      "name": "15",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementType": "button",
+        "controlElementIndex": "SY/Osc1On"
+      },
+      "mode": {
+        "type": 2
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Reaktor*",
+        "paramIndex": 18,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "3f25101e-9eed-4bb1-87c8-a2a8bb7a4c8a",
+      "name": "16",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementType": "button",
+        "controlElementIndex": "SY/Osc2On"
+      },
+      "mode": {
+        "type": 2
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Reaktor*",
+        "paramIndex": 20,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "f510cab1-88d4-4eb6-85eb-de978799da5a",
+      "name": "17",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementType": "button",
+        "controlElementIndex": "SY/Osc3On"
+      },
+      "mode": {
+        "type": 2
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Reaktor*",
+        "paramIndex": 22,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "e16d9939-9928-4789-8121-91d5449fa125",
+      "name": "18",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/Cutoff"
+      },
+      "mode": {
+        "minStepSize": 2.0,
+        "maxStepSize": 20.0
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Reaktor*",
+        "paramIndex": 33,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "ec21f2bb-cc2e-44c5-b628-817526fe1f8d",
+      "name": "19",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/Resonance"
+      },
+      "mode": {
+        "minStepSize": 2.0,
+        "maxStepSize": 20.0
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Reaktor*",
+        "paramIndex": 34,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "fab4631b-8ca8-4fea-9675-f5144164f7ec",
+      "name": "20",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/FilterType"
+      },
+      "mode": {
+        "minStepSize": 0.3375,
+        "maxStepSize": 0.3375
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Reaktor*",
+        "paramIndex": 32,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "303d5e68-bdb2-4e6d-a376-7b4a34195caa",
+      "name": "21",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/CutoffEnvModB"
+      },
+      "mode": {
+        "minStepSize": 2.0,
+        "maxStepSize": 20.0,
+        "eelControlTransformation": "y=2*abs(x-0.5)"
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Reaktor*",
+        "paramIndex": 35,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "ebf2ebe3-7669-4846-93fe-376ec3048ff1",
+      "name": "21",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/CutoffEnvModB"
+      },
+      "mode": {
+        "maxStepSize": 20.0,
+        "eelControlTransformation": "y = (x == 0.5) ? 0 : 1-x"
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Reaktor*",
+        "paramIndex": 36,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "5834b44b-66dc-4a06-b20a-c4f724115315",
+      "name": "22 - does not work for encoders or incremental buttons",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/CutoffKeyTrkU"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Reaktor*",
+        "paramIndex": 37,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "0aea898a-8386-424c-a5fd-173c4d25f503",
+      "name": "22 - does not work for encoders or incremental buttons",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/CutoffKeyTrkU"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "eelControlTransformation": "y=(2*x/1.00001)-floor(2*x/1.00001)"
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Reaktor*",
+        "paramIndex": 38,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "0a2f1535-930e-4c9b-b52e-ff13557f8d1d",
+      "name": "23 - does not work for encoders or incremental buttons",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/CutoffLFOModB"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "eelControlTransformation": "y = x >= 0.5 ? 1 : 0"
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Reaktor*",
+        "paramIndex": 31,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "47f979bf-0ce5-4d06-9b1a-99b0f081b3de",
+      "name": "24",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementType": "button",
+        "controlElementIndex": "SY/BP|FiltrSlope"
+      },
+      "mode": {
+        "type": 2,
+        "maxStepSize": 0.05,
+        "reverseIsEnabled": true
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Reaktor*",
+        "paramIndex": 32,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "b540e02a-f2ac-4096-ab5e-271bfd8b2571",
+      "name": "26",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/FilterAttack"
+      },
+      "mode": {
+        "minStepSize": 2.0,
+        "maxStepSize": 20.0
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Reaktor*",
+        "paramIndex": 39,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "5625e0b1-b412-4840-b5d8-fb3afebb57fe",
+      "name": "27",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/FilterDecay"
+      },
+      "mode": {
+        "minStepSize": 2.0,
+        "maxStepSize": 20.0
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Reaktor*",
+        "paramIndex": 40,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "dbc1b204-e41f-4ac1-9d77-891738d28195",
+      "name": "28",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/FilterSustain"
+      },
+      "mode": {
+        "minStepSize": 2.0,
+        "maxStepSize": 20.0
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Reaktor*",
+        "paramIndex": 41,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "8d302b15-f03b-41d1-846b-1334265132a4",
+      "name": "29 - does not work for encoders",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/FilterRelease"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "eelControlTransformation": "y = x > 0.5 ? 1 : 0"
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Reaktor*",
+        "paramIndex": 42,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "feedbackIsEnabled": false,
+      "sendFeedbackAfterControl": true
+    },
+    {
+      "id": "69f08f5f-39d5-4c5b-a28a-9ce1608559f1",
+      "name": "30",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/AmpAttack"
+      },
+      "mode": {
+        "minStepSize": 2.0,
+        "maxStepSize": 20.0
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Reaktor*",
+        "paramIndex": 43,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "b1806f56-2cb1-4a0a-a0cb-b2bb30a9b1b8",
+      "name": "31",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/AmpDecay"
+      },
+      "mode": {
+        "minStepSize": 2.0,
+        "maxStepSize": 20.0
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Reaktor*",
+        "paramIndex": 44,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "58a7411f-dadc-4038-ad00-b0ce7c9209d3",
+      "name": "32",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/AmpSustain"
+      },
+      "mode": {
+        "minStepSize": 2.0,
+        "maxStepSize": 20.0
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Reaktor*",
+        "paramIndex": 45,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "fa8b5468-05cc-4ce2-8c05-51df85093bb1",
+      "name": "33 - does not work for encoders",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/AmpRelease"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "eelControlTransformation": "y = x > 0.5 ? 1 : 0"
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Reaktor*",
+        "paramIndex": 46,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "c8ad697b-ce46-4808-8b70-912efc9c4508",
+      "name": "34 - does not work for encoders",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/PitchLFOModB"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "eelControlTransformation": "y = x > 0.5 ? 1 : 0"
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Reaktor*",
+        "paramIndex": 9,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "fdf28ba4-0053-4a93-a3cb-7fa0048cc322",
+      "name": "35",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/ModMx1AmountB"
+      },
+      "mode": {
+        "minStepSize": 2.0,
+        "maxStepSize": 20.0
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Reaktor*",
+        "paramIndex": 7,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "080377fd-ae2d-4a23-96ec-0d3645ebd7d5",
+      "name": "36",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/OutputLevel"
+      },
+      "mode": {
+        "minStepSize": 2.0,
+        "maxStepSize": 20.0
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Reaktor*",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "7b8c063e-cb87-4c68-8c7c-21722a70347c",
+      "name": "37",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/PortaMode"
+      },
+      "mode": {
+        "minStepSize": 0.5068,
+        "maxStepSize": 0.5068
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Reaktor*",
+        "paramIndex": 4,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "9ed8a5ca-e13f-46dc-8f3a-b3584fee1eea",
+      "name": "38",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/PortaRate"
+      },
+      "mode": {
+        "minStepSize": 2.0,
+        "maxStepSize": 20.0
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Reaktor*",
+        "paramIndex": 5,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "2a4b3a23-9155-4a4d-9ace-649b6953e26e",
+      "name": "39",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementType": "button",
+        "controlElementIndex": "SY/PortaOn"
+      },
+      "mode": {
+        "type": 2,
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "name",
+        "fxName": "*Reaktor*",
+        "paramIndex": 4,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "7b009be7-1c93-41ad-bcb2-cdb54f26013f",
+      "name": "41",
+      "source": {
+        "category": "virtual",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0,
+        "controlElementIndex": "SY/OscXMod|FM"
+      },
+      "mode": {
+        "maxStepSize": 0.05
+      },
+      "target": {
+        "fxAnchor": "id",
+        "fxIndex": 1,
+        "fxGUID": "A5470F07-A70F-CF4E-A22C-52B2F3C6012A",
+        "paramIndex": 24,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    }
+  ]
+}
