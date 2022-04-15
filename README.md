@@ -15,8 +15,8 @@ This allows mapping presets for other controller devices (or hardware synthesize
 Currently available controller presets (Controller Mappings): 
 - Behringer X-Touch Mini (8 Encoders, 16 buttons)
 - Midiplus X2 to X6 mini
-- Sequential OB6
-- Sequental Prophet-6
+- Sequential OB6 (new 2022/04: absolute and relative modes)
+- Sequental Prophet-6 (new 2022/04: absolute and relative modes)
 
 Currently available VST presets (Main Mappings): 
 - TAL J-8
@@ -32,9 +32,6 @@ VST preset with a different parameter set ("DX" instead of "SY"):
 
 Important Restriction:
 The presets were developed and tested with the VSTi version of these softsynths. With VST3i and AUi, problems can occur. (In some cases the parameter numbers differ between AUi and VSTi. There are also sometimes differences between VSTi and AUi for the behavior regarding parameters with discrete values.)
-
-Advanced feature planned by Helgoboss: 
-- „make relative“ function for normal (absolute) knobs (Vote for this [here](https://github.com/helgoboss/realearn/issues/468))
 
 # Requirements and How To
 
@@ -157,6 +154,7 @@ Switch “Param Xmit” and “Param Rcv” to NRPN:
 
 |OB6|Virtual Target|
 |---|--------------|
+|LFO Mod Switch: Filter Mode|RELATIVE MODE (new 2022/04)|	
 |BP|BP or Filter Slope|
 |LFO Initial|Amount LFO1 Decay|
 |LFO VCO 2|Pitch Env Amount|
@@ -171,7 +169,6 @@ LFO Shape: moving (up or down) always increments by 1.
 ### Unused Buttons		
 -	All AT Mod Switches	
 -	All Xmod Switches	
--	LFO Mod Switch: Filter Mode	
 
 ### Unused Knobs		
 -	AT Mod	
@@ -208,6 +205,7 @@ Switch “Param Xmit” and “Param Rcv” to NRPN:
 
 |Prophet-6|Virtual Target|
 |---|--------------|
+|LFO Mod Switch: Freq 2|RELATIVE MODE (new 2022/04)|	
 |HP Velo Env Amount|BP or Filter Slope|
 |LFO Initial|Amount LFO1 Decay|
 |LFO VCO 2|Pitch Env Amount|
@@ -224,7 +222,6 @@ LFO Shape: moving (up or down) always increments by 1.
 - All AT Mod Switches	
 - All Xmod Switches
 - HP Key Amount	
-- LFO Mod Switch: HP
 
 ### Unused Knobs		
 - AT Mod	
