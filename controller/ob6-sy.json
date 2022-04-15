@@ -1,15 +1,19 @@
 {
-  "version": "2.8.0-rc.5",
+  "version": "2.13.0-pre.3",
   "name": "OB6 SY",
   "defaultGroup": {},
   "groups": [
     {
       "id": "a83f92aa-807e-45cc-9ce2-3928c2d2eb8d",
-      "name": "Shift",
+      "name": "Shift.Absolute",
       "activationType": "modifiers",
       "modifierCondition1": {
         "paramIndex": 0,
         "isOn": true
+      },
+      "modifierCondition2": {
+        "paramIndex": 1,
+        "isOn": false
       },
       "programCondition": {
         "paramIndex": 0,
@@ -18,33 +22,137 @@
     },
     {
       "id": "de54bbb5-f0b5-4db4-a232-f4e465727679",
-      "name": "Direct",
+      "name": "Direct.Absolute",
       "activationType": "modifiers",
       "modifierCondition1": {
         "paramIndex": 0,
         "isOn": false
+      },
+      "modifierCondition2": {
+        "paramIndex": 1,
+        "isOn": false
+      }
+    },
+    {
+      "id": "KfZG_f0thXL4GtgsxJSi5",
+      "name": ".Absolute",
+      "activationType": "modifiers",
+      "modifierCondition1": {
+        "paramIndex": 1,
+        "isOn": false
+      }
+    },
+    {
+      "id": "p_4nZ7SFO4WkqmnwBe2BB",
+      "name": ".Relative",
+      "activationType": "modifiers",
+      "modifierCondition1": {
+        "paramIndex": 1,
+        "isOn": true
+      }
+    },
+    {
+      "id": "Nj_EJrBJyL8mUleSXGVAQ",
+      "name": "Direct.Relative",
+      "activationType": "modifiers",
+      "modifierCondition1": {
+        "paramIndex": 0,
+        "isOn": false
+      },
+      "modifierCondition2": {
+        "paramIndex": 1,
+        "isOn": true
+      }
+    },
+    {
+      "id": "afKzCmvHUjGEw_Ltroisg",
+      "name": "Shift.Relative",
+      "activationType": "modifiers",
+      "modifierCondition1": {
+        "paramIndex": 0,
+        "isOn": true
+      },
+      "modifierCondition2": {
+        "paramIndex": 1,
+        "isOn": true
+      }
+    },
+    {
+      "id": "V20uaI9HT6zG9hryTUNmE",
+      "name": "."
+    },
+    {
+      "id": "WE8APUZ2Q8O2gSUi9hfiH",
+      "name": "Direct.",
+      "activationType": "modifiers",
+      "modifierCondition1": {
+        "paramIndex": 0,
+        "isOn": false
+      }
+    },
+    {
+      "id": "5pFivFJCjaVx5IfVQrsRB",
+      "name": "Shift.",
+      "activationType": "modifiers",
+      "modifierCondition1": {
+        "paramIndex": 0,
+        "isOn": true
       }
     }
   ],
   "mappings": [
     {
       "id": "fb561f53-8dac-4e5b-bcdf-8dfb39a08851",
-      "name": "OB6 Shift",
+      "name": "OB6 Shift (Arp On/Off)",
       "source": {
         "type": 6,
         "channel": 0,
         "number": 160,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
-        "maxSourceValue": 0.00006103888176768602
+        "maxSourceValue": 0.00006103888176768602,
+        "feedbackColor": null
       },
       "target": {
         "fxAnchor": "this",
         "paramIndex": 100,
-        "controlElementType": "button"
+        "controlElementType": "button",
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
+      }
+    },
+    {
+      "id": "0GWu4dNWhD4g-g2RdmA6U",
+      "name": "OB6 Make Relative (LFO / Filter Mode)",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 97,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0,
+        "keystroke": null
+      },
+      "mode": {
+        "maxSourceValue": 0.00006103888176768602,
+        "feedbackColor": null
+      },
+      "target": {
+        "fxAnchor": "this",
+        "paramIndex": 101,
+        "controlElementType": "button",
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       }
     },
     {
@@ -57,15 +165,22 @@
         "number": 0,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
-        "maxSourceValue": 0.003662332906061161
+        "maxSourceValue": 0.003662332906061161,
+        "feedbackColor": null
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/Osc1Pitch"
+        "controlElementIndex": "SY/Osc1Pitch",
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       },
       "feedbackIsEnabled": false
     },
@@ -79,10 +194,12 @@
         "number": 0,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
-        "maxSourceValue": 0.003662332906061161
+        "maxSourceValue": 0.003662332906061161,
+        "feedbackColor": null
       },
       "target": {
         "category": "virtual",
@@ -90,7 +207,12 @@
         "controlElementIndex": "SY/Osc1PitchFine",
         "useProject": true,
         "moveView": true,
-        "seekPlay": true
+        "seekPlay": true,
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       },
       "feedbackIsEnabled": false
     },
@@ -104,15 +226,22 @@
         "number": 3,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
-        "maxSourceValue": 0.015564914850759934
+        "maxSourceValue": 0.015564914850759934,
+        "feedbackColor": null
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/Osc1Waveform"
+        "controlElementIndex": "SY/Osc1Waveform",
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       },
       "feedbackIsEnabled": false
     },
@@ -126,15 +255,22 @@
         "number": 4,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
-        "maxSourceValue": 0.015564914850759934
+        "maxSourceValue": 0.015564914850759934,
+        "feedbackColor": null
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/Osc1Pulsewdth"
+        "controlElementIndex": "SY/Osc1Pulsewdth",
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       },
       "feedbackIsEnabled": false
     },
@@ -148,15 +284,22 @@
         "number": 5,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
-        "maxSourceValue": 0.003662332906061161
+        "maxSourceValue": 0.003662332906061161,
+        "feedbackColor": null
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/Osc2Pitch"
+        "controlElementIndex": "SY/Osc2Pitch",
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       },
       "feedbackIsEnabled": false
     },
@@ -170,15 +313,22 @@
         "number": 6,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
-        "maxSourceValue": 0.015503875968992248
+        "maxSourceValue": 0.015503875968992248,
+        "feedbackColor": null
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/Osc2PitchFine"
+        "controlElementIndex": "SY/Osc2PitchFine",
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       },
       "feedbackIsEnabled": false
     },
@@ -192,36 +342,81 @@
         "number": 8,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
-        "maxSourceValue": 0.015503875968992248
+        "maxSourceValue": 0.015503875968992248,
+        "feedbackColor": null
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/Osc2Waveform"
+        "controlElementIndex": "SY/Osc2Waveform",
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       },
       "feedbackIsEnabled": false
     },
     {
       "id": "33b3dc8d-1084-4a71-a23b-9804aa7df436",
       "name": "Osc2 Pulsewidth",
+      "groupId": "KfZG_f0thXL4GtgsxJSi5",
       "source": {
         "type": 6,
         "channel": 0,
         "number": 9,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
-        "maxSourceValue": 0.015564914850759934
+        "maxSourceValue": 0.015564914850759934,
+        "feedbackColor": null
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/Osc2Pulsewdth"
+        "controlElementIndex": "SY/Osc2Pulsewdth",
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "rzt_D2qvbrHeSbbr-oBW7",
+      "name": "Osc2 Pulsewidth",
+      "groupId": "p_4nZ7SFO4WkqmnwBe2BB",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 9,
+        "isRegistered": false,
+        "is14Bit": true,
+        "keystroke": null
+      },
+      "mode": {
+        "type": 3,
+        "maxSourceValue": 0.015564914850759934,
+        "feedbackColor": null
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/Osc2Pulsewdth",
+        "pollForFeedback": false,
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       },
       "feedbackIsEnabled": false
     },
@@ -235,15 +430,22 @@
         "number": 5,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
-        "maxSourceValue": 0.003662332906061161
+        "maxSourceValue": 0.003662332906061161,
+        "feedbackColor": null
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/Osc3Pitch"
+        "controlElementIndex": "SY/Osc3Pitch",
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       },
       "feedbackIsEnabled": false
     },
@@ -257,15 +459,22 @@
         "number": 6,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
-        "maxSourceValue": 0.015503875968992248
+        "maxSourceValue": 0.015503875968992248,
+        "feedbackColor": null
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/Osc3PitchFine"
+        "controlElementIndex": "SY/Osc3PitchFine",
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       },
       "feedbackIsEnabled": false
     },
@@ -279,78 +488,109 @@
         "number": 8,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
-        "maxSourceValue": 0.015503875968992248
+        "maxSourceValue": 0.015503875968992248,
+        "feedbackColor": null
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/Osc3Waveform"
+        "controlElementIndex": "SY/Osc3Waveform",
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       },
       "feedbackIsEnabled": false
     },
     {
       "id": "96d1a2cc-64ed-4ab6-b8df-59f4d7f2f274",
       "name": "Osc1 Level or Osc1/2 Mix",
+      "groupId": "KfZG_f0thXL4GtgsxJSi5",
       "source": {
         "type": 6,
         "channel": 0,
         "number": 2,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
-        "maxSourceValue": 0.007751937984496124
+        "maxSourceValue": 0.007751937984496124,
+        "feedbackColor": null
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/Osc1Level"
+        "controlElementIndex": "SY/Osc1Level",
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       },
       "feedbackIsEnabled": false
     },
     {
       "id": "e65809a1-66f6-4795-9dbb-af56d10bb512",
       "name": "Osc2 Level",
+      "groupId": "KfZG_f0thXL4GtgsxJSi5",
       "source": {
         "type": 6,
         "channel": 0,
         "number": 7,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
-        "maxSourceValue": 0.007751937984496124
+        "maxSourceValue": 0.007751937984496124,
+        "feedbackColor": null
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/Osc2Level"
+        "controlElementIndex": "SY/Osc2Level",
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       },
       "feedbackIsEnabled": false
     },
     {
       "id": "e889c47c-9112-4290-968f-c7e6e57fccac",
       "name": "Osc3 or SubOsc Level",
+      "groupId": "KfZG_f0thXL4GtgsxJSi5",
       "source": {
         "type": 6,
         "channel": 0,
         "number": 27,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
-        "maxSourceValue": 0.007751937984496124
+        "maxSourceValue": 0.007751937984496124,
+        "feedbackColor": null
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/Osc3|SubLevel"
+        "controlElementIndex": "SY/Osc3|SubLevel",
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       },
       "feedbackIsEnabled": false
     },
@@ -364,15 +604,22 @@
         "number": 32,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
-        "maxSourceValue": 0.007751937984496124
+        "maxSourceValue": 0.007751937984496124,
+        "feedbackColor": null
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/NoiseLevel"
+        "controlElementIndex": "SY/NoiseLevel",
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       },
       "feedbackIsEnabled": false
     },
@@ -386,15 +633,22 @@
         "number": 32,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
-        "maxSourceValue": 0.007751937984496124
+        "maxSourceValue": 0.007751937984496124,
+        "feedbackColor": null
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/FeedbackLevel"
+        "controlElementIndex": "SY/FeedbackLevel",
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       },
       "feedbackIsEnabled": false
     },
@@ -408,57 +662,80 @@
         "number": 45,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
-        "maxSourceValue": 0.010010376609900506
+        "maxSourceValue": 0.015564914850759934,
+        "feedbackColor": null
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/Cutoff"
+        "controlElementIndex": "SY/Cutoff",
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       },
       "feedbackIsEnabled": false
     },
     {
       "id": "fae16be2-cc20-43f0-a07d-fb9cebfba74b",
       "name": "Resonance",
+      "groupId": "KfZG_f0thXL4GtgsxJSi5",
       "source": {
         "type": 6,
         "channel": 0,
         "number": 46,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
-        "maxSourceValue": 0.015564914850759934
+        "maxSourceValue": 0.015564914850759934,
+        "feedbackColor": null
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/Resonance"
+        "controlElementIndex": "SY/Resonance",
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       },
       "feedbackIsEnabled": false
     },
     {
       "id": "44440fd8-e687-4f66-a0dc-f970a08bdf8e",
       "name": "Filter Type",
+      "groupId": "KfZG_f0thXL4GtgsxJSi5",
       "source": {
         "type": 6,
         "channel": 0,
         "number": 49,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
-        "maxSourceValue": 0.015503875968992248
+        "maxSourceValue": 0.015503875968992248,
+        "feedbackColor": null
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/FilterType"
+        "controlElementIndex": "SY/FilterType",
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       },
       "feedbackIsEnabled": false
     },
@@ -472,42 +749,58 @@
         "number": 45,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
-        "maxSourceValue": 0.010010376609900506
+        "maxSourceValue": 0.010010376609900506,
+        "feedbackColor": null
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/HPCutoff"
+        "controlElementIndex": "SY/HPCutoff",
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       },
       "feedbackIsEnabled": false
     },
     {
       "id": "135acfe0-2772-48d5-af58-e8b95defa3db",
       "name": "Cutoff Envelope Modulation Amount Bipolar",
+      "groupId": "KfZG_f0thXL4GtgsxJSi5",
       "source": {
         "type": 6,
         "channel": 0,
         "number": 77,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
-        "maxSourceValue": 0.015503875968992248
+        "maxSourceValue": 0.015503875968992248,
+        "feedbackColor": null
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/CutoffEnvModB"
+        "controlElementIndex": "SY/CutoffEnvModB",
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       },
       "feedbackIsEnabled": false
     },
     {
       "id": "fdbdf0c1-7888-415e-80ab-d0cf18f06df3",
       "name": "Cutoff Key Track Amount Unipolar",
+      "groupId": "V20uaI9HT6zG9hryTUNmE",
       "source": {
         "type": 6,
         "channel": 0,
@@ -515,24 +808,32 @@
         "character": 5,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
         "type": 1,
         "minStepSize": 0.1,
         "maxStepSize": 0.1,
+        "feedbackColor": null,
         "rotateIsEnabled": true
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/CutoffKeyTrkU"
+        "controlElementIndex": "SY/CutoffKeyTrkU",
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       },
       "feedbackIsEnabled": false
     },
     {
       "id": "db9907a1-f39e-46c9-9ece-9f165cb3c4b9",
       "name": "Cutoff LFO Modulation Amount Bipolar",
+      "groupId": "V20uaI9HT6zG9hryTUNmE",
       "source": {
         "type": 6,
         "channel": 0,
@@ -540,24 +841,32 @@
         "character": 5,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
         "type": 1,
         "minStepSize": 0.1,
         "maxStepSize": 0.1,
+        "feedbackColor": null,
         "rotateIsEnabled": true
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/CutoffLFOModB"
+        "controlElementIndex": "SY/CutoffLFOModB",
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       },
       "feedbackIsEnabled": false
     },
     {
       "id": "f4fc8f4c-2429-47aa-bdf4-0c6f15d2e0a5",
       "name": "Cutoff Velocity Modulation Amount Unipolar",
+      "groupId": "V20uaI9HT6zG9hryTUNmE",
       "source": {
         "type": 6,
         "channel": 0,
@@ -565,186 +874,257 @@
         "character": 5,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
         "type": 1,
         "minStepSize": 0.1,
         "maxStepSize": 0.1,
+        "feedbackColor": null,
         "rotateIsEnabled": true
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/CutoffVelModU"
+        "controlElementIndex": "SY/CutoffVelModU",
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       },
       "feedbackIsEnabled": false
     },
     {
       "id": "b3389c97-0a60-4916-acda-e9e4b45c91bc",
       "name": "Filter Attack",
+      "groupId": "KfZG_f0thXL4GtgsxJSi5",
       "source": {
         "type": 6,
         "channel": 0,
         "number": 78,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
-        "maxSourceValue": 0.007751937984496124
+        "maxSourceValue": 0.007751937984496124,
+        "feedbackColor": null
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/FilterAttack"
+        "controlElementIndex": "SY/FilterAttack",
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       },
       "feedbackIsEnabled": false
     },
     {
       "id": "0c383530-60a5-46fe-a05a-cb7feef5b357",
       "name": "Filter Decay",
+      "groupId": "KfZG_f0thXL4GtgsxJSi5",
       "source": {
         "type": 6,
         "channel": 0,
         "number": 79,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
-        "maxSourceValue": 0.007751937984496124
+        "maxSourceValue": 0.007751937984496124,
+        "feedbackColor": null
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/FilterDecay"
+        "controlElementIndex": "SY/FilterDecay",
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       },
       "feedbackIsEnabled": false
     },
     {
       "id": "1b068819-6926-4e0c-bae6-2735c4a95c26",
       "name": "Filter Sustain",
+      "groupId": "KfZG_f0thXL4GtgsxJSi5",
       "source": {
         "type": 6,
         "channel": 0,
         "number": 80,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
-        "maxSourceValue": 0.007751937984496124
+        "maxSourceValue": 0.007751937984496124,
+        "feedbackColor": null
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/FilterSustain"
+        "controlElementIndex": "SY/FilterSustain",
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       },
       "feedbackIsEnabled": false
     },
     {
       "id": "f3bcacbf-8ac8-410b-a6c9-ddb462813f62",
       "name": "Filter Release",
+      "groupId": "KfZG_f0thXL4GtgsxJSi5",
       "source": {
         "type": 6,
         "channel": 0,
         "number": 81,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
-        "maxSourceValue": 0.007751937984496124
+        "maxSourceValue": 0.007751937984496124,
+        "feedbackColor": null
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/FilterRelease"
+        "controlElementIndex": "SY/FilterRelease",
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       },
       "feedbackIsEnabled": false
     },
     {
       "id": "7725a2cd-7481-44c2-bed7-3c8ecedbf1e1",
       "name": "Amplifier Attack",
+      "groupId": "KfZG_f0thXL4GtgsxJSi5",
       "source": {
         "type": 6,
         "channel": 0,
         "number": 67,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
-        "maxSourceValue": 0.007751937984496124
+        "maxSourceValue": 0.007751937984496124,
+        "feedbackColor": null
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/AmpAttack"
+        "controlElementIndex": "SY/AmpAttack",
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       },
       "feedbackIsEnabled": false
     },
     {
       "id": "51c67434-344f-4510-98a7-769e1067d24a",
       "name": "Amplifier Decay",
+      "groupId": "KfZG_f0thXL4GtgsxJSi5",
       "source": {
         "type": 6,
         "channel": 0,
         "number": 68,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
-        "maxSourceValue": 0.007751937984496124
+        "maxSourceValue": 0.007751937984496124,
+        "feedbackColor": null
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/AmpDecay"
+        "controlElementIndex": "SY/AmpDecay",
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       },
       "feedbackIsEnabled": false
     },
     {
       "id": "724ee386-58ff-425c-9f2b-1eb8004f577e",
       "name": "Amplifier Sustain",
+      "groupId": "KfZG_f0thXL4GtgsxJSi5",
       "source": {
         "type": 6,
         "channel": 0,
         "number": 69,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
-        "maxSourceValue": 0.007751937984496124
+        "maxSourceValue": 0.007751937984496124,
+        "feedbackColor": null
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/AmpSustain"
+        "controlElementIndex": "SY/AmpSustain",
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       },
       "feedbackIsEnabled": false
     },
     {
       "id": "c36166f2-2373-4f0b-9fa8-204c26ccc6e1",
       "name": "Amplifier Release",
+      "groupId": "KfZG_f0thXL4GtgsxJSi5",
       "source": {
         "type": 6,
         "channel": 0,
         "number": 70,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
-        "maxSourceValue": 0.007751937984496124
+        "maxSourceValue": 0.007751937984496124,
+        "feedbackColor": null
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/AmpRelease"
+        "controlElementIndex": "SY/AmpRelease",
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       },
       "feedbackIsEnabled": false
     },
@@ -758,15 +1138,22 @@
         "number": 89,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
-        "maxSourceValue": 0.015564914850759934
+        "maxSourceValue": 0.015564914850759934,
+        "feedbackColor": null
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/LFO1Delay"
+        "controlElementIndex": "SY/LFO1Delay",
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       },
       "feedbackIsEnabled": false
     },
@@ -780,22 +1167,29 @@
         "number": 88,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
-        "maxSourceValue": 0.015503875968992248
+        "maxSourceValue": 0.015503875968992248,
+        "feedbackColor": null
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/LFO1Frequency"
+        "controlElementIndex": "SY/LFO1Frequency",
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       },
       "feedbackIsEnabled": false
     },
     {
       "id": "4dbb5a29-a775-4b87-a509-597af9acf130",
       "name": "LFO1 Waveform",
-      "groupId": "de54bbb5-f0b5-4db4-a232-f4e465727679",
+      "groupId": "WE8APUZ2Q8O2gSUi9hfiH",
       "source": {
         "type": 6,
         "channel": 0,
@@ -803,16 +1197,23 @@
         "character": 5,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
         "type": 1,
+        "feedbackColor": null,
         "rotateIsEnabled": true
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/LFO1Waveform"
+        "controlElementIndex": "SY/LFO1Waveform",
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       },
       "feedbackIsEnabled": false
     },
@@ -826,15 +1227,22 @@
         "number": 89,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
-        "maxSourceValue": 0.015564914850759934
+        "maxSourceValue": 0.015564914850759934,
+        "feedbackColor": null
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/LFO2Delay"
+        "controlElementIndex": "SY/LFO2Delay",
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       },
       "feedbackIsEnabled": false
     },
@@ -848,22 +1256,29 @@
         "number": 88,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
-        "maxSourceValue": 0.015503875968992248
+        "maxSourceValue": 0.015503875968992248,
+        "feedbackColor": null
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/LFO2Frequency"
+        "controlElementIndex": "SY/LFO2Frequency",
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       },
       "feedbackIsEnabled": false
     },
     {
       "id": "06142eda-5b25-400f-8d0b-2f2215558607",
       "name": "LFO2 Waveform",
-      "groupId": "a83f92aa-807e-45cc-9ce2-3928c2d2eb8d",
+      "groupId": "5pFivFJCjaVx5IfVQrsRB",
       "source": {
         "type": 6,
         "channel": 0,
@@ -871,64 +1286,88 @@
         "character": 5,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
         "type": 1,
+        "feedbackColor": null,
         "rotateIsEnabled": true
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/LFO2Waveform"
+        "controlElementIndex": "SY/LFO2Waveform",
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       },
       "feedbackIsEnabled": false
     },
     {
       "id": "0cdea9ec-70a3-49f7-adff-6e056f92a3c8",
       "name": "Arpeggiator Rate or Division",
+      "groupId": "V20uaI9HT6zG9hryTUNmE",
       "source": {
         "type": 6,
         "channel": 0,
         "number": 163,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
-        "maxSourceValue": 0.0005493499359091741
+        "maxSourceValue": 0.0005493499359091741,
+        "feedbackColor": null
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/ArpRate|Divis"
+        "controlElementIndex": "SY/ArpRate|Divis",
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       },
       "feedbackIsEnabled": false
     },
     {
       "id": "42bc6ddf-0660-48f1-a684-327e305e8079",
       "name": "Arpeggiator Mode",
+      "groupId": "V20uaI9HT6zG9hryTUNmE",
       "source": {
         "type": 6,
         "channel": 0,
         "number": 161,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
-        "maxSourceValue": 0.00024415552707074406
+        "maxSourceValue": 0.00024415552707074406,
+        "feedbackColor": null
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/ArpMode"
+        "controlElementIndex": "SY/ArpMode",
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       },
       "feedbackIsEnabled": false
     },
     {
       "id": "4fdf3fcf-f534-48ae-b6f2-254e8b39885e",
       "name": "Pitch Envelope Modulation Amount Bipolar",
+      "groupId": "V20uaI9HT6zG9hryTUNmE",
       "source": {
         "type": 6,
         "channel": 0,
@@ -936,12 +1375,14 @@
         "character": 5,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
         "type": 1,
         "minStepSize": 0.1,
         "maxStepSize": 0.1,
+        "feedbackColor": null,
         "rotateIsEnabled": true
       },
       "target": {
@@ -950,13 +1391,19 @@
         "controlElementIndex": "SY/PitchEnvModB",
         "useProject": true,
         "moveView": true,
-        "seekPlay": true
+        "seekPlay": true,
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       },
       "feedbackIsEnabled": false
     },
     {
       "id": "65fbcfd0-f7eb-497b-a724-70bf72836bc5",
       "name": "Pitch LFO Modulation Amount Bipolar",
+      "groupId": "V20uaI9HT6zG9hryTUNmE",
       "source": {
         "type": 6,
         "channel": 0,
@@ -964,12 +1411,14 @@
         "character": 5,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
         "type": 1,
         "minStepSize": 0.1,
         "maxStepSize": 0.1,
+        "feedbackColor": null,
         "rotateIsEnabled": true
       },
       "target": {
@@ -978,13 +1427,19 @@
         "controlElementIndex": "SY/PitchLFOModB",
         "useProject": true,
         "moveView": true,
-        "seekPlay": true
+        "seekPlay": true,
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       },
       "feedbackIsEnabled": false
     },
     {
       "id": "aa5fc648-3149-46c4-8f46-45fda113ba72",
       "name": "Pulsewidth Modulation Amount (LFO or Envelope) Bipolar",
+      "groupId": "V20uaI9HT6zG9hryTUNmE",
       "source": {
         "type": 6,
         "channel": 0,
@@ -992,12 +1447,14 @@
         "character": 5,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
         "type": 1,
         "minStepSize": 0.1,
         "maxStepSize": 0.1,
+        "feedbackColor": null,
         "rotateIsEnabled": true
       },
       "target": {
@@ -1006,13 +1463,19 @@
         "controlElementIndex": "SY/PulsewdthModB",
         "useProject": true,
         "moveView": true,
-        "seekPlay": true
+        "seekPlay": true,
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       },
       "feedbackIsEnabled": false
     },
     {
       "id": "37df9b78-877e-4d75-9c7e-536acd636174",
       "name": "Volume LFO Modulation Amount Bipolar",
+      "groupId": "V20uaI9HT6zG9hryTUNmE",
       "source": {
         "type": 6,
         "channel": 0,
@@ -1020,12 +1483,14 @@
         "character": 5,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
         "type": 1,
         "minStepSize": 0.1,
         "maxStepSize": 0.1,
+        "feedbackColor": null,
         "rotateIsEnabled": true
       },
       "target": {
@@ -1034,7 +1499,12 @@
         "controlElementIndex": "SY/VolumeLFOModB",
         "useProject": true,
         "moveView": true,
-        "seekPlay": true
+        "seekPlay": true,
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       },
       "feedbackIsEnabled": false
     },
@@ -1048,15 +1518,22 @@
         "number": 143,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
-        "maxSourceValue": 0.015503875968992248
+        "maxSourceValue": 0.015503875968992248,
+        "feedbackColor": null
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/ModMx1AmountB"
+        "controlElementIndex": "SY/ModMx1AmountB",
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       },
       "feedbackIsEnabled": false
     },
@@ -1070,15 +1547,22 @@
         "number": 144,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
-        "maxSourceValue": 0.015503875968992248
+        "maxSourceValue": 0.015503875968992248,
+        "feedbackColor": null
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/ModMx2AmountB"
+        "controlElementIndex": "SY/ModMx2AmountB",
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       },
       "feedbackIsEnabled": false
     },
@@ -1092,15 +1576,22 @@
         "number": 143,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
-        "maxSourceValue": 0.015503875968992248
+        "maxSourceValue": 0.015503875968992248,
+        "feedbackColor": null
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/ModMx3AmountB"
+        "controlElementIndex": "SY/ModMx3AmountB",
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       },
       "feedbackIsEnabled": false
     },
@@ -1114,73 +1605,99 @@
         "number": 144,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
-        "maxSourceValue": 0.015503875968992248
+        "maxSourceValue": 0.015503875968992248,
+        "feedbackColor": null
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/ModMx4AmountB"
+        "controlElementIndex": "SY/ModMx4AmountB",
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       },
       "feedbackIsEnabled": false
     },
     {
       "id": "666afc6b-7b54-4577-80c9-4b7cf4abe127",
       "name": "Output Level",
+      "groupId": "KfZG_f0thXL4GtgsxJSi5",
       "source": {
         "type": 6,
         "channel": 0,
         "number": 62,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
-        "maxSourceValue": 0.007751937984496124
+        "maxSourceValue": 0.007751937984496124,
+        "feedbackColor": null
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/OutputLevel"
+        "controlElementIndex": "SY/OutputLevel",
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       },
       "feedbackIsEnabled": false
     },
     {
       "id": "cc5b26e9-a6e4-4edd-a582-919cce54fd4f",
       "name": "Pan Spread",
+      "groupId": "KfZG_f0thXL4GtgsxJSi5",
       "source": {
         "type": 6,
         "channel": 0,
         "number": 63,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
-        "maxSourceValue": 0.007751937984496124
+        "maxSourceValue": 0.007751937984496124,
+        "feedbackColor": null
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/PanSpread"
+        "controlElementIndex": "SY/PanSpread",
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       },
       "feedbackIsEnabled": false
     },
     {
       "id": "269d2b89-f284-4971-a7e5-3c7cff3b638d",
       "name": "Portamento Mode",
+      "groupId": "V20uaI9HT6zG9hryTUNmE",
       "source": {
         "type": 6,
         "channel": 0,
         "number": 28,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
-        "maxSourceValue": 0.00018311664530305805
+        "maxSourceValue": 0.00018311664530305805,
+        "feedbackColor": null
       },
       "target": {
         "category": "virtual",
@@ -1188,23 +1705,31 @@
         "controlElementIndex": "SY/PortaMode",
         "useProject": true,
         "moveView": true,
-        "seekPlay": true
+        "seekPlay": true,
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       },
       "feedbackIsEnabled": false
     },
     {
       "id": "47cf9a4b-0fee-45f7-ba56-3d653eb3d595",
       "name": "Portamento Rate",
+      "groupId": "KfZG_f0thXL4GtgsxJSi5",
       "source": {
         "type": 6,
         "channel": 0,
         "number": 30,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
-        "maxSourceValue": 0.007751937984496124
+        "maxSourceValue": 0.007751937984496124,
+        "feedbackColor": null
       },
       "target": {
         "category": "virtual",
@@ -1212,23 +1737,31 @@
         "controlElementIndex": "SY/PortaRate",
         "useProject": true,
         "moveView": true,
-        "seekPlay": true
+        "seekPlay": true,
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       },
       "feedbackIsEnabled": false
     },
     {
       "id": "a3f9275c-4b9a-4518-82d2-749628654538",
       "name": "Unison Mode",
+      "groupId": "V20uaI9HT6zG9hryTUNmE",
       "source": {
         "type": 6,
         "channel": 0,
         "number": 157,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
-        "maxSourceValue": 0.0003662332906061161
+        "maxSourceValue": 0.0003662332906061161,
+        "feedbackColor": null
       },
       "target": {
         "category": "virtual",
@@ -1236,23 +1769,31 @@
         "controlElementIndex": "SY/UnisonMode",
         "useProject": true,
         "moveView": true,
-        "seekPlay": true
+        "seekPlay": true,
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       },
       "feedbackIsEnabled": false
     },
     {
       "id": "5d72fd61-0c55-4f07-9799-5979ace05bc3",
       "name": "General Detune, Drift or Slop",
+      "groupId": "KfZG_f0thXL4GtgsxJSi5",
       "source": {
         "type": 6,
         "channel": 0,
         "number": 33,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
-        "maxSourceValue": 0.007751937984496124
+        "maxSourceValue": 0.007751937984496124,
+        "feedbackColor": null
       },
       "target": {
         "category": "virtual",
@@ -1260,7 +1801,12 @@
         "controlElementIndex": "SY/Detune|Slop",
         "useProject": true,
         "moveView": true,
-        "seekPlay": true
+        "seekPlay": true,
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       },
       "feedbackIsEnabled": false
     },
@@ -1274,10 +1820,12 @@
         "number": 4,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
-        "maxSourceValue": 0.015564914850759934
+        "maxSourceValue": 0.015564914850759934,
+        "feedbackColor": null
       },
       "target": {
         "category": "virtual",
@@ -1285,7 +1833,12 @@
         "controlElementIndex": "SY/LayerMix",
         "useProject": true,
         "moveView": true,
-        "seekPlay": true
+        "seekPlay": true,
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       },
       "feedbackIsEnabled": false
     },
@@ -1299,31 +1852,41 @@
         "number": 3,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
-        "maxSourceValue": 0.015564914850759934
+        "maxSourceValue": 0.015564914850759934,
+        "feedbackColor": null
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/OscXMod|FM"
+        "controlElementIndex": "SY/OscXMod|FM",
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       },
       "feedbackIsEnabled": false
     },
     {
       "id": "8157bad3-1a45-4769-ab6b-211c86712260",
       "name": "FX Parameter 1",
+      "groupId": "KfZG_f0thXL4GtgsxJSi5",
       "source": {
         "type": 6,
         "channel": 0,
         "number": 120,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
-        "maxSourceValue": 0.007751937984496124
+        "maxSourceValue": 0.007751937984496124,
+        "feedbackColor": null
       },
       "target": {
         "category": "virtual",
@@ -1331,23 +1894,31 @@
         "controlElementIndex": "SY/FXParam1",
         "useProject": true,
         "moveView": true,
-        "seekPlay": true
+        "seekPlay": true,
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       },
       "feedbackIsEnabled": false
     },
     {
       "id": "73056ec9-7e1c-4797-b121-febd805cab29",
       "name": "FX Parameter 2",
+      "groupId": "KfZG_f0thXL4GtgsxJSi5",
       "source": {
         "type": 6,
         "channel": 0,
         "number": 121,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
-        "maxSourceValue": 0.015564914850759934
+        "maxSourceValue": 0.015564914850759934,
+        "feedbackColor": null
       },
       "target": {
         "category": "virtual",
@@ -1355,23 +1926,31 @@
         "controlElementIndex": "SY/FXParam2",
         "useProject": true,
         "moveView": true,
-        "seekPlay": true
+        "seekPlay": true,
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       },
       "feedbackIsEnabled": false
     },
     {
       "id": "a60110f7-d1c1-4dad-876c-f80b6254b894",
       "name": "FX Parameter 3",
+      "groupId": "KfZG_f0thXL4GtgsxJSi5",
       "source": {
         "type": 6,
         "channel": 0,
         "number": 122,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
-        "maxSourceValue": 0.007751937984496124
+        "maxSourceValue": 0.007751937984496124,
+        "feedbackColor": null
       },
       "target": {
         "category": "virtual",
@@ -1379,23 +1958,31 @@
         "controlElementIndex": "SY/FXParam3",
         "useProject": true,
         "moveView": true,
-        "seekPlay": true
+        "seekPlay": true,
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       },
       "feedbackIsEnabled": false
     },
     {
       "id": "4d1967a1-6512-4213-83b7-c8dbca4a6217",
       "name": "FX Parameter 4",
+      "groupId": "KfZG_f0thXL4GtgsxJSi5",
       "source": {
         "type": 6,
         "channel": 0,
         "number": 128,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
-        "maxSourceValue": 0.007751937984496124
+        "maxSourceValue": 0.007751937984496124,
+        "feedbackColor": null
       },
       "target": {
         "category": "virtual",
@@ -1403,23 +1990,31 @@
         "controlElementIndex": "SY/FXParam4",
         "useProject": true,
         "moveView": true,
-        "seekPlay": true
+        "seekPlay": true,
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       },
       "feedbackIsEnabled": false
     },
     {
       "id": "5fe9e0af-a228-4771-abf0-083c1640da28",
       "name": "FX Parameter 5",
+      "groupId": "KfZG_f0thXL4GtgsxJSi5",
       "source": {
         "type": 6,
         "channel": 0,
         "number": 129,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
-        "maxSourceValue": 0.015564914850759934
+        "maxSourceValue": 0.015564914850759934,
+        "feedbackColor": null
       },
       "target": {
         "category": "virtual",
@@ -1427,23 +2022,31 @@
         "controlElementIndex": "SY/FXParam5",
         "useProject": true,
         "moveView": true,
-        "seekPlay": true
+        "seekPlay": true,
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       },
       "feedbackIsEnabled": false
     },
     {
       "id": "8f7b6fa9-d991-4b43-9728-6170449d1266",
       "name": "FX Parameter 6",
+      "groupId": "KfZG_f0thXL4GtgsxJSi5",
       "source": {
         "type": 6,
         "channel": 0,
         "number": 130,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
-        "maxSourceValue": 0.007751937984496124
+        "maxSourceValue": 0.007751937984496124,
+        "feedbackColor": null
       },
       "target": {
         "category": "virtual",
@@ -1451,13 +2054,19 @@
         "controlElementIndex": "SY/FXParam6",
         "useProject": true,
         "moveView": true,
-        "seekPlay": true
+        "seekPlay": true,
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       },
       "feedbackIsEnabled": false
     },
     {
       "id": "63786b7c-5fe5-406a-bcda-5c23b45abe69",
       "name": "Oscillator Sync",
+      "groupId": "V20uaI9HT6zG9hryTUNmE",
       "source": {
         "type": 6,
         "channel": 0,
@@ -1465,10 +2074,12 @@
         "character": 5,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
-        "maxSourceValue": 0.00006103888176768602
+        "maxSourceValue": 0.00006103888176768602,
+        "feedbackColor": null
       },
       "target": {
         "category": "virtual",
@@ -1477,12 +2088,18 @@
         "controlElementIndex": "SY/OscSync",
         "useProject": true,
         "moveView": true,
-        "seekPlay": true
+        "seekPlay": true,
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       }
     },
     {
       "id": "333399f6-b6ae-41cc-9c3e-8159c183147f",
       "name": "Oscillator Keyboard Tracking",
+      "groupId": "V20uaI9HT6zG9hryTUNmE",
       "source": {
         "type": 6,
         "channel": 0,
@@ -1490,10 +2107,12 @@
         "character": 5,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
-        "maxSourceValue": 0.00006103888176768602
+        "maxSourceValue": 0.00006103888176768602,
+        "feedbackColor": null
       },
       "target": {
         "category": "virtual",
@@ -1502,12 +2121,18 @@
         "controlElementIndex": "SY/OscKeyTrack",
         "useProject": true,
         "moveView": true,
-        "seekPlay": true
+        "seekPlay": true,
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       }
     },
     {
       "id": "c447d0d5-cdf2-4a09-8d67-f13c8aefa5e2",
       "name": "Oscillator Low Frequency Mode",
+      "groupId": "V20uaI9HT6zG9hryTUNmE",
       "source": {
         "type": 6,
         "channel": 0,
@@ -1515,10 +2140,12 @@
         "character": 5,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
-        "maxSourceValue": 0.00006103888176768602
+        "maxSourceValue": 0.00006103888176768602,
+        "feedbackColor": null
       },
       "target": {
         "category": "virtual",
@@ -1527,12 +2154,18 @@
         "controlElementIndex": "SY/OscLowFreq",
         "useProject": true,
         "moveView": true,
-        "seekPlay": true
+        "seekPlay": true,
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       }
     },
     {
       "id": "85ed9000-54a3-42fd-a4bf-0887e27580d8",
       "name": "Bandpass or Filter Slope",
+      "groupId": "V20uaI9HT6zG9hryTUNmE",
       "source": {
         "type": 6,
         "channel": 0,
@@ -1540,10 +2173,12 @@
         "character": 5,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
-        "maxSourceValue": 0.00006103888176768602
+        "maxSourceValue": 0.00006103888176768602,
+        "feedbackColor": null
       },
       "target": {
         "category": "virtual",
@@ -1552,13 +2187,18 @@
         "controlElementIndex": "SY/BP|FiltrSlope",
         "useProject": true,
         "moveView": true,
-        "seekPlay": true
+        "seekPlay": true,
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       }
     },
     {
       "id": "fc1fdc42-e855-494c-901c-55fa74080ac2",
       "name": "LFO1 Sync",
-      "groupId": "de54bbb5-f0b5-4db4-a232-f4e465727679",
+      "groupId": "WE8APUZ2Q8O2gSUi9hfiH",
       "source": {
         "type": 6,
         "channel": 0,
@@ -1566,10 +2206,12 @@
         "character": 5,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
-        "maxSourceValue": 0.00006103888176768602
+        "maxSourceValue": 0.00006103888176768602,
+        "feedbackColor": null
       },
       "target": {
         "category": "virtual",
@@ -1578,13 +2220,18 @@
         "controlElementIndex": "SY/LFO1Sync",
         "useProject": true,
         "moveView": true,
-        "seekPlay": true
+        "seekPlay": true,
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       }
     },
     {
       "id": "be0cf184-1e48-4601-8786-d7a905d742a7",
       "name": "LFO2 Sync",
-      "groupId": "a83f92aa-807e-45cc-9ce2-3928c2d2eb8d",
+      "groupId": "5pFivFJCjaVx5IfVQrsRB",
       "source": {
         "type": 6,
         "channel": 0,
@@ -1592,10 +2239,12 @@
         "character": 5,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
-        "maxSourceValue": 0.00006103888176768602
+        "maxSourceValue": 0.00006103888176768602,
+        "feedbackColor": null
       },
       "target": {
         "category": "virtual",
@@ -1604,12 +2253,18 @@
         "controlElementIndex": "SY/LFO2Sync",
         "useProject": true,
         "moveView": true,
-        "seekPlay": true
+        "seekPlay": true,
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       }
     },
     {
       "id": "7dc3f61e-0227-4f67-ab0e-8a3507e842ad",
       "name": "Portamento On",
+      "groupId": "V20uaI9HT6zG9hryTUNmE",
       "source": {
         "type": 6,
         "channel": 0,
@@ -1617,10 +2272,12 @@
         "character": 5,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
-        "maxSourceValue": 0.00006103888176768602
+        "maxSourceValue": 0.00006103888176768602,
+        "feedbackColor": null
       },
       "target": {
         "category": "virtual",
@@ -1629,12 +2286,18 @@
         "controlElementIndex": "SY/PortaOn",
         "useProject": true,
         "moveView": true,
-        "seekPlay": true
+        "seekPlay": true,
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       }
     },
     {
       "id": "2cfd22a5-a693-4412-a07e-ec87a9ed82af",
       "name": "Unison On",
+      "groupId": "V20uaI9HT6zG9hryTUNmE",
       "source": {
         "type": 6,
         "channel": 0,
@@ -1642,10 +2305,12 @@
         "character": 5,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
-        "maxSourceValue": 0.00006103888176768602
+        "maxSourceValue": 0.00006103888176768602,
+        "feedbackColor": null
       },
       "target": {
         "category": "virtual",
@@ -1654,22 +2319,30 @@
         "controlElementIndex": "SY/UnisonOn",
         "useProject": true,
         "moveView": true,
-        "seekPlay": true
+        "seekPlay": true,
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       }
     },
     {
       "id": "09c96e32-482a-4a8c-8b7b-c69251a23691",
       "name": "Select Alternate Layer",
+      "groupId": "V20uaI9HT6zG9hryTUNmE",
       "source": {
         "type": 6,
         "channel": 0,
         "number": 71,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
-        "maxSourceValue": 0.00006103888176768602
+        "maxSourceValue": 0.00006103888176768602,
+        "feedbackColor": null
       },
       "target": {
         "category": "virtual",
@@ -1678,12 +2351,18 @@
         "controlElementIndex": "SY/OtherLayer",
         "useProject": true,
         "moveView": true,
-        "seekPlay": true
+        "seekPlay": true,
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       }
     },
     {
       "id": "172b6be2-bef8-49c7-9313-3e8fe20c0dc5",
       "name": "FX On",
+      "groupId": "V20uaI9HT6zG9hryTUNmE",
       "source": {
         "type": 6,
         "channel": 0,
@@ -1691,10 +2370,12 @@
         "character": 5,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
-        "maxSourceValue": 0.00006103888176768602
+        "maxSourceValue": 0.00006103888176768602,
+        "feedbackColor": null
       },
       "target": {
         "category": "virtual",
@@ -1703,12 +2384,18 @@
         "controlElementIndex": "SY/FXOn",
         "useProject": true,
         "moveView": true,
-        "seekPlay": true
+        "seekPlay": true,
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       }
     },
     {
       "id": "d56694dc-721a-45ba-b9f3-d95d1fabb692",
       "name": "FX Switch 1",
+      "groupId": "V20uaI9HT6zG9hryTUNmE",
       "source": {
         "type": 6,
         "channel": 0,
@@ -1716,10 +2403,12 @@
         "character": 5,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
-        "maxSourceValue": 0.00006103888176768602
+        "maxSourceValue": 0.00006103888176768602,
+        "feedbackColor": null
       },
       "target": {
         "category": "virtual",
@@ -1728,12 +2417,18 @@
         "controlElementIndex": "SY/FXSwitch1",
         "useProject": true,
         "moveView": true,
-        "seekPlay": true
+        "seekPlay": true,
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       }
     },
     {
       "id": "ccbd62a9-8ae9-40a4-9826-5b91992653d7",
       "name": "FX Switch 2",
+      "groupId": "V20uaI9HT6zG9hryTUNmE",
       "source": {
         "type": 6,
         "channel": 0,
@@ -1741,10 +2436,12 @@
         "character": 5,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
-        "maxSourceValue": 0.00006103888176768602
+        "maxSourceValue": 0.00006103888176768602,
+        "feedbackColor": null
       },
       "target": {
         "category": "virtual",
@@ -1753,8 +2450,1480 @@
         "controlElementIndex": "SY/FXSwitch2",
         "useProject": true,
         "moveView": true,
-        "seekPlay": true
+        "seekPlay": true,
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       }
+    },
+    {
+      "id": "2Z5r4ZMGrDQtz827YIaBX",
+      "name": "Osc1 Level or Osc1/2 Mix",
+      "groupId": "p_4nZ7SFO4WkqmnwBe2BB",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 2,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0,
+        "keystroke": null
+      },
+      "mode": {
+        "type": 3,
+        "maxSourceValue": 0.007751937984496124,
+        "feedbackColor": null
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/Osc1Level",
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "hAfIR_wXtCbtGn8CO4WZm",
+      "name": "Osc2 Level",
+      "groupId": "p_4nZ7SFO4WkqmnwBe2BB",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 7,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0,
+        "keystroke": null
+      },
+      "mode": {
+        "type": 3,
+        "maxSourceValue": 0.007751937984496124,
+        "feedbackColor": null
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/Osc2Level",
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "l8P9sPe_XHTtJQkD0cD_I",
+      "name": "Osc3 or SubOsc Level",
+      "groupId": "p_4nZ7SFO4WkqmnwBe2BB",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 27,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0,
+        "keystroke": null
+      },
+      "mode": {
+        "type": 3,
+        "maxSourceValue": 0.007751937984496124,
+        "feedbackColor": null
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/Osc3|SubLevel",
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "pHrcKaibWHiZn4YRT0-AD",
+      "name": "Resonance",
+      "groupId": "p_4nZ7SFO4WkqmnwBe2BB",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 46,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0,
+        "keystroke": null
+      },
+      "mode": {
+        "type": 3,
+        "maxSourceValue": 0.015564914850759934,
+        "feedbackColor": null
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/Resonance",
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "Rv9cp9k5XcqgTmp92YIP5",
+      "name": "Filter Type",
+      "groupId": "p_4nZ7SFO4WkqmnwBe2BB",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 49,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0,
+        "keystroke": null
+      },
+      "mode": {
+        "type": 3,
+        "maxSourceValue": 0.015503875968992248,
+        "feedbackColor": null
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/FilterType",
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "zcNF6SgevgeLwGs0ZXe5n",
+      "name": "Cutoff Envelope Modulation Amount Bipolar",
+      "groupId": "p_4nZ7SFO4WkqmnwBe2BB",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 77,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0,
+        "keystroke": null
+      },
+      "mode": {
+        "type": 3,
+        "maxSourceValue": 0.015503875968992248,
+        "feedbackColor": null
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/CutoffEnvModB",
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "6HII3exYMd3KEo18pztZS",
+      "name": "Filter Attack",
+      "groupId": "p_4nZ7SFO4WkqmnwBe2BB",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 78,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0,
+        "keystroke": null
+      },
+      "mode": {
+        "type": 3,
+        "maxSourceValue": 0.007751937984496124,
+        "feedbackColor": null
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/FilterAttack",
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "s-xVlpQ3rat_XlX8_I4Sv",
+      "name": "Filter Decay",
+      "groupId": "p_4nZ7SFO4WkqmnwBe2BB",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 79,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0,
+        "keystroke": null
+      },
+      "mode": {
+        "type": 3,
+        "maxSourceValue": 0.007751937984496124,
+        "feedbackColor": null
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/FilterDecay",
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "ojmHyIjISKh1zYRnDbb8e",
+      "name": "Filter Sustain",
+      "groupId": "p_4nZ7SFO4WkqmnwBe2BB",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 80,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0,
+        "keystroke": null
+      },
+      "mode": {
+        "type": 3,
+        "maxSourceValue": 0.007751937984496124,
+        "feedbackColor": null
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/FilterSustain",
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "w-alO3S-DRywdD_Qk99dC",
+      "name": "Filter Release",
+      "groupId": "p_4nZ7SFO4WkqmnwBe2BB",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 81,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0,
+        "keystroke": null
+      },
+      "mode": {
+        "type": 3,
+        "maxSourceValue": 0.007751937984496124,
+        "feedbackColor": null
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/FilterRelease",
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "ckQVSZgQazdw4MBDGLwuG",
+      "name": "Amplifier Attack",
+      "groupId": "p_4nZ7SFO4WkqmnwBe2BB",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 67,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0,
+        "keystroke": null
+      },
+      "mode": {
+        "type": 3,
+        "maxSourceValue": 0.007751937984496124,
+        "feedbackColor": null
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/AmpAttack",
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "Q543Cr8zeJ1bbwJkdw63q",
+      "name": "Amplifier Decay",
+      "groupId": "p_4nZ7SFO4WkqmnwBe2BB",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 68,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0,
+        "keystroke": null
+      },
+      "mode": {
+        "maxSourceValue": 0.007751937984496124,
+        "feedbackColor": null
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/AmpDecay",
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "1PbJ8bjYu7MwNsbnSiB5H",
+      "name": "Amplifier Sustain",
+      "groupId": "p_4nZ7SFO4WkqmnwBe2BB",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 69,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0,
+        "keystroke": null
+      },
+      "mode": {
+        "type": 3,
+        "maxSourceValue": 0.007751937984496124,
+        "feedbackColor": null
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/AmpSustain",
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "xE-H_iDmhpl4CAFO_Kt5J",
+      "name": "Amplifier Release",
+      "groupId": "p_4nZ7SFO4WkqmnwBe2BB",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 70,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0,
+        "keystroke": null
+      },
+      "mode": {
+        "type": 3,
+        "maxSourceValue": 0.007751937984496124,
+        "feedbackColor": null
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/AmpRelease",
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "wls_tPfk-N-JWK4zPYQwr",
+      "name": "Output Level",
+      "groupId": "p_4nZ7SFO4WkqmnwBe2BB",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 62,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0,
+        "keystroke": null
+      },
+      "mode": {
+        "type": 3,
+        "maxSourceValue": 0.007751937984496124,
+        "feedbackColor": null
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/OutputLevel",
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "HSO5VrEAfsKefSUr1UHvi",
+      "name": "Pan Spread",
+      "groupId": "p_4nZ7SFO4WkqmnwBe2BB",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 63,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0,
+        "keystroke": null
+      },
+      "mode": {
+        "maxSourceValue": 0.007751937984496124,
+        "feedbackColor": null
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/PanSpread",
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "mae_szjZlex1S71Ah6UIl",
+      "name": "Portamento Rate",
+      "groupId": "p_4nZ7SFO4WkqmnwBe2BB",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 30,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0,
+        "keystroke": null
+      },
+      "mode": {
+        "type": 3,
+        "maxSourceValue": 0.007751937984496124,
+        "feedbackColor": null
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/PortaRate",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "3NhpO_yhU2w4t8AfI97uk",
+      "name": "General Detune, Drift or Slop",
+      "groupId": "p_4nZ7SFO4WkqmnwBe2BB",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 33,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0,
+        "keystroke": null
+      },
+      "mode": {
+        "maxSourceValue": 0.007751937984496124,
+        "feedbackColor": null
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/Detune|Slop",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "BUVWcQrEi-IiKLFEl9mTc",
+      "name": "FX Parameter 1",
+      "groupId": "p_4nZ7SFO4WkqmnwBe2BB",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 120,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0,
+        "keystroke": null
+      },
+      "mode": {
+        "type": 3,
+        "maxSourceValue": 0.007751937984496124,
+        "feedbackColor": null
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/FXParam1",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "UkM635IlnJ2YRgYL_6_bz",
+      "name": "FX Parameter 2",
+      "groupId": "p_4nZ7SFO4WkqmnwBe2BB",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 121,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0,
+        "keystroke": null
+      },
+      "mode": {
+        "type": 3,
+        "maxSourceValue": 0.015564914850759934,
+        "feedbackColor": null
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/FXParam2",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "ijl9GWi-qPDFb2jD0ck9j",
+      "name": "FX Parameter 3",
+      "groupId": "p_4nZ7SFO4WkqmnwBe2BB",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 122,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0,
+        "keystroke": null
+      },
+      "mode": {
+        "type": 3,
+        "maxSourceValue": 0.007751937984496124,
+        "feedbackColor": null
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/FXParam3",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "MpqXmx8ZDnJgR-klTsRpt",
+      "name": "FX Parameter 4",
+      "groupId": "p_4nZ7SFO4WkqmnwBe2BB",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 128,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0,
+        "keystroke": null
+      },
+      "mode": {
+        "maxSourceValue": 0.007751937984496124,
+        "feedbackColor": null
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/FXParam4",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "BH9vcBn4gdDoyHqen8Ke9",
+      "name": "FX Parameter 5",
+      "groupId": "p_4nZ7SFO4WkqmnwBe2BB",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 129,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0,
+        "keystroke": null
+      },
+      "mode": {
+        "maxSourceValue": 0.015564914850759934,
+        "feedbackColor": null
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/FXParam5",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "IGuasZZ9z_W_ClybsYsT0",
+      "name": "FX Parameter 6",
+      "groupId": "p_4nZ7SFO4WkqmnwBe2BB",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 130,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0,
+        "keystroke": null
+      },
+      "mode": {
+        "type": 3,
+        "maxSourceValue": 0.007751937984496124,
+        "feedbackColor": null
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/FXParam6",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "0Y_bJ95_bJr7kdwhzE5K_",
+      "name": "Osc1 Pitch",
+      "groupId": "Nj_EJrBJyL8mUleSXGVAQ",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 0,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0,
+        "keystroke": null
+      },
+      "mode": {
+        "maxSourceValue": 0.003662332906061161,
+        "feedbackColor": null
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/Osc1Pitch",
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "46YPnlqCf_Zk7QaWibRBg",
+      "name": "Osc1 Waveform",
+      "groupId": "Nj_EJrBJyL8mUleSXGVAQ",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 3,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0,
+        "keystroke": null
+      },
+      "mode": {
+        "type": 3,
+        "maxSourceValue": 0.015564914850759934,
+        "feedbackColor": null
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/Osc1Waveform",
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "3paR--fpKSLbZJ3yCwlZt",
+      "name": "Osc1 Pulsewidth",
+      "groupId": "Nj_EJrBJyL8mUleSXGVAQ",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 4,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0,
+        "keystroke": null
+      },
+      "mode": {
+        "type": 3,
+        "maxSourceValue": 0.015564914850759934,
+        "feedbackColor": null
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/Osc1Pulsewdth",
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "hT7FNCvnoJsPZc-TP0E9I",
+      "name": "Osc2 Pitch",
+      "groupId": "Nj_EJrBJyL8mUleSXGVAQ",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 5,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0,
+        "keystroke": null
+      },
+      "mode": {
+        "type": 3,
+        "maxSourceValue": 0.003662332906061161,
+        "feedbackColor": null
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/Osc2Pitch",
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "65tqZOlJINR9RapYAbYMr",
+      "name": "Osc2 Pitch Fine",
+      "groupId": "Nj_EJrBJyL8mUleSXGVAQ",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 6,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0,
+        "keystroke": null
+      },
+      "mode": {
+        "maxSourceValue": 0.015503875968992248,
+        "feedbackColor": null
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/Osc2PitchFine",
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "BVPehekiD1_89mqXQcHbg",
+      "name": "Osc2 Waveform",
+      "groupId": "Nj_EJrBJyL8mUleSXGVAQ",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 8,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0,
+        "keystroke": null
+      },
+      "mode": {
+        "type": 3,
+        "maxSourceValue": 0.015503875968992248,
+        "feedbackColor": null
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/Osc2Waveform",
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "ppKM0jKtW1Yx06_n8GI-h",
+      "name": "Noise Level",
+      "groupId": "Nj_EJrBJyL8mUleSXGVAQ",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 32,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0,
+        "keystroke": null
+      },
+      "mode": {
+        "maxSourceValue": 0.007751937984496124,
+        "feedbackColor": null
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/NoiseLevel",
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "kSS2qW48zDx5M1T3ZoJeV",
+      "name": "Cutoff",
+      "groupId": "Nj_EJrBJyL8mUleSXGVAQ",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 45,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0,
+        "keystroke": null
+      },
+      "mode": {
+        "type": 3,
+        "maxSourceValue": 0.015564914850759934,
+        "feedbackColor": null
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/Cutoff",
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "Rb38MgZO2R6ARf31MXb_l",
+      "name": "LFO1 Delay",
+      "groupId": "Nj_EJrBJyL8mUleSXGVAQ",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 89,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0,
+        "keystroke": null
+      },
+      "mode": {
+        "type": 3,
+        "maxSourceValue": 0.015564914850759934,
+        "feedbackColor": null
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/LFO1Delay",
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "QeyZPn7kIJNiOCaBoJi8j",
+      "name": "LFO1 Frequency",
+      "groupId": "Nj_EJrBJyL8mUleSXGVAQ",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 88,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0,
+        "keystroke": null
+      },
+      "mode": {
+        "type": 3,
+        "maxSourceValue": 0.015503875968992248,
+        "feedbackColor": null
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/LFO1Frequency",
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "s_ihNKORrIP0yv--dhZrK",
+      "name": "Modulation Matrix1 Amount Bipolar",
+      "groupId": "Nj_EJrBJyL8mUleSXGVAQ",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 143,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0,
+        "keystroke": null
+      },
+      "mode": {
+        "maxSourceValue": 0.015503875968992248,
+        "feedbackColor": null
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/ModMx1AmountB",
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "u9-etf6_u9CB1uFjau-X8",
+      "name": "Modulation Matrix2 Amount Bipolar",
+      "groupId": "Nj_EJrBJyL8mUleSXGVAQ",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 144,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0,
+        "keystroke": null
+      },
+      "mode": {
+        "type": 3,
+        "maxSourceValue": 0.015503875968992248,
+        "feedbackColor": null
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/ModMx2AmountB",
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "R9cZe6VuE5LNvUvrkmhL6",
+      "name": "Osc1 Pitch Fine",
+      "groupId": "afKzCmvHUjGEw_Ltroisg",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 0,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0,
+        "keystroke": null
+      },
+      "mode": {
+        "maxSourceValue": 0.003662332906061161,
+        "feedbackColor": null
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/Osc1PitchFine",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "GAf3QXGI7hwcvZJ3l5L3-",
+      "name": "Osc3 Pitch",
+      "groupId": "afKzCmvHUjGEw_Ltroisg",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 5,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0,
+        "keystroke": null
+      },
+      "mode": {
+        "type": 3,
+        "maxSourceValue": 0.003662332906061161,
+        "feedbackColor": null
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/Osc3Pitch",
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "J2p_LzjDg79ByXwINtnTv",
+      "name": "Osc3 Pitch Fine",
+      "groupId": "afKzCmvHUjGEw_Ltroisg",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 6,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0,
+        "keystroke": null
+      },
+      "mode": {
+        "type": 3,
+        "maxSourceValue": 0.015503875968992248,
+        "feedbackColor": null
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/Osc3PitchFine",
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "_7UPsHuq2OYnPUxIcbmpP",
+      "name": "Osc3 Waveform",
+      "groupId": "afKzCmvHUjGEw_Ltroisg",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 8,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0,
+        "keystroke": null
+      },
+      "mode": {
+        "type": 3,
+        "maxSourceValue": 0.015503875968992248,
+        "feedbackColor": null
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/Osc3Waveform",
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "t3LqUrFeNUT4kZ9f0iFKu",
+      "name": "Feedback Level",
+      "groupId": "afKzCmvHUjGEw_Ltroisg",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 32,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0,
+        "keystroke": null
+      },
+      "mode": {
+        "maxSourceValue": 0.007751937984496124,
+        "feedbackColor": null
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/FeedbackLevel",
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "OYipq9RV3fWO9IE70UDQ6",
+      "name": "High Pass Cutoff",
+      "groupId": "afKzCmvHUjGEw_Ltroisg",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 45,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0,
+        "keystroke": null
+      },
+      "mode": {
+        "type": 3,
+        "maxSourceValue": 0.010010376609900506,
+        "feedbackColor": null
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/HPCutoff",
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "0QrpZUJ-cZIDNQpP4ZzFN",
+      "name": "LFO2 Delay",
+      "groupId": "afKzCmvHUjGEw_Ltroisg",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 89,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0,
+        "keystroke": null
+      },
+      "mode": {
+        "maxSourceValue": 0.015564914850759934,
+        "feedbackColor": null
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/LFO2Delay",
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "my5dmuIlV31dy3wNbvJlK",
+      "name": "LFO2 Frequency",
+      "groupId": "afKzCmvHUjGEw_Ltroisg",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 88,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0,
+        "keystroke": null
+      },
+      "mode": {
+        "type": 3,
+        "maxSourceValue": 0.015503875968992248,
+        "feedbackColor": null
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/LFO2Frequency",
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "ZW9wladtTtyticFTwULrF",
+      "name": "Modulation Matrix3 Amount Bipolar",
+      "groupId": "afKzCmvHUjGEw_Ltroisg",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 143,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0,
+        "keystroke": null
+      },
+      "mode": {
+        "type": 3,
+        "maxSourceValue": 0.015503875968992248,
+        "feedbackColor": null
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/ModMx3AmountB",
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "pYCT2FT8FsiQ3hpQGJ5eC",
+      "name": "Modulation Matrix4 Amount Bipolar",
+      "groupId": "afKzCmvHUjGEw_Ltroisg",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 144,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0,
+        "keystroke": null
+      },
+      "mode": {
+        "type": 3,
+        "maxSourceValue": 0.015503875968992248,
+        "feedbackColor": null
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/ModMx4AmountB",
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "6W3kpDk0toz3q0eFTThfD",
+      "name": "Layer Mix",
+      "groupId": "afKzCmvHUjGEw_Ltroisg",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 4,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0,
+        "keystroke": null
+      },
+      "mode": {
+        "maxSourceValue": 0.015564914850759934,
+        "feedbackColor": null
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/LayerMix",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "avd8-bZQwW1TTibdBuNCa",
+      "name": "Oscillator Crossmod or FM",
+      "groupId": "afKzCmvHUjGEw_Ltroisg",
+      "source": {
+        "type": 6,
+        "channel": 0,
+        "number": 3,
+        "isRegistered": false,
+        "is14Bit": true,
+        "oscArgIndex": 0,
+        "keystroke": null
+      },
+      "mode": {
+        "type": 3,
+        "maxSourceValue": 0.015564914850759934,
+        "feedbackColor": null
+      },
+      "target": {
+        "category": "virtual",
+        "fxAnchor": "id",
+        "controlElementIndex": "SY/OscXMod|FM",
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
+      },
+      "feedbackIsEnabled": false
     }
-  ]
+  ],
+  "parameters": {
+    "1": {
+      "name": "Relative",
+      "valueCount": 2
+    },
+    "0": {
+      "name": "Shift",
+      "valueCount": 2
+    }
+  }
 }
