@@ -26,6 +26,7 @@ Currently available VST presets (Main Mappings):
 - u-he Diva
 - u-he Hive
 - Sonicprojects OP-X Pro II
+- NI Monark (new 2022/04)
  
 VST preset with a different parameter set ("DX" instead of "SY"): 
 - Dexed
