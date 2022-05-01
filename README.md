@@ -6,7 +6,7 @@ ReaLearn is a plugin for the [Reaper](https://www.reaper.fm) DAW (Digital Audio 
 # Introduction
 Based on the fantastic ReaLearn plugin, I created Mapping Presets for several analog-synth VSTs, to be controlled from OB6, Prophet-6, X-Touch Mini or Midiplus X2 to X6 mini. With these presets, you can control up to 90 parameters in the VSTs from your controller (or suitable hardware synthesizer). Because it is based on ReaLearn, feedback is supported (parameter settings are instantly shown if you use a controller with LED-ring encoders like the X-Touch Mini).
 
-In addition to the analog-synths, I created presets for the Dexed synthesizer, which follow a similar concept but use a completely different virtual parameter set.
+In addition to the analog-synths, I created presets for the Dexed and OPS7 FM synthesizers, which follow a similar concept but use a completely different virtual parameter set.
 
 # Features in Detail
 Standard set of 92 virtual parameters, so Controller Mappings and Main (VST-specific) Mappings are _independent from each other_.
@@ -30,6 +30,7 @@ Currently available VST presets (Main Mappings):
  
 VST preset with a different parameter set ("DX" instead of "SY"): 
 - Dexed
+- chipsynth OPS7 (new 2022/05)
 
 Important Restriction:
 The presets were developed and tested with the VSTi version of these softsynths. With VST3i and AUi, problems can occur. (In some cases the parameter numbers differ between AUi and VSTi. There are also sometimes differences between VSTi and AUi for the behavior regarding parameters with discrete values.)
@@ -54,7 +55,7 @@ How to:
 - In ReaLearn, select Control Input = <FX input> and your device as Feedback output
 - Ready!
 
-# VST Mapping Details (for Dexed, see at the end)
+# VST Mapping Details (for Dexed and OPS7, see at the end)
 
 ## TAL J-8
 The two layers (lower and upper) are controlled with the "Other Layer" knob.
@@ -234,8 +235,8 @@ LFO Shape: moving (up or down) always increments by 1.
 - Tempo	
 - HP Env Amount
 
-# Special: [Dexed](https://asb2m10.github.io/dexed/) (Open Source FM Synthesizer)
-Instead of the usual "SY" presets, this has the prefix/suffix "DX". Controller and Main Mapping are required.
+# Special: [Dexed](https://asb2m10.github.io/dexed/) and OPS7 (FM Synthesizers)
+Instead of the usual "SY" presets, these have the prefix/suffix "DX". Controller and Main Mapping are required.
 
 ## With Behringer X-Touch Mini as controller
 
@@ -243,16 +244,22 @@ The upper row of buttons select the operator (or global / all), the lower row bu
 
 ![image](https://user-images.githubusercontent.com/17814756/118041818-90fc5900-b373-11eb-9a8b-7c5c0180f5a0.png)
 
+Note that lower row button 4 resets all 8 parameters of that area.
+
 Depending on this selection, the encoders then control all of Dexed's parameters:
 
 ![image](https://user-images.githubusercontent.com/17814756/118041370-fef45080-b372-11eb-9fad-f47fda8687a9.png)
 
+Or OPS7 Layer A parameters (except the A/B Pan+Detune button, which simultaneously changes Pan A, Pan B and Detune A/B):
+
+![image](https://user-images.githubusercontent.com/17814756/166134016-0480e811-f446-4e47-b45a-6c85453305f1.png)
+	
 Pressing an Encoder resets the parameter to an initial value.
 Exception: All Operators / Level/Active toggles Operator active/inactive
 
 ## With OB-6
 
-This does not work as well, because the OB-6 does not have encoders (and [this ReaLearn feature request](https://github.com/helgoboss/realearn/issues/203) has not yet been implemented).
+Note: I have not yet implemented [the "make relative" ReaLearn feature request](https://github.com/helgoboss/realearn/issues/468) here. If you are interested, contact me.
 
 The X-Modulation buttons select the operator (or LFO VCO1/2 for global / all), and the lower row LFO buttons select the area:
 
