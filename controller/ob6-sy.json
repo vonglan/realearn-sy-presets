@@ -1,5 +1,5 @@
 {
-  "version": "2.13.0-pre.3",
+  "version": "2.13.0-pre.8",
   "name": "OB6 SY",
   "defaultGroup": {},
   "groups": [
@@ -110,22 +110,15 @@
         "number": 160,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
-        "maxSourceValue": 0.00006103888176768602,
-        "feedbackColor": null
+        "maxSourceValue": 0.00006103888176768602
       },
       "target": {
         "fxAnchor": "this",
         "paramIndex": 100,
-        "controlElementType": "button",
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "controlElementType": "button"
       }
     },
     {
@@ -137,22 +130,15 @@
         "number": 97,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
-        "maxSourceValue": 0.00006103888176768602,
-        "feedbackColor": null
+        "maxSourceValue": 0.00006103888176768602
       },
       "target": {
         "fxAnchor": "this",
         "paramIndex": 101,
-        "controlElementType": "button",
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "controlElementType": "button"
       }
     },
     {
@@ -165,22 +151,15 @@
         "number": 0,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
-        "maxSourceValue": 0.003662332906061161,
-        "feedbackColor": null
+        "maxSourceValue": 0.003662332906061161
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/Osc1Pitch",
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "controlElementIndex": "SY/Osc1Pitch"
       },
       "feedbackIsEnabled": false
     },
@@ -194,12 +173,10 @@
         "number": 0,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
-        "maxSourceValue": 0.003662332906061161,
-        "feedbackColor": null
+        "maxSourceValue": 0.003662332906061161
       },
       "target": {
         "category": "virtual",
@@ -207,12 +184,7 @@
         "controlElementIndex": "SY/Osc1PitchFine",
         "useProject": true,
         "moveView": true,
-        "seekPlay": true,
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "seekPlay": true
       },
       "feedbackIsEnabled": false
     },
@@ -226,22 +198,15 @@
         "number": 3,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
-        "maxSourceValue": 0.015564914850759934,
-        "feedbackColor": null
+        "maxSourceValue": 0.015564914850759934
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/Osc1Waveform",
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "controlElementIndex": "SY/Osc1Waveform"
       },
       "feedbackIsEnabled": false
     },
@@ -255,22 +220,15 @@
         "number": 4,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
-        "maxSourceValue": 0.015564914850759934,
-        "feedbackColor": null
+        "maxSourceValue": 0.015564914850759934
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/Osc1Pulsewdth",
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "controlElementIndex": "SY/Osc1Pulsewdth"
       },
       "feedbackIsEnabled": false
     },
@@ -284,22 +242,15 @@
         "number": 5,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
-        "maxSourceValue": 0.003662332906061161,
-        "feedbackColor": null
+        "maxSourceValue": 0.003662332906061161
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/Osc2Pitch",
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "controlElementIndex": "SY/Osc2Pitch"
       },
       "feedbackIsEnabled": false
     },
@@ -313,22 +264,15 @@
         "number": 6,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
-        "maxSourceValue": 0.015503875968992248,
-        "feedbackColor": null
+        "maxSourceValue": 0.015503875968992248
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/Osc2PitchFine",
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "controlElementIndex": "SY/Osc2PitchFine"
       },
       "feedbackIsEnabled": false
     },
@@ -342,22 +286,15 @@
         "number": 8,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
-        "maxSourceValue": 0.015503875968992248,
-        "feedbackColor": null
+        "maxSourceValue": 0.015503875968992248
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/Osc2Waveform",
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "controlElementIndex": "SY/Osc2Waveform"
       },
       "feedbackIsEnabled": false
     },
@@ -371,22 +308,15 @@
         "number": 9,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
-        "maxSourceValue": 0.015564914850759934,
-        "feedbackColor": null
+        "maxSourceValue": 0.015564914850759934
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/Osc2Pulsewdth",
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "controlElementIndex": "SY/Osc2Pulsewdth"
       },
       "feedbackIsEnabled": false
     },
@@ -399,24 +329,17 @@
         "channel": 0,
         "number": 9,
         "isRegistered": false,
-        "is14Bit": true,
-        "keystroke": null
+        "is14Bit": true
       },
       "mode": {
         "type": 3,
-        "maxSourceValue": 0.015564914850759934,
-        "feedbackColor": null
+        "maxSourceValue": 0.015564914850759934
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
         "controlElementIndex": "SY/Osc2Pulsewdth",
-        "pollForFeedback": false,
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "pollForFeedback": false
       },
       "feedbackIsEnabled": false
     },
@@ -430,22 +353,15 @@
         "number": 5,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
-        "maxSourceValue": 0.003662332906061161,
-        "feedbackColor": null
+        "maxSourceValue": 0.003662332906061161
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/Osc3Pitch",
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "controlElementIndex": "SY/Osc3Pitch"
       },
       "feedbackIsEnabled": false
     },
@@ -459,22 +375,15 @@
         "number": 6,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
-        "maxSourceValue": 0.015503875968992248,
-        "feedbackColor": null
+        "maxSourceValue": 0.015503875968992248
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/Osc3PitchFine",
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "controlElementIndex": "SY/Osc3PitchFine"
       },
       "feedbackIsEnabled": false
     },
@@ -488,22 +397,15 @@
         "number": 8,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
-        "maxSourceValue": 0.015503875968992248,
-        "feedbackColor": null
+        "maxSourceValue": 0.015503875968992248
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/Osc3Waveform",
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "controlElementIndex": "SY/Osc3Waveform"
       },
       "feedbackIsEnabled": false
     },
@@ -517,22 +419,15 @@
         "number": 2,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
-        "maxSourceValue": 0.007751937984496124,
-        "feedbackColor": null
+        "maxSourceValue": 0.007751937984496124
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/Osc1Level",
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "controlElementIndex": "SY/Osc1Level"
       },
       "feedbackIsEnabled": false
     },
@@ -546,22 +441,15 @@
         "number": 7,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
-        "maxSourceValue": 0.007751937984496124,
-        "feedbackColor": null
+        "maxSourceValue": 0.007751937984496124
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/Osc2Level",
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "controlElementIndex": "SY/Osc2Level"
       },
       "feedbackIsEnabled": false
     },
@@ -575,22 +463,15 @@
         "number": 27,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
-        "maxSourceValue": 0.007751937984496124,
-        "feedbackColor": null
+        "maxSourceValue": 0.007751937984496124
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/Osc3|SubLevel",
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "controlElementIndex": "SY/Osc3|SubLevel"
       },
       "feedbackIsEnabled": false
     },
@@ -604,22 +485,15 @@
         "number": 32,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
-        "maxSourceValue": 0.007751937984496124,
-        "feedbackColor": null
+        "maxSourceValue": 0.007751937984496124
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/NoiseLevel",
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "controlElementIndex": "SY/NoiseLevel"
       },
       "feedbackIsEnabled": false
     },
@@ -633,22 +507,15 @@
         "number": 32,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
-        "maxSourceValue": 0.007751937984496124,
-        "feedbackColor": null
+        "maxSourceValue": 0.007751937984496124
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/FeedbackLevel",
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "controlElementIndex": "SY/FeedbackLevel"
       },
       "feedbackIsEnabled": false
     },
@@ -662,22 +529,15 @@
         "number": 45,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
-        "maxSourceValue": 0.015564914850759934,
-        "feedbackColor": null
+        "maxSourceValue": 0.015564914850759934
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/Cutoff",
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "controlElementIndex": "SY/Cutoff"
       },
       "feedbackIsEnabled": false
     },
@@ -691,22 +551,15 @@
         "number": 46,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
-        "maxSourceValue": 0.015564914850759934,
-        "feedbackColor": null
+        "maxSourceValue": 0.015564914850759934
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/Resonance",
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "controlElementIndex": "SY/Resonance"
       },
       "feedbackIsEnabled": false
     },
@@ -720,22 +573,15 @@
         "number": 49,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
-        "maxSourceValue": 0.015503875968992248,
-        "feedbackColor": null
+        "maxSourceValue": 0.015503875968992248
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/FilterType",
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "controlElementIndex": "SY/FilterType"
       },
       "feedbackIsEnabled": false
     },
@@ -749,22 +595,15 @@
         "number": 45,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
-        "maxSourceValue": 0.010010376609900506,
-        "feedbackColor": null
+        "maxSourceValue": 0.010010376609900506
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/HPCutoff",
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "controlElementIndex": "SY/HPCutoff"
       },
       "feedbackIsEnabled": false
     },
@@ -778,22 +617,15 @@
         "number": 77,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
-        "maxSourceValue": 0.015503875968992248,
-        "feedbackColor": null
+        "maxSourceValue": 0.015503875968992248
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/CutoffEnvModB",
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "controlElementIndex": "SY/CutoffEnvModB"
       },
       "feedbackIsEnabled": false
     },
@@ -808,25 +640,18 @@
         "character": 5,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
         "type": 1,
         "minStepSize": 0.1,
         "maxStepSize": 0.1,
-        "feedbackColor": null,
         "rotateIsEnabled": true
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/CutoffKeyTrkU",
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "controlElementIndex": "SY/CutoffKeyTrkU"
       },
       "feedbackIsEnabled": false
     },
@@ -841,25 +666,18 @@
         "character": 5,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
         "type": 1,
         "minStepSize": 0.1,
         "maxStepSize": 0.1,
-        "feedbackColor": null,
         "rotateIsEnabled": true
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/CutoffLFOModB",
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "controlElementIndex": "SY/CutoffLFOModB"
       },
       "feedbackIsEnabled": false
     },
@@ -874,25 +692,18 @@
         "character": 5,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
         "type": 1,
         "minStepSize": 0.1,
         "maxStepSize": 0.1,
-        "feedbackColor": null,
         "rotateIsEnabled": true
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/CutoffVelModU",
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "controlElementIndex": "SY/CutoffVelModU"
       },
       "feedbackIsEnabled": false
     },
@@ -906,22 +717,15 @@
         "number": 78,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
-        "maxSourceValue": 0.007751937984496124,
-        "feedbackColor": null
+        "maxSourceValue": 0.007751937984496124
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/FilterAttack",
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "controlElementIndex": "SY/FilterAttack"
       },
       "feedbackIsEnabled": false
     },
@@ -935,22 +739,15 @@
         "number": 79,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
-        "maxSourceValue": 0.007751937984496124,
-        "feedbackColor": null
+        "maxSourceValue": 0.007751937984496124
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/FilterDecay",
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "controlElementIndex": "SY/FilterDecay"
       },
       "feedbackIsEnabled": false
     },
@@ -964,22 +761,15 @@
         "number": 80,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
-        "maxSourceValue": 0.007751937984496124,
-        "feedbackColor": null
+        "maxSourceValue": 0.007751937984496124
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/FilterSustain",
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "controlElementIndex": "SY/FilterSustain"
       },
       "feedbackIsEnabled": false
     },
@@ -993,22 +783,15 @@
         "number": 81,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
-        "maxSourceValue": 0.007751937984496124,
-        "feedbackColor": null
+        "maxSourceValue": 0.007751937984496124
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/FilterRelease",
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "controlElementIndex": "SY/FilterRelease"
       },
       "feedbackIsEnabled": false
     },
@@ -1022,22 +805,15 @@
         "number": 67,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
-        "maxSourceValue": 0.007751937984496124,
-        "feedbackColor": null
+        "maxSourceValue": 0.007751937984496124
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/AmpAttack",
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "controlElementIndex": "SY/AmpAttack"
       },
       "feedbackIsEnabled": false
     },
@@ -1051,22 +827,15 @@
         "number": 68,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
-        "maxSourceValue": 0.007751937984496124,
-        "feedbackColor": null
+        "maxSourceValue": 0.007751937984496124
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/AmpDecay",
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "controlElementIndex": "SY/AmpDecay"
       },
       "feedbackIsEnabled": false
     },
@@ -1080,22 +849,15 @@
         "number": 69,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
-        "maxSourceValue": 0.007751937984496124,
-        "feedbackColor": null
+        "maxSourceValue": 0.007751937984496124
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/AmpSustain",
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "controlElementIndex": "SY/AmpSustain"
       },
       "feedbackIsEnabled": false
     },
@@ -1109,22 +871,15 @@
         "number": 70,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
-        "maxSourceValue": 0.007751937984496124,
-        "feedbackColor": null
+        "maxSourceValue": 0.007751937984496124
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/AmpRelease",
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "controlElementIndex": "SY/AmpRelease"
       },
       "feedbackIsEnabled": false
     },
@@ -1138,22 +893,15 @@
         "number": 89,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
-        "maxSourceValue": 0.015564914850759934,
-        "feedbackColor": null
+        "maxSourceValue": 0.015564914850759934
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/LFO1Delay",
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "controlElementIndex": "SY/LFO1Delay"
       },
       "feedbackIsEnabled": false
     },
@@ -1167,22 +915,15 @@
         "number": 88,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
-        "maxSourceValue": 0.015503875968992248,
-        "feedbackColor": null
+        "maxSourceValue": 0.015503875968992248
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/LFO1Frequency",
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "controlElementIndex": "SY/LFO1Frequency"
       },
       "feedbackIsEnabled": false
     },
@@ -1197,23 +938,16 @@
         "character": 5,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
         "type": 1,
-        "feedbackColor": null,
         "rotateIsEnabled": true
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/LFO1Waveform",
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "controlElementIndex": "SY/LFO1Waveform"
       },
       "feedbackIsEnabled": false
     },
@@ -1227,22 +961,15 @@
         "number": 89,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
-        "maxSourceValue": 0.015564914850759934,
-        "feedbackColor": null
+        "maxSourceValue": 0.015564914850759934
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/LFO2Delay",
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "controlElementIndex": "SY/LFO2Delay"
       },
       "feedbackIsEnabled": false
     },
@@ -1256,22 +983,15 @@
         "number": 88,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
-        "maxSourceValue": 0.015503875968992248,
-        "feedbackColor": null
+        "maxSourceValue": 0.015503875968992248
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/LFO2Frequency",
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "controlElementIndex": "SY/LFO2Frequency"
       },
       "feedbackIsEnabled": false
     },
@@ -1286,23 +1006,16 @@
         "character": 5,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
         "type": 1,
-        "feedbackColor": null,
         "rotateIsEnabled": true
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/LFO2Waveform",
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "controlElementIndex": "SY/LFO2Waveform"
       },
       "feedbackIsEnabled": false
     },
@@ -1316,22 +1029,15 @@
         "number": 163,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
-        "maxSourceValue": 0.0005493499359091741,
-        "feedbackColor": null
+        "maxSourceValue": 0.0005493499359091741
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/ArpRate|Divis",
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "controlElementIndex": "SY/ArpRate|Divis"
       },
       "feedbackIsEnabled": false
     },
@@ -1345,22 +1051,15 @@
         "number": 161,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
-        "maxSourceValue": 0.00024415552707074406,
-        "feedbackColor": null
+        "maxSourceValue": 0.00024415552707074406
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/ArpMode",
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "controlElementIndex": "SY/ArpMode"
       },
       "feedbackIsEnabled": false
     },
@@ -1375,14 +1074,12 @@
         "character": 5,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
         "type": 1,
         "minStepSize": 0.1,
         "maxStepSize": 0.1,
-        "feedbackColor": null,
         "rotateIsEnabled": true
       },
       "target": {
@@ -1391,12 +1088,7 @@
         "controlElementIndex": "SY/PitchEnvModB",
         "useProject": true,
         "moveView": true,
-        "seekPlay": true,
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "seekPlay": true
       },
       "feedbackIsEnabled": false
     },
@@ -1411,14 +1103,12 @@
         "character": 5,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
         "type": 1,
         "minStepSize": 0.1,
         "maxStepSize": 0.1,
-        "feedbackColor": null,
         "rotateIsEnabled": true
       },
       "target": {
@@ -1427,12 +1117,7 @@
         "controlElementIndex": "SY/PitchLFOModB",
         "useProject": true,
         "moveView": true,
-        "seekPlay": true,
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "seekPlay": true
       },
       "feedbackIsEnabled": false
     },
@@ -1447,14 +1132,12 @@
         "character": 5,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
         "type": 1,
         "minStepSize": 0.1,
         "maxStepSize": 0.1,
-        "feedbackColor": null,
         "rotateIsEnabled": true
       },
       "target": {
@@ -1463,12 +1146,7 @@
         "controlElementIndex": "SY/PulsewdthModB",
         "useProject": true,
         "moveView": true,
-        "seekPlay": true,
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "seekPlay": true
       },
       "feedbackIsEnabled": false
     },
@@ -1483,14 +1161,12 @@
         "character": 5,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
         "type": 1,
         "minStepSize": 0.1,
         "maxStepSize": 0.1,
-        "feedbackColor": null,
         "rotateIsEnabled": true
       },
       "target": {
@@ -1499,12 +1175,7 @@
         "controlElementIndex": "SY/VolumeLFOModB",
         "useProject": true,
         "moveView": true,
-        "seekPlay": true,
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "seekPlay": true
       },
       "feedbackIsEnabled": false
     },
@@ -1518,22 +1189,15 @@
         "number": 143,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
-        "maxSourceValue": 0.015503875968992248,
-        "feedbackColor": null
+        "maxSourceValue": 0.015503875968992248
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/ModMx1AmountB",
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "controlElementIndex": "SY/ModMx1AmountB"
       },
       "feedbackIsEnabled": false
     },
@@ -1547,22 +1211,15 @@
         "number": 144,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
-        "maxSourceValue": 0.015503875968992248,
-        "feedbackColor": null
+        "maxSourceValue": 0.015503875968992248
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/ModMx2AmountB",
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "controlElementIndex": "SY/ModMx2AmountB"
       },
       "feedbackIsEnabled": false
     },
@@ -1576,22 +1233,15 @@
         "number": 143,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
-        "maxSourceValue": 0.015503875968992248,
-        "feedbackColor": null
+        "maxSourceValue": 0.015503875968992248
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/ModMx3AmountB",
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "controlElementIndex": "SY/ModMx3AmountB"
       },
       "feedbackIsEnabled": false
     },
@@ -1605,22 +1255,15 @@
         "number": 144,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
-        "maxSourceValue": 0.015503875968992248,
-        "feedbackColor": null
+        "maxSourceValue": 0.015503875968992248
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/ModMx4AmountB",
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "controlElementIndex": "SY/ModMx4AmountB"
       },
       "feedbackIsEnabled": false
     },
@@ -1634,22 +1277,15 @@
         "number": 62,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
-        "maxSourceValue": 0.007751937984496124,
-        "feedbackColor": null
+        "maxSourceValue": 0.007751937984496124
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/OutputLevel",
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "controlElementIndex": "SY/OutputLevel"
       },
       "feedbackIsEnabled": false
     },
@@ -1663,22 +1299,15 @@
         "number": 63,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
-        "maxSourceValue": 0.007751937984496124,
-        "feedbackColor": null
+        "maxSourceValue": 0.007751937984496124
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/PanSpread",
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "controlElementIndex": "SY/PanSpread"
       },
       "feedbackIsEnabled": false
     },
@@ -1692,12 +1321,10 @@
         "number": 28,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
-        "maxSourceValue": 0.00018311664530305805,
-        "feedbackColor": null
+        "maxSourceValue": 0.00018311664530305805
       },
       "target": {
         "category": "virtual",
@@ -1705,12 +1332,7 @@
         "controlElementIndex": "SY/PortaMode",
         "useProject": true,
         "moveView": true,
-        "seekPlay": true,
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "seekPlay": true
       },
       "feedbackIsEnabled": false
     },
@@ -1724,12 +1346,10 @@
         "number": 30,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
-        "maxSourceValue": 0.007751937984496124,
-        "feedbackColor": null
+        "maxSourceValue": 0.007751937984496124
       },
       "target": {
         "category": "virtual",
@@ -1737,12 +1357,7 @@
         "controlElementIndex": "SY/PortaRate",
         "useProject": true,
         "moveView": true,
-        "seekPlay": true,
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "seekPlay": true
       },
       "feedbackIsEnabled": false
     },
@@ -1756,12 +1371,10 @@
         "number": 157,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
-        "maxSourceValue": 0.0003662332906061161,
-        "feedbackColor": null
+        "maxSourceValue": 0.0003662332906061161
       },
       "target": {
         "category": "virtual",
@@ -1769,12 +1382,7 @@
         "controlElementIndex": "SY/UnisonMode",
         "useProject": true,
         "moveView": true,
-        "seekPlay": true,
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "seekPlay": true
       },
       "feedbackIsEnabled": false
     },
@@ -1788,12 +1396,10 @@
         "number": 33,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
-        "maxSourceValue": 0.007751937984496124,
-        "feedbackColor": null
+        "maxSourceValue": 0.007751937984496124
       },
       "target": {
         "category": "virtual",
@@ -1801,12 +1407,7 @@
         "controlElementIndex": "SY/Detune|Slop",
         "useProject": true,
         "moveView": true,
-        "seekPlay": true,
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "seekPlay": true
       },
       "feedbackIsEnabled": false
     },
@@ -1820,12 +1421,10 @@
         "number": 4,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
-        "maxSourceValue": 0.015564914850759934,
-        "feedbackColor": null
+        "maxSourceValue": 0.015564914850759934
       },
       "target": {
         "category": "virtual",
@@ -1833,12 +1432,7 @@
         "controlElementIndex": "SY/LayerMix",
         "useProject": true,
         "moveView": true,
-        "seekPlay": true,
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "seekPlay": true
       },
       "feedbackIsEnabled": false
     },
@@ -1852,22 +1446,15 @@
         "number": 3,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
-        "maxSourceValue": 0.015564914850759934,
-        "feedbackColor": null
+        "maxSourceValue": 0.015564914850759934
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/OscXMod|FM",
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "controlElementIndex": "SY/OscXMod|FM"
       },
       "feedbackIsEnabled": false
     },
@@ -1881,12 +1468,10 @@
         "number": 120,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
-        "maxSourceValue": 0.007751937984496124,
-        "feedbackColor": null
+        "maxSourceValue": 0.007751937984496124
       },
       "target": {
         "category": "virtual",
@@ -1894,12 +1479,7 @@
         "controlElementIndex": "SY/FXParam1",
         "useProject": true,
         "moveView": true,
-        "seekPlay": true,
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "seekPlay": true
       },
       "feedbackIsEnabled": false
     },
@@ -1913,12 +1493,10 @@
         "number": 121,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
-        "maxSourceValue": 0.015564914850759934,
-        "feedbackColor": null
+        "maxSourceValue": 0.015564914850759934
       },
       "target": {
         "category": "virtual",
@@ -1926,12 +1504,7 @@
         "controlElementIndex": "SY/FXParam2",
         "useProject": true,
         "moveView": true,
-        "seekPlay": true,
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "seekPlay": true
       },
       "feedbackIsEnabled": false
     },
@@ -1945,12 +1518,10 @@
         "number": 122,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
-        "maxSourceValue": 0.007751937984496124,
-        "feedbackColor": null
+        "maxSourceValue": 0.007751937984496124
       },
       "target": {
         "category": "virtual",
@@ -1958,12 +1529,7 @@
         "controlElementIndex": "SY/FXParam3",
         "useProject": true,
         "moveView": true,
-        "seekPlay": true,
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "seekPlay": true
       },
       "feedbackIsEnabled": false
     },
@@ -1977,12 +1543,10 @@
         "number": 128,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
-        "maxSourceValue": 0.007751937984496124,
-        "feedbackColor": null
+        "maxSourceValue": 0.007751937984496124
       },
       "target": {
         "category": "virtual",
@@ -1990,12 +1554,7 @@
         "controlElementIndex": "SY/FXParam4",
         "useProject": true,
         "moveView": true,
-        "seekPlay": true,
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "seekPlay": true
       },
       "feedbackIsEnabled": false
     },
@@ -2009,12 +1568,10 @@
         "number": 129,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
-        "maxSourceValue": 0.015564914850759934,
-        "feedbackColor": null
+        "maxSourceValue": 0.015564914850759934
       },
       "target": {
         "category": "virtual",
@@ -2022,12 +1579,7 @@
         "controlElementIndex": "SY/FXParam5",
         "useProject": true,
         "moveView": true,
-        "seekPlay": true,
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "seekPlay": true
       },
       "feedbackIsEnabled": false
     },
@@ -2041,12 +1593,10 @@
         "number": 130,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
-        "maxSourceValue": 0.007751937984496124,
-        "feedbackColor": null
+        "maxSourceValue": 0.007751937984496124
       },
       "target": {
         "category": "virtual",
@@ -2054,12 +1604,7 @@
         "controlElementIndex": "SY/FXParam6",
         "useProject": true,
         "moveView": true,
-        "seekPlay": true,
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "seekPlay": true
       },
       "feedbackIsEnabled": false
     },
@@ -2074,12 +1619,10 @@
         "character": 5,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
-        "maxSourceValue": 0.00006103888176768602,
-        "feedbackColor": null
+        "maxSourceValue": 0.00006103888176768602
       },
       "target": {
         "category": "virtual",
@@ -2088,12 +1631,7 @@
         "controlElementIndex": "SY/OscSync",
         "useProject": true,
         "moveView": true,
-        "seekPlay": true,
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "seekPlay": true
       }
     },
     {
@@ -2107,12 +1645,10 @@
         "character": 5,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
-        "maxSourceValue": 0.00006103888176768602,
-        "feedbackColor": null
+        "maxSourceValue": 0.00006103888176768602
       },
       "target": {
         "category": "virtual",
@@ -2121,12 +1657,7 @@
         "controlElementIndex": "SY/OscKeyTrack",
         "useProject": true,
         "moveView": true,
-        "seekPlay": true,
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "seekPlay": true
       }
     },
     {
@@ -2140,12 +1671,10 @@
         "character": 5,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
-        "maxSourceValue": 0.00006103888176768602,
-        "feedbackColor": null
+        "maxSourceValue": 0.00006103888176768602
       },
       "target": {
         "category": "virtual",
@@ -2154,12 +1683,7 @@
         "controlElementIndex": "SY/OscLowFreq",
         "useProject": true,
         "moveView": true,
-        "seekPlay": true,
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "seekPlay": true
       }
     },
     {
@@ -2173,12 +1697,10 @@
         "character": 5,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
-        "maxSourceValue": 0.00006103888176768602,
-        "feedbackColor": null
+        "maxSourceValue": 0.00006103888176768602
       },
       "target": {
         "category": "virtual",
@@ -2187,12 +1709,7 @@
         "controlElementIndex": "SY/BP|FiltrSlope",
         "useProject": true,
         "moveView": true,
-        "seekPlay": true,
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "seekPlay": true
       }
     },
     {
@@ -2206,12 +1723,10 @@
         "character": 5,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
-        "maxSourceValue": 0.00006103888176768602,
-        "feedbackColor": null
+        "maxSourceValue": 0.00006103888176768602
       },
       "target": {
         "category": "virtual",
@@ -2220,12 +1735,7 @@
         "controlElementIndex": "SY/LFO1Sync",
         "useProject": true,
         "moveView": true,
-        "seekPlay": true,
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "seekPlay": true
       }
     },
     {
@@ -2239,12 +1749,10 @@
         "character": 5,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
-        "maxSourceValue": 0.00006103888176768602,
-        "feedbackColor": null
+        "maxSourceValue": 0.00006103888176768602
       },
       "target": {
         "category": "virtual",
@@ -2253,12 +1761,7 @@
         "controlElementIndex": "SY/LFO2Sync",
         "useProject": true,
         "moveView": true,
-        "seekPlay": true,
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "seekPlay": true
       }
     },
     {
@@ -2272,12 +1775,10 @@
         "character": 5,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
-        "maxSourceValue": 0.00006103888176768602,
-        "feedbackColor": null
+        "maxSourceValue": 0.00006103888176768602
       },
       "target": {
         "category": "virtual",
@@ -2286,12 +1787,7 @@
         "controlElementIndex": "SY/PortaOn",
         "useProject": true,
         "moveView": true,
-        "seekPlay": true,
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "seekPlay": true
       }
     },
     {
@@ -2305,12 +1801,10 @@
         "character": 5,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
-        "maxSourceValue": 0.00006103888176768602,
-        "feedbackColor": null
+        "maxSourceValue": 0.00006103888176768602
       },
       "target": {
         "category": "virtual",
@@ -2319,12 +1813,7 @@
         "controlElementIndex": "SY/UnisonOn",
         "useProject": true,
         "moveView": true,
-        "seekPlay": true,
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "seekPlay": true
       }
     },
     {
@@ -2337,12 +1826,10 @@
         "number": 71,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
-        "maxSourceValue": 0.00006103888176768602,
-        "feedbackColor": null
+        "maxSourceValue": 0.00006103888176768602
       },
       "target": {
         "category": "virtual",
@@ -2351,12 +1838,7 @@
         "controlElementIndex": "SY/OtherLayer",
         "useProject": true,
         "moveView": true,
-        "seekPlay": true,
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "seekPlay": true
       }
     },
     {
@@ -2370,12 +1852,10 @@
         "character": 5,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
-        "maxSourceValue": 0.00006103888176768602,
-        "feedbackColor": null
+        "maxSourceValue": 0.00006103888176768602
       },
       "target": {
         "category": "virtual",
@@ -2384,12 +1864,7 @@
         "controlElementIndex": "SY/FXOn",
         "useProject": true,
         "moveView": true,
-        "seekPlay": true,
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "seekPlay": true
       }
     },
     {
@@ -2403,12 +1878,10 @@
         "character": 5,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
-        "maxSourceValue": 0.00006103888176768602,
-        "feedbackColor": null
+        "maxSourceValue": 0.00006103888176768602
       },
       "target": {
         "category": "virtual",
@@ -2417,12 +1890,7 @@
         "controlElementIndex": "SY/FXSwitch1",
         "useProject": true,
         "moveView": true,
-        "seekPlay": true,
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "seekPlay": true
       }
     },
     {
@@ -2436,12 +1904,10 @@
         "character": 5,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
-        "maxSourceValue": 0.00006103888176768602,
-        "feedbackColor": null
+        "maxSourceValue": 0.00006103888176768602
       },
       "target": {
         "category": "virtual",
@@ -2450,12 +1916,7 @@
         "controlElementIndex": "SY/FXSwitch2",
         "useProject": true,
         "moveView": true,
-        "seekPlay": true,
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "seekPlay": true
       }
     },
     {
@@ -2468,23 +1929,16 @@
         "number": 2,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
         "type": 3,
-        "maxSourceValue": 0.007751937984496124,
-        "feedbackColor": null
+        "maxSourceValue": 0.007751937984496124
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/Osc1Level",
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "controlElementIndex": "SY/Osc1Level"
       },
       "feedbackIsEnabled": false
     },
@@ -2498,23 +1952,16 @@
         "number": 7,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
         "type": 3,
-        "maxSourceValue": 0.007751937984496124,
-        "feedbackColor": null
+        "maxSourceValue": 0.007751937984496124
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/Osc2Level",
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "controlElementIndex": "SY/Osc2Level"
       },
       "feedbackIsEnabled": false
     },
@@ -2528,23 +1975,16 @@
         "number": 27,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
         "type": 3,
-        "maxSourceValue": 0.007751937984496124,
-        "feedbackColor": null
+        "maxSourceValue": 0.007751937984496124
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/Osc3|SubLevel",
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "controlElementIndex": "SY/Osc3|SubLevel"
       },
       "feedbackIsEnabled": false
     },
@@ -2558,23 +1998,16 @@
         "number": 46,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
         "type": 3,
-        "maxSourceValue": 0.015564914850759934,
-        "feedbackColor": null
+        "maxSourceValue": 0.015564914850759934
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/Resonance",
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "controlElementIndex": "SY/Resonance"
       },
       "feedbackIsEnabled": false
     },
@@ -2588,23 +2021,16 @@
         "number": 49,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
         "type": 3,
-        "maxSourceValue": 0.015503875968992248,
-        "feedbackColor": null
+        "maxSourceValue": 0.015503875968992248
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/FilterType",
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "controlElementIndex": "SY/FilterType"
       },
       "feedbackIsEnabled": false
     },
@@ -2618,23 +2044,16 @@
         "number": 77,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
         "type": 3,
-        "maxSourceValue": 0.015503875968992248,
-        "feedbackColor": null
+        "maxSourceValue": 0.015503875968992248
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/CutoffEnvModB",
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "controlElementIndex": "SY/CutoffEnvModB"
       },
       "feedbackIsEnabled": false
     },
@@ -2648,23 +2067,16 @@
         "number": 78,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
         "type": 3,
-        "maxSourceValue": 0.007751937984496124,
-        "feedbackColor": null
+        "maxSourceValue": 0.007751937984496124
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/FilterAttack",
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "controlElementIndex": "SY/FilterAttack"
       },
       "feedbackIsEnabled": false
     },
@@ -2678,23 +2090,16 @@
         "number": 79,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
         "type": 3,
-        "maxSourceValue": 0.007751937984496124,
-        "feedbackColor": null
+        "maxSourceValue": 0.007751937984496124
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/FilterDecay",
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "controlElementIndex": "SY/FilterDecay"
       },
       "feedbackIsEnabled": false
     },
@@ -2708,23 +2113,16 @@
         "number": 80,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
         "type": 3,
-        "maxSourceValue": 0.007751937984496124,
-        "feedbackColor": null
+        "maxSourceValue": 0.007751937984496124
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/FilterSustain",
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "controlElementIndex": "SY/FilterSustain"
       },
       "feedbackIsEnabled": false
     },
@@ -2738,23 +2136,16 @@
         "number": 81,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
         "type": 3,
-        "maxSourceValue": 0.007751937984496124,
-        "feedbackColor": null
+        "maxSourceValue": 0.007751937984496124
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/FilterRelease",
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "controlElementIndex": "SY/FilterRelease"
       },
       "feedbackIsEnabled": false
     },
@@ -2768,23 +2159,16 @@
         "number": 67,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
         "type": 3,
-        "maxSourceValue": 0.007751937984496124,
-        "feedbackColor": null
+        "maxSourceValue": 0.007751937984496124
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/AmpAttack",
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "controlElementIndex": "SY/AmpAttack"
       },
       "feedbackIsEnabled": false
     },
@@ -2798,22 +2182,16 @@
         "number": 68,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
-        "maxSourceValue": 0.007751937984496124,
-        "feedbackColor": null
+        "type": 3,
+        "maxSourceValue": 0.007751937984496124
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/AmpDecay",
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "controlElementIndex": "SY/AmpDecay"
       },
       "feedbackIsEnabled": false
     },
@@ -2827,23 +2205,16 @@
         "number": 69,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
         "type": 3,
-        "maxSourceValue": 0.007751937984496124,
-        "feedbackColor": null
+        "maxSourceValue": 0.007751937984496124
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/AmpSustain",
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "controlElementIndex": "SY/AmpSustain"
       },
       "feedbackIsEnabled": false
     },
@@ -2857,23 +2228,16 @@
         "number": 70,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
         "type": 3,
-        "maxSourceValue": 0.007751937984496124,
-        "feedbackColor": null
+        "maxSourceValue": 0.007751937984496124
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/AmpRelease",
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "controlElementIndex": "SY/AmpRelease"
       },
       "feedbackIsEnabled": false
     },
@@ -2887,23 +2251,16 @@
         "number": 62,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
         "type": 3,
-        "maxSourceValue": 0.007751937984496124,
-        "feedbackColor": null
+        "maxSourceValue": 0.007751937984496124
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/OutputLevel",
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "controlElementIndex": "SY/OutputLevel"
       },
       "feedbackIsEnabled": false
     },
@@ -2917,22 +2274,16 @@
         "number": 63,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
-        "maxSourceValue": 0.007751937984496124,
-        "feedbackColor": null
+        "type": 3,
+        "maxSourceValue": 0.007751937984496124
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/PanSpread",
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "controlElementIndex": "SY/PanSpread"
       },
       "feedbackIsEnabled": false
     },
@@ -2946,13 +2297,11 @@
         "number": 30,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
         "type": 3,
-        "maxSourceValue": 0.007751937984496124,
-        "feedbackColor": null
+        "maxSourceValue": 0.007751937984496124
       },
       "target": {
         "category": "virtual",
@@ -2960,12 +2309,7 @@
         "controlElementIndex": "SY/PortaRate",
         "useProject": true,
         "moveView": true,
-        "seekPlay": true,
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "seekPlay": true
       },
       "feedbackIsEnabled": false
     },
@@ -2979,12 +2323,11 @@
         "number": 33,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
-        "maxSourceValue": 0.007751937984496124,
-        "feedbackColor": null
+        "type": 3,
+        "maxSourceValue": 0.007751937984496124
       },
       "target": {
         "category": "virtual",
@@ -2992,12 +2335,7 @@
         "controlElementIndex": "SY/Detune|Slop",
         "useProject": true,
         "moveView": true,
-        "seekPlay": true,
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "seekPlay": true
       },
       "feedbackIsEnabled": false
     },
@@ -3011,13 +2349,11 @@
         "number": 120,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
         "type": 3,
-        "maxSourceValue": 0.007751937984496124,
-        "feedbackColor": null
+        "maxSourceValue": 0.007751937984496124
       },
       "target": {
         "category": "virtual",
@@ -3025,12 +2361,7 @@
         "controlElementIndex": "SY/FXParam1",
         "useProject": true,
         "moveView": true,
-        "seekPlay": true,
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "seekPlay": true
       },
       "feedbackIsEnabled": false
     },
@@ -3044,13 +2375,11 @@
         "number": 121,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
         "type": 3,
-        "maxSourceValue": 0.015564914850759934,
-        "feedbackColor": null
+        "maxSourceValue": 0.015564914850759934
       },
       "target": {
         "category": "virtual",
@@ -3058,12 +2387,7 @@
         "controlElementIndex": "SY/FXParam2",
         "useProject": true,
         "moveView": true,
-        "seekPlay": true,
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "seekPlay": true
       },
       "feedbackIsEnabled": false
     },
@@ -3077,13 +2401,11 @@
         "number": 122,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
         "type": 3,
-        "maxSourceValue": 0.007751937984496124,
-        "feedbackColor": null
+        "maxSourceValue": 0.007751937984496124
       },
       "target": {
         "category": "virtual",
@@ -3091,12 +2413,7 @@
         "controlElementIndex": "SY/FXParam3",
         "useProject": true,
         "moveView": true,
-        "seekPlay": true,
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "seekPlay": true
       },
       "feedbackIsEnabled": false
     },
@@ -3110,12 +2427,11 @@
         "number": 128,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
-        "maxSourceValue": 0.007751937984496124,
-        "feedbackColor": null
+        "type": 3,
+        "maxSourceValue": 0.007751937984496124
       },
       "target": {
         "category": "virtual",
@@ -3123,12 +2439,7 @@
         "controlElementIndex": "SY/FXParam4",
         "useProject": true,
         "moveView": true,
-        "seekPlay": true,
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "seekPlay": true
       },
       "feedbackIsEnabled": false
     },
@@ -3142,12 +2453,11 @@
         "number": 129,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
-        "maxSourceValue": 0.015564914850759934,
-        "feedbackColor": null
+        "type": 3,
+        "maxSourceValue": 0.015564914850759934
       },
       "target": {
         "category": "virtual",
@@ -3155,12 +2465,7 @@
         "controlElementIndex": "SY/FXParam5",
         "useProject": true,
         "moveView": true,
-        "seekPlay": true,
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "seekPlay": true
       },
       "feedbackIsEnabled": false
     },
@@ -3174,13 +2479,11 @@
         "number": 130,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
         "type": 3,
-        "maxSourceValue": 0.007751937984496124,
-        "feedbackColor": null
+        "maxSourceValue": 0.007751937984496124
       },
       "target": {
         "category": "virtual",
@@ -3188,12 +2491,7 @@
         "controlElementIndex": "SY/FXParam6",
         "useProject": true,
         "moveView": true,
-        "seekPlay": true,
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "seekPlay": true
       },
       "feedbackIsEnabled": false
     },
@@ -3207,22 +2505,16 @@
         "number": 0,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
-        "maxSourceValue": 0.003662332906061161,
-        "feedbackColor": null
+        "type": 3,
+        "maxSourceValue": 0.003662332906061161
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/Osc1Pitch",
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "controlElementIndex": "SY/Osc1Pitch"
       },
       "feedbackIsEnabled": false
     },
@@ -3236,23 +2528,16 @@
         "number": 3,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
         "type": 3,
-        "maxSourceValue": 0.015564914850759934,
-        "feedbackColor": null
+        "maxSourceValue": 0.015564914850759934
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/Osc1Waveform",
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "controlElementIndex": "SY/Osc1Waveform"
       },
       "feedbackIsEnabled": false
     },
@@ -3266,23 +2551,16 @@
         "number": 4,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
         "type": 3,
-        "maxSourceValue": 0.015564914850759934,
-        "feedbackColor": null
+        "maxSourceValue": 0.015564914850759934
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/Osc1Pulsewdth",
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "controlElementIndex": "SY/Osc1Pulsewdth"
       },
       "feedbackIsEnabled": false
     },
@@ -3296,23 +2574,16 @@
         "number": 5,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
         "type": 3,
-        "maxSourceValue": 0.003662332906061161,
-        "feedbackColor": null
+        "maxSourceValue": 0.003662332906061161
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/Osc2Pitch",
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "controlElementIndex": "SY/Osc2Pitch"
       },
       "feedbackIsEnabled": false
     },
@@ -3326,22 +2597,16 @@
         "number": 6,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
-        "maxSourceValue": 0.015503875968992248,
-        "feedbackColor": null
+        "type": 3,
+        "maxSourceValue": 0.015503875968992248
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/Osc2PitchFine",
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "controlElementIndex": "SY/Osc2PitchFine"
       },
       "feedbackIsEnabled": false
     },
@@ -3355,23 +2620,16 @@
         "number": 8,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
         "type": 3,
-        "maxSourceValue": 0.015503875968992248,
-        "feedbackColor": null
+        "maxSourceValue": 0.015503875968992248
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/Osc2Waveform",
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "controlElementIndex": "SY/Osc2Waveform"
       },
       "feedbackIsEnabled": false
     },
@@ -3385,22 +2643,16 @@
         "number": 32,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
-        "maxSourceValue": 0.007751937984496124,
-        "feedbackColor": null
+        "type": 3,
+        "maxSourceValue": 0.007751937984496124
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/NoiseLevel",
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "controlElementIndex": "SY/NoiseLevel"
       },
       "feedbackIsEnabled": false
     },
@@ -3414,23 +2666,16 @@
         "number": 45,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
         "type": 3,
-        "maxSourceValue": 0.015564914850759934,
-        "feedbackColor": null
+        "maxSourceValue": 0.015564914850759934
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/Cutoff",
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "controlElementIndex": "SY/Cutoff"
       },
       "feedbackIsEnabled": false
     },
@@ -3444,23 +2689,16 @@
         "number": 89,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
         "type": 3,
-        "maxSourceValue": 0.015564914850759934,
-        "feedbackColor": null
+        "maxSourceValue": 0.015564914850759934
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/LFO1Delay",
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "controlElementIndex": "SY/LFO1Delay"
       },
       "feedbackIsEnabled": false
     },
@@ -3474,23 +2712,16 @@
         "number": 88,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
         "type": 3,
-        "maxSourceValue": 0.015503875968992248,
-        "feedbackColor": null
+        "maxSourceValue": 0.015503875968992248
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/LFO1Frequency",
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "controlElementIndex": "SY/LFO1Frequency"
       },
       "feedbackIsEnabled": false
     },
@@ -3504,22 +2735,16 @@
         "number": 143,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
-        "maxSourceValue": 0.015503875968992248,
-        "feedbackColor": null
+        "type": 3,
+        "maxSourceValue": 0.015503875968992248
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/ModMx1AmountB",
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "controlElementIndex": "SY/ModMx1AmountB"
       },
       "feedbackIsEnabled": false
     },
@@ -3533,23 +2758,16 @@
         "number": 144,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
         "type": 3,
-        "maxSourceValue": 0.015503875968992248,
-        "feedbackColor": null
+        "maxSourceValue": 0.015503875968992248
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/ModMx2AmountB",
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "controlElementIndex": "SY/ModMx2AmountB"
       },
       "feedbackIsEnabled": false
     },
@@ -3563,12 +2781,11 @@
         "number": 0,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
-        "maxSourceValue": 0.003662332906061161,
-        "feedbackColor": null
+        "type": 3,
+        "maxSourceValue": 0.003662332906061161
       },
       "target": {
         "category": "virtual",
@@ -3576,12 +2793,7 @@
         "controlElementIndex": "SY/Osc1PitchFine",
         "useProject": true,
         "moveView": true,
-        "seekPlay": true,
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "seekPlay": true
       },
       "feedbackIsEnabled": false
     },
@@ -3595,23 +2807,16 @@
         "number": 5,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
         "type": 3,
-        "maxSourceValue": 0.003662332906061161,
-        "feedbackColor": null
+        "maxSourceValue": 0.003662332906061161
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/Osc3Pitch",
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "controlElementIndex": "SY/Osc3Pitch"
       },
       "feedbackIsEnabled": false
     },
@@ -3625,23 +2830,16 @@
         "number": 6,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
         "type": 3,
-        "maxSourceValue": 0.015503875968992248,
-        "feedbackColor": null
+        "maxSourceValue": 0.015503875968992248
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/Osc3PitchFine",
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "controlElementIndex": "SY/Osc3PitchFine"
       },
       "feedbackIsEnabled": false
     },
@@ -3655,23 +2853,16 @@
         "number": 8,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
         "type": 3,
-        "maxSourceValue": 0.015503875968992248,
-        "feedbackColor": null
+        "maxSourceValue": 0.015503875968992248
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/Osc3Waveform",
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "controlElementIndex": "SY/Osc3Waveform"
       },
       "feedbackIsEnabled": false
     },
@@ -3685,22 +2876,16 @@
         "number": 32,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
-        "maxSourceValue": 0.007751937984496124,
-        "feedbackColor": null
+        "type": 3,
+        "maxSourceValue": 0.007751937984496124
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/FeedbackLevel",
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "controlElementIndex": "SY/FeedbackLevel"
       },
       "feedbackIsEnabled": false
     },
@@ -3714,23 +2899,16 @@
         "number": 45,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
         "type": 3,
-        "maxSourceValue": 0.010010376609900506,
-        "feedbackColor": null
+        "maxSourceValue": 0.010010376609900506
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/HPCutoff",
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "controlElementIndex": "SY/HPCutoff"
       },
       "feedbackIsEnabled": false
     },
@@ -3744,22 +2922,16 @@
         "number": 89,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
-        "maxSourceValue": 0.015564914850759934,
-        "feedbackColor": null
+        "type": 3,
+        "maxSourceValue": 0.015564914850759934
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/LFO2Delay",
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "controlElementIndex": "SY/LFO2Delay"
       },
       "feedbackIsEnabled": false
     },
@@ -3773,23 +2945,16 @@
         "number": 88,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
         "type": 3,
-        "maxSourceValue": 0.015503875968992248,
-        "feedbackColor": null
+        "maxSourceValue": 0.015503875968992248
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/LFO2Frequency",
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "controlElementIndex": "SY/LFO2Frequency"
       },
       "feedbackIsEnabled": false
     },
@@ -3803,23 +2968,16 @@
         "number": 143,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
         "type": 3,
-        "maxSourceValue": 0.015503875968992248,
-        "feedbackColor": null
+        "maxSourceValue": 0.015503875968992248
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/ModMx3AmountB",
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "controlElementIndex": "SY/ModMx3AmountB"
       },
       "feedbackIsEnabled": false
     },
@@ -3833,23 +2991,16 @@
         "number": 144,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
         "type": 3,
-        "maxSourceValue": 0.015503875968992248,
-        "feedbackColor": null
+        "maxSourceValue": 0.015503875968992248
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/ModMx4AmountB",
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "controlElementIndex": "SY/ModMx4AmountB"
       },
       "feedbackIsEnabled": false
     },
@@ -3863,12 +3014,11 @@
         "number": 4,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
-        "maxSourceValue": 0.015564914850759934,
-        "feedbackColor": null
+        "type": 3,
+        "maxSourceValue": 0.015564914850759934
       },
       "target": {
         "category": "virtual",
@@ -3876,12 +3026,7 @@
         "controlElementIndex": "SY/LayerMix",
         "useProject": true,
         "moveView": true,
-        "seekPlay": true,
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "seekPlay": true
       },
       "feedbackIsEnabled": false
     },
@@ -3895,23 +3040,16 @@
         "number": 3,
         "isRegistered": false,
         "is14Bit": true,
-        "oscArgIndex": 0,
-        "keystroke": null
+        "oscArgIndex": 0
       },
       "mode": {
         "type": 3,
-        "maxSourceValue": 0.015564914850759934,
-        "feedbackColor": null
+        "maxSourceValue": 0.015564914850759934
       },
       "target": {
         "category": "virtual",
         "fxAnchor": "id",
-        "controlElementIndex": "SY/OscXMod|FM",
-        "clipSlot": {
-          "address": "ByIndex",
-          "column_index": 0,
-          "row_index": 0
-        }
+        "controlElementIndex": "SY/OscXMod|FM"
       },
       "feedbackIsEnabled": false
     }
