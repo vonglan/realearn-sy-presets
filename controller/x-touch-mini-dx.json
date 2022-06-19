@@ -1,5 +1,5 @@
 {
-  "version": "2.8.2",
+  "version": "2.13.0-pre.3",
   "name": "X-Touch Mini DX",
   "defaultGroup": {},
   "mappings": [
@@ -12,10 +12,12 @@
         "character": 2,
         "isRegistered": false,
         "is14Bit": false,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
-        "maxStepSize": 0.05
+        "maxStepSize": 0.05,
+        "feedbackColor": null
       },
       "target": {
         "category": "virtual",
@@ -24,7 +26,12 @@
         "useProject": true,
         "moveView": true,
         "seekPlay": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       }
     },
     {
@@ -37,10 +44,12 @@
         "character": 2,
         "isRegistered": false,
         "is14Bit": false,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
-        "maxStepSize": 0.05
+        "maxStepSize": 0.05,
+        "feedbackColor": null
       },
       "target": {
         "category": "virtual",
@@ -50,7 +59,12 @@
         "useProject": true,
         "moveView": true,
         "seekPlay": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       },
       "feedbackIsEnabled": false
     },
@@ -63,10 +77,12 @@
         "character": 2,
         "isRegistered": false,
         "is14Bit": false,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
-        "maxStepSize": 0.05
+        "maxStepSize": 0.05,
+        "feedbackColor": null
       },
       "target": {
         "category": "virtual",
@@ -75,7 +91,12 @@
         "useProject": true,
         "moveView": true,
         "seekPlay": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       }
     },
     {
@@ -88,10 +109,12 @@
         "character": 2,
         "isRegistered": false,
         "is14Bit": false,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
-        "maxStepSize": 0.05
+        "maxStepSize": 0.05,
+        "feedbackColor": null
       },
       "target": {
         "category": "virtual",
@@ -101,7 +124,12 @@
         "useProject": true,
         "moveView": true,
         "seekPlay": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       },
       "feedbackIsEnabled": false
     },
@@ -114,10 +142,12 @@
         "character": 2,
         "isRegistered": false,
         "is14Bit": false,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
-        "maxStepSize": 0.05
+        "maxStepSize": 0.05,
+        "feedbackColor": null
       },
       "target": {
         "category": "virtual",
@@ -126,7 +156,12 @@
         "useProject": true,
         "moveView": true,
         "seekPlay": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       }
     },
     {
@@ -139,10 +174,12 @@
         "character": 2,
         "isRegistered": false,
         "is14Bit": false,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
-        "maxStepSize": 0.05
+        "maxStepSize": 0.05,
+        "feedbackColor": null
       },
       "target": {
         "category": "virtual",
@@ -152,7 +189,12 @@
         "useProject": true,
         "moveView": true,
         "seekPlay": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       },
       "feedbackIsEnabled": false
     },
@@ -165,10 +207,12 @@
         "character": 2,
         "isRegistered": false,
         "is14Bit": false,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
-        "maxStepSize": 0.05
+        "maxStepSize": 0.05,
+        "feedbackColor": null
       },
       "target": {
         "category": "virtual",
@@ -177,7 +221,12 @@
         "useProject": true,
         "moveView": true,
         "seekPlay": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       }
     },
     {
@@ -190,10 +239,12 @@
         "character": 2,
         "isRegistered": false,
         "is14Bit": false,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
-        "maxStepSize": 0.05
+        "maxStepSize": 0.05,
+        "feedbackColor": null
       },
       "target": {
         "category": "virtual",
@@ -203,7 +254,12 @@
         "useProject": true,
         "moveView": true,
         "seekPlay": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       },
       "feedbackIsEnabled": false
     },
@@ -216,10 +272,12 @@
         "character": 2,
         "isRegistered": false,
         "is14Bit": false,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
-        "maxStepSize": 0.05
+        "maxStepSize": 0.05,
+        "feedbackColor": null
       },
       "target": {
         "category": "virtual",
@@ -228,7 +286,12 @@
         "useProject": true,
         "moveView": true,
         "seekPlay": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       }
     },
     {
@@ -241,10 +304,12 @@
         "character": 2,
         "isRegistered": false,
         "is14Bit": false,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
-        "maxStepSize": 0.05
+        "maxStepSize": 0.05,
+        "feedbackColor": null
       },
       "target": {
         "category": "virtual",
@@ -254,7 +319,12 @@
         "useProject": true,
         "moveView": true,
         "seekPlay": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       },
       "feedbackIsEnabled": false
     },
@@ -267,10 +337,12 @@
         "character": 2,
         "isRegistered": false,
         "is14Bit": false,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
-        "maxStepSize": 0.05
+        "maxStepSize": 0.05,
+        "feedbackColor": null
       },
       "target": {
         "category": "virtual",
@@ -279,7 +351,12 @@
         "useProject": true,
         "moveView": true,
         "seekPlay": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       }
     },
     {
@@ -292,10 +369,12 @@
         "character": 2,
         "isRegistered": false,
         "is14Bit": false,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
-        "maxStepSize": 0.05
+        "maxStepSize": 0.05,
+        "feedbackColor": null
       },
       "target": {
         "category": "virtual",
@@ -305,7 +384,12 @@
         "useProject": true,
         "moveView": true,
         "seekPlay": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       },
       "feedbackIsEnabled": false
     },
@@ -318,10 +402,12 @@
         "character": 2,
         "isRegistered": false,
         "is14Bit": false,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
-        "maxStepSize": 0.05
+        "maxStepSize": 0.05,
+        "feedbackColor": null
       },
       "target": {
         "category": "virtual",
@@ -330,7 +416,12 @@
         "useProject": true,
         "moveView": true,
         "seekPlay": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       }
     },
     {
@@ -343,10 +434,12 @@
         "character": 2,
         "isRegistered": false,
         "is14Bit": false,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
-        "maxStepSize": 0.05
+        "maxStepSize": 0.05,
+        "feedbackColor": null
       },
       "target": {
         "category": "virtual",
@@ -356,7 +449,12 @@
         "useProject": true,
         "moveView": true,
         "seekPlay": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       },
       "feedbackIsEnabled": false
     },
@@ -369,10 +467,12 @@
         "character": 2,
         "isRegistered": false,
         "is14Bit": false,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
-        "maxStepSize": 0.05
+        "maxStepSize": 0.05,
+        "feedbackColor": null
       },
       "target": {
         "category": "virtual",
@@ -381,7 +481,12 @@
         "useProject": true,
         "moveView": true,
         "seekPlay": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       }
     },
     {
@@ -394,10 +499,12 @@
         "character": 2,
         "isRegistered": false,
         "is14Bit": false,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
-        "maxStepSize": 0.05
+        "maxStepSize": 0.05,
+        "feedbackColor": null
       },
       "target": {
         "category": "virtual",
@@ -407,7 +514,12 @@
         "useProject": true,
         "moveView": true,
         "seekPlay": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       },
       "feedbackIsEnabled": false
     },
@@ -420,12 +532,14 @@
         "number": 8,
         "isRegistered": false,
         "is14Bit": false,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
         "minTargetValue": 0.01,
         "maxTargetValue": 0.01,
         "maxStepSize": 0.05,
+        "feedbackColor": null,
         "outOfRangeBehavior": "min"
       },
       "target": {
@@ -433,8 +547,14 @@
         "useProject": true,
         "moveView": true,
         "seekPlay": true,
-        "oscArgIndex": 0
-      }
+        "oscArgIndex": 0,
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
+      },
+      "sendFeedbackAfterControl": true
     },
     {
       "id": "f7830e20-d757-4841-8ec3-97fa87132777",
@@ -445,12 +565,14 @@
         "number": 9,
         "isRegistered": false,
         "is14Bit": false,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
         "minTargetValue": 0.02,
         "maxTargetValue": 0.02,
         "maxStepSize": 0.05,
+        "feedbackColor": null,
         "outOfRangeBehavior": "min"
       },
       "target": {
@@ -458,8 +580,14 @@
         "useProject": true,
         "moveView": true,
         "seekPlay": true,
-        "oscArgIndex": 0
-      }
+        "oscArgIndex": 0,
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
+      },
+      "sendFeedbackAfterControl": true
     },
     {
       "id": "e126e724-2a85-4dc5-809b-f7db3ca20f9c",
@@ -470,12 +598,14 @@
         "number": 10,
         "isRegistered": false,
         "is14Bit": false,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
         "minTargetValue": 0.03,
         "maxTargetValue": 0.03,
         "maxStepSize": 0.05,
+        "feedbackColor": null,
         "outOfRangeBehavior": "min"
       },
       "target": {
@@ -483,8 +613,14 @@
         "useProject": true,
         "moveView": true,
         "seekPlay": true,
-        "oscArgIndex": 0
-      }
+        "oscArgIndex": 0,
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
+      },
+      "sendFeedbackAfterControl": true
     },
     {
       "id": "7c9e8eb2-c878-445c-b4b0-b30b78d92237",
@@ -495,12 +631,14 @@
         "number": 11,
         "isRegistered": false,
         "is14Bit": false,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
         "minTargetValue": 0.04,
         "maxTargetValue": 0.04,
         "maxStepSize": 0.05,
+        "feedbackColor": null,
         "outOfRangeBehavior": "min"
       },
       "target": {
@@ -508,8 +646,14 @@
         "useProject": true,
         "moveView": true,
         "seekPlay": true,
-        "oscArgIndex": 0
-      }
+        "oscArgIndex": 0,
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
+      },
+      "sendFeedbackAfterControl": true
     },
     {
       "id": "600774be-695f-4e74-b724-630b395f1a3b",
@@ -520,12 +664,14 @@
         "number": 12,
         "isRegistered": false,
         "is14Bit": false,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
         "minTargetValue": 0.05,
         "maxTargetValue": 0.05,
         "maxStepSize": 0.05,
+        "feedbackColor": null,
         "outOfRangeBehavior": "min"
       },
       "target": {
@@ -533,8 +679,14 @@
         "useProject": true,
         "moveView": true,
         "seekPlay": true,
-        "oscArgIndex": 0
-      }
+        "oscArgIndex": 0,
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
+      },
+      "sendFeedbackAfterControl": true
     },
     {
       "id": "8d84c9a8-2e34-4211-bef4-2a572fad52ce",
@@ -545,12 +697,14 @@
         "number": 13,
         "isRegistered": false,
         "is14Bit": false,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
         "minTargetValue": 0.06,
         "maxTargetValue": 0.06,
         "maxStepSize": 0.05,
+        "feedbackColor": null,
         "outOfRangeBehavior": "min"
       },
       "target": {
@@ -558,8 +712,14 @@
         "useProject": true,
         "moveView": true,
         "seekPlay": true,
-        "oscArgIndex": 0
-      }
+        "oscArgIndex": 0,
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
+      },
+      "sendFeedbackAfterControl": true
     },
     {
       "id": "8ea1fb23-7f2b-4b12-a823-7f44a16c3cad",
@@ -570,12 +730,14 @@
         "number": 14,
         "isRegistered": false,
         "is14Bit": false,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
         "minTargetValue": 0.07,
         "maxTargetValue": 0.07,
         "maxStepSize": 0.05,
+        "feedbackColor": null,
         "outOfRangeBehavior": "min"
       },
       "target": {
@@ -583,8 +745,14 @@
         "useProject": true,
         "moveView": true,
         "seekPlay": true,
-        "oscArgIndex": 0
-      }
+        "oscArgIndex": 0,
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
+      },
+      "sendFeedbackAfterControl": true
     },
     {
       "id": "2dc9c794-81b5-4660-81ac-9cbafa3f0093",
@@ -595,12 +763,14 @@
         "number": 15,
         "isRegistered": false,
         "is14Bit": false,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
         "minTargetValue": 0.08,
         "maxTargetValue": 0.08,
         "maxStepSize": 0.05,
+        "feedbackColor": null,
         "outOfRangeBehavior": "min"
       },
       "target": {
@@ -608,8 +778,14 @@
         "useProject": true,
         "moveView": true,
         "seekPlay": true,
-        "oscArgIndex": 0
-      }
+        "oscArgIndex": 0,
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
+      },
+      "sendFeedbackAfterControl": true
     },
     {
       "id": "5ee7fda1-a23a-41ae-9db5-8221de311c43",
@@ -620,12 +796,14 @@
         "number": 16,
         "isRegistered": false,
         "is14Bit": false,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
         "minTargetValue": 0.01,
         "maxTargetValue": 0.01,
         "maxStepSize": 0.05,
+        "feedbackColor": null,
         "outOfRangeBehavior": "min"
       },
       "target": {
@@ -635,8 +813,14 @@
         "useProject": true,
         "moveView": true,
         "seekPlay": true,
-        "oscArgIndex": 0
-      }
+        "oscArgIndex": 0,
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
+      },
+      "sendFeedbackAfterControl": true
     },
     {
       "id": "c0092415-a0ee-4136-9202-5fa36abc1908",
@@ -647,12 +831,14 @@
         "number": 17,
         "isRegistered": false,
         "is14Bit": false,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
         "minTargetValue": 0.02,
         "maxTargetValue": 0.02,
         "maxStepSize": 0.05,
+        "feedbackColor": null,
         "outOfRangeBehavior": "min"
       },
       "target": {
@@ -662,8 +848,14 @@
         "useProject": true,
         "moveView": true,
         "seekPlay": true,
-        "oscArgIndex": 0
-      }
+        "oscArgIndex": 0,
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
+      },
+      "sendFeedbackAfterControl": true
     },
     {
       "id": "8afd360c-b406-43b4-a864-0c2b9ab6adb1",
@@ -674,12 +866,14 @@
         "number": 18,
         "isRegistered": false,
         "is14Bit": false,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
         "minTargetValue": 0.03,
         "maxTargetValue": 0.03,
         "maxStepSize": 0.05,
+        "feedbackColor": null,
         "outOfRangeBehavior": "min"
       },
       "target": {
@@ -689,8 +883,14 @@
         "useProject": true,
         "moveView": true,
         "seekPlay": true,
-        "oscArgIndex": 0
-      }
+        "oscArgIndex": 0,
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
+      },
+      "sendFeedbackAfterControl": true
     },
     {
       "id": "85d842c4-fdb1-422e-8fbb-fc06284417e8",
@@ -701,12 +901,14 @@
         "number": 19,
         "isRegistered": false,
         "is14Bit": false,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
         "minTargetValue": 0.03,
         "maxTargetValue": 0.03,
         "maxStepSize": 0.05,
+        "feedbackColor": null,
         "outOfRangeBehavior": "min"
       },
       "target": {
@@ -718,7 +920,12 @@
         "useProject": true,
         "moveView": true,
         "seekPlay": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       },
       "feedbackIsEnabled": false
     },
@@ -731,12 +938,14 @@
         "number": 19,
         "isRegistered": false,
         "is14Bit": false,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
         "minTargetValue": 0.03,
         "maxTargetValue": 0.03,
         "maxStepSize": 0.05,
+        "feedbackColor": null,
         "outOfRangeBehavior": "min"
       },
       "target": {
@@ -748,7 +957,12 @@
         "useProject": true,
         "moveView": true,
         "seekPlay": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       },
       "feedbackIsEnabled": false
     },
@@ -761,12 +975,14 @@
         "number": 19,
         "isRegistered": false,
         "is14Bit": false,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
         "minTargetValue": 0.03,
         "maxTargetValue": 0.03,
         "maxStepSize": 0.05,
+        "feedbackColor": null,
         "outOfRangeBehavior": "min"
       },
       "target": {
@@ -778,7 +994,12 @@
         "useProject": true,
         "moveView": true,
         "seekPlay": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       },
       "feedbackIsEnabled": false
     },
@@ -791,12 +1012,14 @@
         "number": 19,
         "isRegistered": false,
         "is14Bit": false,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
         "minTargetValue": 0.03,
         "maxTargetValue": 0.03,
         "maxStepSize": 0.05,
+        "feedbackColor": null,
         "outOfRangeBehavior": "min"
       },
       "target": {
@@ -808,7 +1031,12 @@
         "useProject": true,
         "moveView": true,
         "seekPlay": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       },
       "feedbackIsEnabled": false
     },
@@ -821,12 +1049,14 @@
         "number": 19,
         "isRegistered": false,
         "is14Bit": false,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
         "minTargetValue": 0.03,
         "maxTargetValue": 0.03,
         "maxStepSize": 0.05,
+        "feedbackColor": null,
         "outOfRangeBehavior": "min"
       },
       "target": {
@@ -838,7 +1068,12 @@
         "useProject": true,
         "moveView": true,
         "seekPlay": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       },
       "feedbackIsEnabled": false
     },
@@ -851,12 +1086,14 @@
         "number": 19,
         "isRegistered": false,
         "is14Bit": false,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
         "minTargetValue": 0.03,
         "maxTargetValue": 0.03,
         "maxStepSize": 0.05,
+        "feedbackColor": null,
         "outOfRangeBehavior": "min"
       },
       "target": {
@@ -868,7 +1105,12 @@
         "useProject": true,
         "moveView": true,
         "seekPlay": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       },
       "feedbackIsEnabled": false
     },
@@ -881,12 +1123,14 @@
         "number": 19,
         "isRegistered": false,
         "is14Bit": false,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
         "minTargetValue": 0.03,
         "maxTargetValue": 0.03,
         "maxStepSize": 0.05,
+        "feedbackColor": null,
         "outOfRangeBehavior": "min"
       },
       "target": {
@@ -898,7 +1142,12 @@
         "useProject": true,
         "moveView": true,
         "seekPlay": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       },
       "feedbackIsEnabled": false
     },
@@ -911,12 +1160,14 @@
         "number": 19,
         "isRegistered": false,
         "is14Bit": false,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "keystroke": null
       },
       "mode": {
         "minTargetValue": 0.03,
         "maxTargetValue": 0.03,
         "maxStepSize": 0.05,
+        "feedbackColor": null,
         "outOfRangeBehavior": "min"
       },
       "target": {
@@ -928,7 +1179,12 @@
         "useProject": true,
         "moveView": true,
         "seekPlay": true,
-        "oscArgIndex": 0
+        "oscArgIndex": 0,
+        "clipSlot": {
+          "address": "ByIndex",
+          "column_index": 0,
+          "row_index": 0
+        }
       },
       "feedbackIsEnabled": false
     }
